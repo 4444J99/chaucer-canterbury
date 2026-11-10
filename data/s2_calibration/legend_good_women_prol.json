@@ -1,0 +1,34 @@
+{
+  "work_id": "LGW_PROL_B",
+  "title": "The Legend of Good Women, Prologue (Text B, lines 1-16)",
+  "author": "Geoffrey Chaucer",
+  "date_composed": 1386,
+  "stratum": "S2",
+  "holdout_status": "calibration_allowed_non_canterbury",
+  "metrical_form": "riding_rhyme_couplet",
+  "source_url": "https://en.wikisource.org/wiki/The_Complete_Works_of_Geoffrey_Chaucer/Volume_3/The_Legend_of_Good_Women",
+  "stanzas": [
+    {
+      "stanza_id": "LGW.B.C1_8",
+      "rhyme_scheme": "AABBCCDDEEFFGGHH",
+      "lines": [
+        {"line_number": 1, "text": "A thousand tymes have I herd men telle,"},
+        {"line_number": 2, "text": "That ther is Ioye in heven, and peyne in helle;"},
+        {"line_number": 3, "text": "And I acorde wel that hit is so;"},
+        {"line_number": 4, "text": "But natheles, yit wot I wel also,"},
+        {"line_number": 5, "text": "That ther nis noon dwelling in this contree,"},
+        {"line_number": 6, "text": "That either hath in heven or helle y-be,"},
+        {"line_number": 7, "text": "Ne may of hit non other weyes witen,"},
+        {"line_number": 8, "text": "But as he hath herd seyd, or founde hit writen;"},
+        {"line_number": 9, "text": "For by assay ther may no man hit preve."},
+        {"line_number": 10, "text": "But god forbede but men shulde leve"},
+        {"line_number": 11, "text": "Wel more thing then men han seen with yë!"},
+        {"line_number": 12, "text": "Men shal nat wenen every-thing a lyë"},
+        {"line_number": 13, "text": "But-if him-self hit seeth, or elles dooth;"},
+        {"line_number": 14, "text": "For, god wot, thing is never the lasse sooth,"},
+        {"line_number": 15, "text": "Thogh every wight ne may hit nat y-see."},
+        {"line_number": 16, "text": "Bernard the monk ne saugh nat al, parde!"}
+      ]
+    }
+  ]
+}

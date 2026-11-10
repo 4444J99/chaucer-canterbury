@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chaucer-canterbury"
+version = "0.1.0"
+description = "Middle English phonological transcriber, final -e sandhi resolver, and metrical scansion validator for the Chaucer generative pipeline."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+]
+
+[project.scripts]
+chaucer-prosody = "chaucer_canterbury.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

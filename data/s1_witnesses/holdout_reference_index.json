@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "stratum": "S1",
+    "holdout_policy": "STRICT_EVALUATION_ONLY_NEVER_EXPOSED_TO_GENERATOR",
+    "source_url": "https://www.dhi.ac.uk/manuscriptsonline/resources/ct/"
+  },
+  "witness_profiles": {
+    "Hg": {
+      "siglum": "Hg",
+      "manuscript": "Aberystwyth, National Library of Wales, MS Peniarth 392D (Hengwrt)",
+      "date": "c. 1400-1404",
+      "orthography": "Conservative East Midland: thorn 'þ' in closed-class words, yogh 'ȝ' in 'niȝt'/'þurȝ', vocalic 'u' in 'loue'/'haue', minimal marginalia."
+    },
+    "El": {
+      "siglum": "El",
+      "manuscript": "San Marino, Huntington Library, MS EL 26 C 9 (Ellesmere)",
+      "date": "c. 1405-1410",
+      "orthography": "Regularized London prestige layout: 'th', 'gh', 'v' intervocalically, full Latin marginal auctoritas glosses and speaker portraits."
+    }
+  },
+  "counterfactual_scenarios": [
+    {
+      "scenario_id": "CF_POST_KNIGHT",
+      "held_out_fragment": "Fragment I (Post-Knight Transition)",
+      "preceding_speaker": "knight",
+      "preceding_genre": "chivalric_romance",
+      "preceding_sentence_polarity": 0.85,
+      "seeded_grievances": [
+        {"from": "miller", "to": "knight", "weight": 0.92, "reason": "Drunken subversion of noble order"},
+        {"from": "monk", "to": "harry_bailly", "weight": 0.15, "reason": "Host calls Monk next by rank"}
+      ],
+      "expected_emergent_estate": "laboratores",
+      "expected_genre_family": ["fabliau", "estates_satire"],
+      "expected_polarity": "solaas_dominant",
+      "holdout_witness_sample_lines": [
+        "Whilom ther was dwellynge at Oxenford",
+        "A riche gnof that gestes heeld to bord",
+        "And of his craft he was a carpenter",
+        "With hym ther was dwellynge a poure scoler"
+      ]
+    },
+    {
+      "scenario_id": "CF_POST_MILLER",
+      "held_out_fragment": "Fragment I (Post-Miller Carpenter Insult)",
+      "preceding_speaker": "miller",
+      "preceding_genre": "fabliau",
+      "preceding_sentence_polarity": 0.18,
+      "seeded_grievances": [
+        {"from": "reeve", "to": "miller", "weight": 0.98, "reason": "Direct occupational insult against carpenters"},
+        {"from": "carpenter", "to": "miller", "weight": 0.91, "reason": "Guild solidarity against carpenter mockery"}
+      ],
+      "expected_emergent_estate": "laboratores_or_guild",
+      "expected_genre_family": ["fabliau", "civic_craft_exemplum"],
+      "expected_polarity": "quiting_retaliation",
+      "holdout_witness_sample_lines": [
+        "At Trumpyngtoun nat fer fro Cantebrigge",
+        "Ther gooth a brook and over that a brigge",
+        "Upon the whiche brook ther stant a melle",
+        "And this is verray sooth that I yow telle"
+      ]
+    },
+    {
+      "scenario_id": "CF_MARRIAGE_CLASH",
+      "held_out_fragment": "Fragment III-IV (Post-Wife of Bath Sovereignty Thesis)",
+      "preceding_speaker": "wife_of_bath",
+      "preceding_genre": "arthuri_sovereignty_romance",
+      "preceding_sentence_polarity": 0.55,
+      "seeded_grievances": [
+        {"from": "clerk", "to": "wife_of_bath", "weight": 0.89, "reason": "Scholastic rebuttal of anti-clerical sovereignty claim"},
+        {"from": "friar", "to": "summoner", "weight": 0.86, "reason": "Jurisdictional rivalry"}
+      ],
+      "expected_emergent_estate": "oratores",
+      "expected_genre_family": ["philosophical_exemplum", "estates_satire"],
+      "expected_polarity": "sentence_dominant",
+      "holdout_witness_sample_lines": [
+        "Ther is right at the west syde of Ytaille",
+        "Doun at the roote of Vesulus the colde",
+        "A lusty playn habundant of vitaille",
+        "Where many a tour and toun thow mayst biholde"
+      ]
+    },
+    {
+      "scenario_id": "CF_SILENT_YEOMAN",
+      "held_out_fragment": "Uncompleted Tale (The Silent Yeoman)",
+      "preceding_speaker": "squire",
+      "preceding_genre": "chivalric_romance",
+      "preceding_sentence_polarity": 0.60,
+      "forced_speaker": "yeoman",
+      "seeded_grievances": [
+        {"from": "yeoman", "to": "reeve", "weight": 0.72, "reason": "Woodland stewardship vs corrupt bailiff"}
+      ],
+      "expected_emergent_estate": "laboratores",
+      "expected_genre_family": ["woodland_exemplum"],
+      "expected_polarity": "balanced",
+      "holdout_witness_sample_lines": []
+    },
+    {
+      "scenario_id": "CF_SILENT_PLOWMAN",
+      "held_out_fragment": "Uncompleted Tale (The Silent Plowman)",
+      "preceding_speaker": "summoner",
+      "preceding_genre": "estates_satire",
+      "preceding_sentence_polarity": 0.30,
+      "forced_speaker": "plowman",
+      "seeded_grievances": [
+        {"from": "plowman", "to": "summoner", "weight": 0.88, "reason": "Defense of poor tithers against consistory extortion"}
+      ],
+      "expected_emergent_estate": "laboratores",
+      "expected_genre_family": ["agrarian_exemplum"],
+      "expected_polarity": "sentence_dominant",
+      "holdout_witness_sample_lines": []
+    },
+    {
+      "scenario_id": "CF_SILENT_CARPENTER",
+      "held_out_fragment": "Uncompleted Tale (The Five London Guildsmen — Master Carpenter)",
+      "preceding_speaker": "cook",
+      "preceding_genre": "fabliau",
+      "preceding_sentence_polarity": 0.22,
+      "forced_speaker": "carpenter",
+      "seeded_grievances": [
+        {"from": "carpenter", "to": "miller", "weight": 0.90, "reason": "Civic rehabilitation of sworn craft joinery"}
+      ],
+      "expected_emergent_estate": "urban_guild",
+      "expected_genre_family": ["civic_craft_exemplum"],
+      "expected_polarity": "sentence_dominant",
+      "holdout_witness_sample_lines": []
+    }
+  ]
+}

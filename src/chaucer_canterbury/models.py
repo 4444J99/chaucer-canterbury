@@ -1,8 +1,9 @@
-"""Pydantic data contracts for Phase 1 Middle English phonology and scansion."""
+"""Pydantic data contracts for chaucer-canterbury Phases 1-5."""
 
 from __future__ import annotations
 
 from enum import Enum
+from typing import Any
 from pydantic import BaseModel, Field
 
 
@@ -36,10 +37,12 @@ class MetricalLicense(str, Enum):
 
 
 class MetricalForm(str, Enum):
-    """Stanza and couplet vehicles in Chaucerian verse."""
+    """Stanza, couplet, and prose vehicles in Chaucerian discourse."""
 
     RIDING_RHYME = "riding_rhyme_couplet"      # AABB... decasyllabic/hendecasyllabic
     RHYME_ROYAL = "rhyme_royal_ababbcc"        # 7-line stanza ABABBCC
+    TAIL_RHYME = "tail_rhyme_sixain"           # 6-line burlesque tail-rhyme AABCCB
+    CADENCED_PROSE = "cadenced_prose"          # Homiletic / philosophical prose treatise
 
 
 class Syllable(BaseModel):
@@ -84,7 +87,7 @@ class ContextualRealization(BaseModel):
     surface: str
     ipa_realized: str
     syllables: list[Syllable]
-    sandhi_event: str = "none"  # "none" | "elided_prevocalic" | "elided_weak_h" | "apocopated" | "preserved_final_e"
+    sandhi_event: str = "none"
     cost: float = 0.0
 
 
@@ -95,12 +98,12 @@ class LineScansionResult(BaseModel):
     original_text: str
     is_valid: bool
     license_used: MetricalLicense | None = None
-    metrical_pattern: str = ""                 # e.g., "x/x/x/x/x/x"
+    metrical_pattern: str = ""
     syllable_count: int = 0
     beat_count: int = 0
     ipa_transcription: str = ""
-    rhyme_key: str = ""                        # Phonological rhyme nucleus+coda(+feminine tail) from 5th beat
-    rhyme_vowel_quality: str | None = None     # Tracks open_e/close_e/open_o/close_o when known
+    rhyme_key: str = ""
+    rhyme_vowel_quality: str | None = None
     total_cost: float = 0.0
     tokens: list[ContextualRealization] = Field(default_factory=list)
     elision_events: list[str] = Field(default_factory=list)
@@ -115,7 +118,7 @@ class RhymePairAudit(BaseModel):
     line_numbers: list[int]
     end_words: list[str]
     rhyme_keys: list[str]
-    status: str  # "EXACT" | "MID_VOWEL_VARIANT" | "ENCLITIC_BROKEN" | "MISMATCH"
+    status: str
     is_valid: bool
 
 
@@ -145,3 +148,226 @@ class CorpusAuditReport(BaseModel):
     elision_count: int
     l1_chronology_violations: list[str]
     stanzas: list[StanzaAuditResult]
+
+
+# ============================================================================
+# Phase 2: AUTHOR_DEFINITION Models
+# ============================================================================
+
+
+class AuthorDefinition(BaseModel):
+    """Parameterized Chaucer operator C = <Theta_lex, Theta_syn, Theta_pros, K_comp, K_irony, Lambda_balance>."""
+
+    dialect_base: str = "london_east_midland_1390"
+    etymological_rom_gmc_ratio: float = Field(0.38, ge=0.0, le=1.0)
+    etymology_distribution: dict[str, float] = Field(default_factory=dict)
+    v2_topicalization_rate: float = Field(0.52, ge=0.0, le=1.0)
+    negative_concord_rate: float = Field(0.84, ge=0.0, le=1.0)
+    initial_inversion_rate: float = Field(0.11, ge=0.0, le=0.35)
+    headless_line_rate: float = Field(0.02, ge=0.0, le=0.15)
+    feminine_ending_rate: float = Field(0.48, ge=0.10, le=0.85)
+    elision_per_line_rate: float = Field(0.42, ge=0.0, le=2.0)
+    compilatio_digression_density: float = Field(0.20, ge=0.0, le=0.60)
+    ironic_disclaimer_threshold: float = Field(0.60, ge=0.0, le=1.0)
+    sentence_solaas_homeostasis: float = Field(0.50, ge=0.0, le=1.0)
+    calibrated_works: list[str] = Field(default_factory=list)
+    total_calibrated_tokens: int = 0
+    total_calibrated_lines: int = 0
+
+
+# ============================================================================
+# Phase 3: WORLD_STATE & PILGRIM_DEFINITION Models
+# ============================================================================
+
+
+class PilgrimDefinition(BaseModel):
+    """Generative agent profile for one General Prologue pilgrim (zero pre-assigned plots)."""
+
+    id: str
+    name: str
+    role_title: str
+    manuscript_status: str
+    estate_vector: dict[str, float]
+    dialect_profile: dict[str, Any]
+    pragmatic_posture: dict[str, float]
+    thematic_sensitivities: dict[str, float]
+    prosodic_competence: dict[str, Any]
+    social_couplings: dict[str, list[str]]
+    occupational_lexicon: list[str]
+    signature_oath: str
+
+
+class QuitingEdge(BaseModel):
+    """Directed social grievance / quiting tension edge u -> v in G_t."""
+
+    source_pilgrim: str
+    target_pilgrim: str
+    weight: float = Field(..., ge=0.0, le=1.0)
+    reason: str
+    turn_updated: int = 0
+
+
+class SpeakerCandidateScore(BaseModel):
+    """Turn-selection probability breakdown for a pilgrim under W_{t-1}."""
+
+    pilgrim_id: str
+    pilgrim_name: str
+    probability: float
+    host_call_score: float
+    grievance_drive: float
+    fatigue_penalty: float
+    would_interrupt: bool
+
+
+class WorldState(BaseModel):
+    """Boundary conditions W_t on the road from Southwark to Canterbury."""
+
+    turn_index: int = 0
+    route_stage_index: int = 0
+    route_stage_name: str = "Southwark — Tabard Inn"
+    mile_marker: int = 0
+    time_of_day: str = "Day 1 Dawn"
+    epistemic_horizon_year: int = 1400
+    host_patience: float = 0.88
+    rolling_sentence_level: float = 0.50
+    rolling_solaas_level: float = 0.50
+    last_speaker_id: str | None = None
+    last_genre: str | None = None
+    tales_told_by_pilgrim: dict[str, int] = Field(default_factory=dict)
+    used_source_ids: list[str] = Field(default_factory=list)
+    used_genres: list[str] = Field(default_factory=list)
+    quiting_edges: list[QuitingEdge] = Field(default_factory=list)
+
+
+# ============================================================================
+# Phase 4 & 5: GENERATIVE_CORE & VALIDATION_SUITE Models
+# ============================================================================
+
+
+class TransposedBeat(BaseModel):
+    """Single narrative beat after Stage 2 compilatio adaptation."""
+
+    beat_id: str
+    role: str
+    causal_edge: str  # "initial" | "therefore" | "but"
+    rhetorical_operation: str  # "translatio" | "amplificatio" | "abbreviatio" | "digressio" | "class_transposition"
+    source_proposition: str
+    adapted_proposition: str
+    focus_lexicon: list[str]
+
+
+class GeneratedVerseLine(BaseModel):
+    """Single emitted Middle English line with phonological, lexical, and witness layers."""
+
+    line_number: int
+    section: str  # "link_prologue" | "tale_body"
+    speaker_id: str
+    middle_english: str
+    modern_gloss: str
+    hengwrt_orthography: str
+    ellesmere_orthography: str
+    ipa_transcription: str
+    metrical_pattern: str
+    syllable_count: int
+    license_used: str
+    rhyme_key: str
+    elision_events: list[str] = Field(default_factory=list)
+    etymons: list[str] = Field(default_factory=list)
+    max_attestation_year: int = 1390
+
+
+class EstateReaction(BaseModel):
+    """Divergent pilgrim estate reception enforcing Conservation Law L7."""
+
+    estate_group: str
+    representative_pilgrim: str
+    polarity: str  # "approving" | "mocking" | "contested" | "aggrieved"
+    reaction_summary: str
+    quiting_delta: float
+
+
+class ConservationLawCheck(BaseModel):
+    """Audit result for one of the seven hard conservation laws (L1-L7)."""
+
+    law_id: str
+    name: str
+    passed: bool
+    metric_label: str
+    metric_value: str
+    detail: str
+
+
+class AnalyticalDiagnostics(BaseModel):
+    """Ecosystem integration diagnostics (LingFrame, Narratological Lenses, Vox Governance)."""
+
+    prosody_pass_rate: float
+    rhyme_purity_rate: float
+    romance_to_germanic_ratio: float
+    kl_divergence_vs_s2: float
+    v2_inversion_rate: float
+    causal_binding_ratio: float
+    alliteration_density: float
+    vox_idiolect_alignment: float
+    max_5gram_overlap_s1_s2: int
+    max_line_levenshtein_s1_s2: float
+
+
+class GeneratedTurnArtifact(BaseModel):
+    """Complete Stage 1-5 generated pilgrimage link + tale artifact."""
+
+    turn_id: int
+    turn_index: int
+    route_stage_name: str
+    mile_marker: int
+    speaker_id: str
+    speaker_name: str
+    speaker_role: str
+    manuscript_status: str
+    selection_mode: str  # "host_call" | "quiting_interruption" | "researcher_override"
+    quiting_target_id: str | None = None
+    source_id: str
+    source_title: str
+    source_auctor: str
+    source_year: int
+    genre: str
+    metrical_form: MetricalForm
+    sentence_score: float
+    solaas_score: float
+    link_lines: list[GeneratedVerseLine]
+    beat_plan: list[TransposedBeat]
+    tale_lines: list[GeneratedVerseLine]
+    ellesmere_marginalia: list[str]
+    tei_xml_apparatus: str
+    estate_reactions: list[EstateReaction]
+    host_verdict: str
+    conservation_laws: list[ConservationLawCheck]
+    diagnostics: AnalyticalDiagnostics
+
+
+class CounterfactualScenarioResult(BaseModel):
+    """Single leave-one-tale-out or silent-pilgrim counterfactual evaluation."""
+
+    scenario_id: str
+    held_out_fragment: str
+    preceding_speaker: str
+    emergent_speaker_id: str
+    emergent_speaker_name: str
+    selection_mode: str
+    selected_genre: str
+    selected_source_id: str
+    structural_convergence: bool
+    prosody_pass_rate: float
+    max_5gram_overlap: int
+    max_levenshtein_similarity: float
+    non_copying_l6_passed: bool
+    sample_couplet: list[str]
+
+
+class CounterfactualSuiteReport(BaseModel):
+    """Aggregate report for Phase 4 Holdout Counterfactual Suite."""
+
+    total_scenarios: int
+    convergent_scenarios: int
+    all_l6_non_copying_passed: bool
+    mean_prosody_pass_rate: float
+    results: list[CounterfactualScenarioResult]

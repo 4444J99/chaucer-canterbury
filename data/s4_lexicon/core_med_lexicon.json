@@ -10,140 +10,3668 @@
     ]
   },
   "entries": {
-    "the": {"med_id": "MED45097", "lemma": "the", "pos": "DET", "etymon": "OE", "earliest_year": 1150, "ipa": "ðə", "alt_ipas": [{"ipa": "ðeː", "stress": "1", "cost": 0.30, "note": "oblique_pronoun_thee"}], "stress": "0", "word_class": "function", "final_e": "monosyllabic_root"},
-    "that": {"med_id": "MED45059", "lemma": "that", "pos": "CONJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ðat", "stress": "0", "word_class": "function", "final_e": "none"},
-    "thise": {"med_id": "MED45371", "lemma": "thes(e", "pos": "DET", "etymon": "OE", "earliest_year": 1200, "ipa": "ðiz", "stress": "0", "word_class": "function", "final_e": "petrified_silent"},
-    "this": {"med_id": "MED45410", "lemma": "this", "pos": "DET", "etymon": "OE", "earliest_year": 1150, "ipa": "ðis", "stress": "0", "word_class": "function", "final_e": "none"},
-    "thow": {"med_id": "MED45496", "lemma": "thou", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "ðuː", "stress": "0", "word_class": "function", "final_e": "none"},
-    "ye": {"med_id": "MED53762", "lemma": "ye", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "jeː", "alt_ipas": [{"ipa": "jə", "stress": "0", "cost": 0.15, "note": "enclitic"}], "stress": "0", "word_class": "function", "final_e": "monosyllabic_root"},
-    "yow": {"med_id": "MED53924", "lemma": "you", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "juː", "stress": "0", "word_class": "function", "final_e": "none"},
-    "i": {"med_id": "MED21807", "lemma": "ich", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "iː", "stress": "0", "word_class": "function", "final_e": "none"},
-    "me": {"med_id": "MED27160", "lemma": "me", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "meː", "stress": "0", "word_class": "function", "final_e": "monosyllabic_root"},
-    "he": {"med_id": "MED20190", "lemma": "he", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "heː", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "monosyllabic_root"},
-    "she": {"med_id": "MED39840", "lemma": "she", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "ʃeː", "stress": "0", "word_class": "function", "final_e": "monosyllabic_root"},
-    "hit": {"med_id": "MED20906", "lemma": "hit", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "hit", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "none"},
-    "it": {"med_id": "MED20906", "lemma": "hit", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "it", "stress": "0", "word_class": "function", "final_e": "none"},
-    "his": {"med_id": "MED20876", "lemma": "his", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "hiz", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "none"},
-    "hym": {"med_id": "MED20776", "lemma": "him", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "him", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "none"},
-    "hem": {"med_id": "MED20347", "lemma": "hem", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "hɛm", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "none"},
-    "hire": {"med_id": "MED20829", "lemma": "hir(e", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "hir", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "petrified_silent"},
-    "hir": {"med_id": "MED20829", "lemma": "hir(e", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "hir", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "none"},
-    "my": {"med_id": "MED27795", "lemma": "mi", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "miː", "stress": "0", "word_class": "function", "final_e": "none"},
-    "myn": {"med_id": "MED27848", "lemma": "min", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "miːn", "stress": "0", "word_class": "function", "final_e": "none"},
-    "oure": {"med_id": "MED31015", "lemma": "our(e", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "uːr", "stress": "0", "word_class": "function", "final_e": "petrified_silent"},
-    "double": {"med_id": "MED12470", "lemma": "double", "pos": "ADJ", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈduː.blə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "sorwe": {"med_id": "MED41792", "lemma": "sorwe", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsɔr.wə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "sorwes": {"med_id": "MED41792", "lemma": "sorwe", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsɔr.wəs", "alt_ipas": [{"ipa": "ˈsɔrwz", "stress": "1", "cost": 0.25, "note": "syncope"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "sorwful": {"med_id": "MED41795", "lemma": "sorweful", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsɔrw.ful", "stress": "10", "word_class": "content", "final_e": "none"},
-    "sorwynge": {"med_id": "MED41794", "lemma": "sorwing(e", "pos": "V-PART", "etymon": "OE", "earliest_year": 1200, "ipa": "ˈsɔr.wiŋ.gə", "alt_ipas": [{"ipa": "ˈsɔr.wiŋg", "stress": "10", "cost": 0.10, "note": "participial_apocope"}], "stress": "100", "word_class": "content", "final_e": "optional_apocope"},
-    "troilus": {"med_id": "PROP_TROILUS", "lemma": "Troilus", "pos": "PROP", "etymon": "LAT", "earliest_year": 1380, "ipa": "ˈtrɔ.i.lus", "alt_ipas": [{"ipa": "ˈtrɔi.lus", "stress": "10", "cost": 0.20, "note": "synaeresis"}], "stress": "102", "word_class": "content", "final_e": "none"},
-    "priamus": {"med_id": "PROP_PRIAMUS", "lemma": "Priamus", "pos": "PROP", "etymon": "LAT", "earliest_year": 1380, "ipa": "pri.ˈaː.mus", "alt_ipas": [{"ipa": "ˈpriː.a.mus", "stress": "100", "cost": 0.15, "note": "initial_stress"}, {"ipa": "ˈpria.mus", "stress": "10", "cost": 0.20, "note": "synaeresis"}], "stress": "010", "word_class": "content", "final_e": "none"},
-    "troye": {"med_id": "PROP_TROYE", "lemma": "Troie", "pos": "PROP", "etymon": "OF", "earliest_year": 1275, "ipa": "ˈtrɔi.ə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "thesiphone": {"med_id": "PROP_THESIPHONE", "lemma": "Thesiphone", "pos": "PROP", "etymon": "LAT", "earliest_year": 1380, "ipa": "te.ˈsi.fo.neː", "stress": "0102", "word_class": "content", "final_e": "monosyllabic_root"},
-    "criseyde": {"med_id": "PROP_CRISEYDE", "lemma": "Criseide", "pos": "PROP", "etymon": "OF", "earliest_year": 1380, "ipa": "kri.ˈsɛi.də", "stress": "010", "word_class": "content", "final_e": "etymological"},
-    "tellen": {"med_id": "MED44755", "lemma": "tellen", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈtɛl.lən", "stress": "10", "word_class": "content", "final_e": "none"},
-    "telle": {"med_id": "MED44755", "lemma": "tellen", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈtɛl.lə", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "fellen": {"med_id": "MED15190", "lemma": "fallen", "pos": "V-PRET", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈfɛl.lən", "stress": "10", "word_class": "content", "final_e": "none"},
-    "sone": {"med_id": "MED41645", "lemma": "sone", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsu.nə", "alt_ipas": [{"ipa": "sun", "stress": "1", "cost": 0.15, "note": "apocope"}], "stress": "10", "word_class": "content", "final_e": "optional_apocope"},
-    "louynge": {"med_id": "MED26265", "lemma": "loving(e", "pos": "N-GER", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈlu.viŋ.gə", "alt_ipas": [{"ipa": "ˈlu.viŋg", "stress": "10", "cost": 0.10, "note": "gerund_apocope"}], "stress": "100", "word_class": "content", "final_e": "optional_apocope"},
-    "loue": {"med_id": "MED26253", "lemma": "love", "pos": "N/V", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈlu.və", "alt_ipas": [{"ipa": "luv", "stress": "1", "cost": 0.12, "note": "apocope"}], "stress": "10", "word_class": "content", "final_e": "optional_apocope"},
-    "love": {"med_id": "MED26253", "lemma": "love", "pos": "N/V", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈlu.və", "alt_ipas": [{"ipa": "luv", "stress": "1", "cost": 0.12, "note": "apocope"}], "stress": "10", "word_class": "content", "final_e": "optional_apocope"},
-    "loues": {"med_id": "MED26253", "lemma": "love", "pos": "N-GEN", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈlu.vəs", "stress": "10", "word_class": "content", "final_e": "none"},
-    "lovyng": {"med_id": "MED26265", "lemma": "loving(e", "pos": "N-GER", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈlu.viŋg", "stress": "10", "word_class": "content", "final_e": "none"},
-    "auentures": {"med_id": "MED3161", "lemma": "aventure", "pos": "N-PL", "etymon": "OF", "earliest_year": 1230, "ipa": "ˌa.vɛn.ˈtiu.rəs", "alt_ipas": [{"ipa": "a.ˈvɛn.tjurz", "stress": "010", "cost": 0.20, "note": "syncope"}], "stress": "2010", "word_class": "content", "final_e": "none"},
-    "wo": {"med_id": "MED53232", "lemma": "wo", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "wɔː", "stress": "1", "word_class": "content", "vowel_quality": "open_o", "final_e": "none"},
-    "so": {"med_id": "MED41297", "lemma": "so", "pos": "ADV", "etymon": "OE", "earliest_year": 1150, "ipa": "sɔː", "stress": "1", "word_class": "function", "vowel_quality": "open_o", "final_e": "none"},
-    "also": {"med_id": "MED1268", "lemma": "also", "pos": "ADV", "etymon": "OE", "earliest_year": 1150, "ipa": "al.ˈsɔː", "alt_ipas": [{"ipa": "ˈal.sɔː", "stress": "10", "cost": 0.20, "note": "initial_stress"}], "stress": "01", "word_class": "function", "vowel_quality": "open_o", "final_e": "none"},
-    "fro": {"med_id": "MED17843", "lemma": "fro", "pos": "PREP", "etymon": "ON", "earliest_year": 1200, "ipa": "frɔː", "stress": "0", "word_class": "function", "vowel_quality": "open_o", "final_e": "none"},
-    "ffro": {"med_id": "MED17843", "lemma": "fro", "pos": "PREP", "etymon": "ON", "earliest_year": 1200, "ipa": "frɔː", "stress": "0", "word_class": "function", "vowel_quality": "open_o", "final_e": "none"},
-    "to": {"med_id": "MED46053", "lemma": "to", "pos": "PREP", "etymon": "OE", "earliest_year": 1150, "ipa": "toː", "stress": "0", "word_class": "function", "vowel_quality": "close_o", "final_e": "none"},
-    "wele": {"med_id": "MED52124", "lemma": "wele", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈwɛː.lə", "stress": "10", "word_class": "content", "vowel_quality": "open_e", "final_e": "etymological"},
-    "ioie": {"med_id": "MED23915", "lemma": "joie", "pos": "N", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈdʒɔi.ə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "joye": {"med_id": "MED23915", "lemma": "joie", "pos": "N", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈdʒɔi.ə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "purpos": {"med_id": "MED35289", "lemma": "purpos", "pos": "N", "etymon": "OF", "earliest_year": 1300, "ipa": "ˈpur.pɔs", "alt_ipas": [{"ipa": "pur.ˈpɔːs", "stress": "01", "cost": 0.15, "note": "romance_final_stress"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "parte": {"med_id": "MED32515", "lemma": "parten", "pos": "V-SUBJ", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈpar.tə", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "tendite": {"med_id": "MED13922", "lemma": "enditen", "pos": "V-INF-PROCLITIC", "etymon": "OF", "earliest_year": 1300, "ipa": "tɛn.ˈdiː.tə", "stress": "010", "word_class": "content", "final_e": "inflectional"},
-    "write": {"med_id": "MED53602", "lemma": "writen", "pos": "V-PRES", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈwriː.tə", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "writen": {"med_id": "MED53602", "lemma": "writen", "pos": "V-PP", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈwri.tən", "stress": "10", "word_class": "content", "final_e": "none"},
-    "witen": {"med_id": "MED53087", "lemma": "witen", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈwi.tən", "stress": "10", "word_class": "content", "final_e": "none"},
-    "woful": {"med_id": "MED53245", "lemma": "woful", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈwɔː.ful", "stress": "10", "word_class": "content", "final_e": "none"},
-    "vers": {"med_id": "MED50868", "lemma": "vers", "pos": "N", "etymon": "OF", "earliest_year": 1200, "ipa": "vɛrs", "stress": "1", "word_class": "content", "final_e": "none"},
-    "wepen": {"med_id": "MED52267", "lemma": "wepen", "pos": "V-PL", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈweː.pən", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "none"},
-    "clepe": {"med_id": "MED7998", "lemma": "clepen", "pos": "V-PRES", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈklɛː.pə", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "goddesse": {"med_id": "MED18928", "lemma": "goddesse", "pos": "N", "etymon": "OE", "earliest_year": 1350, "ipa": "ˈgɔd.dɛs.sə", "alt_ipas": [{"ipa": "gɔd.ˈdɛs.sə", "stress": "010", "cost": 0.10, "note": "romance_suffix_stress"}], "stress": "100", "word_class": "content", "final_e": "etymological"},
-    "torment": {"med_id": "MED46368", "lemma": "torment", "pos": "N", "etymon": "OF", "earliest_year": 1290, "ipa": "ˈtɔr.mɛnt", "alt_ipas": [{"ipa": "tɔr.ˈmɛnt", "stress": "01", "cost": 0.10, "note": "romance_final_stress"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "instrument": {"med_id": "MED22886", "lemma": "instrument", "pos": "N", "etymon": "OF", "earliest_year": 1300, "ipa": "ˌin.stru.ˈmɛnt", "alt_ipas": [{"ipa": "ˈin.stru.mɛnt", "stress": "100", "cost": 0.15, "note": "initial_stress"}], "stress": "201", "word_class": "content", "final_e": "none"},
-    "cruwel": {"med_id": "MED10574", "lemma": "cruel", "pos": "ADJ", "etymon": "OF", "earliest_year": 1300, "ipa": "ˈkriu.əl", "alt_ipas": [{"ipa": "kriu.ˈɛl", "stress": "01", "cost": 0.20, "note": "romance_stress"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "furie": {"med_id": "MED18015", "lemma": "furie", "pos": "N", "etymon": "OF", "earliest_year": 1375, "ipa": "ˈfiu.ri.ə", "alt_ipas": [{"ipa": "ˈfiu.rjə", "stress": "10", "cost": 0.10, "note": "synaeresis"}], "stress": "100", "word_class": "content", "final_e": "etymological"},
-    "euere": {"med_id": "MED14802", "lemma": "ever", "pos": "ADV", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈɛː.vər", "alt_ipas": [{"ipa": "ˈɛv.rə", "stress": "10", "cost": 0.05, "note": "medial_syncope"}, {"ipa": "ɛːr", "stress": "1", "cost": 0.25, "note": "monosyllabic_slur"}], "stress": "10", "word_class": "content", "final_e": "optional_apocope"},
-    "peyne": {"med_id": "MED32744", "lemma": "peine", "pos": "N", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈpɛi.nə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "pleyne": {"med_id": "MED33665", "lemma": "pleinen", "pos": "V-INF", "etymon": "OF", "earliest_year": 1300, "ipa": "ˈplɛi.nə", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "seyne": {"med_id": "MED39162", "lemma": "seien", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsɛi.nə", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "compleyne": {"med_id": "MED8723", "lemma": "compleinen", "pos": "V-INF", "etymon": "OF", "earliest_year": 1350, "ipa": "kɔm.ˈplɛi.nə", "stress": "010", "word_class": "content", "final_e": "inflectional"},
-    "loueres": {"med_id": "MED26259", "lemma": "lover(e", "pos": "N-PL", "etymon": "OE", "earliest_year": 1200, "ipa": "ˈlu.və.rəs", "alt_ipas": [{"ipa": "ˈluv.rəs", "stress": "10", "cost": 0.10, "note": "medial_syncope"}], "stress": "100", "word_class": "content", "final_e": "none"},
-    "louere": {"med_id": "MED26259", "lemma": "lover(e", "pos": "N", "etymon": "OE", "earliest_year": 1200, "ipa": "ˈlu.və.rə", "alt_ipas": [{"ipa": "ˈlu.vər", "stress": "10", "cost": 0.05, "note": "apocope"}], "stress": "100", "word_class": "content", "final_e": "optional_apocope"},
-    "sothe": {"med_id": "MED41880", "lemma": "soth", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsoː.ðə", "stress": "10", "word_class": "content", "vowel_quality": "close_o", "final_e": "inflectional"},
-    "han": {"med_id": "MED20110", "lemma": "haven", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "han", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "none"},
-    "haue": {"med_id": "MED20110", "lemma": "haven", "pos": "V-SUBJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈha.və", "alt_ipas": [{"ipa": "hav", "stress": "0", "cost": 0.05, "note": "auxiliary_apocope"}], "stress": "10", "word_class": "function", "weak_h": true, "final_e": "optional_apocope"},
-    "have": {"med_id": "MED20110", "lemma": "haven", "pos": "V-PRES", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈha.və", "alt_ipas": [{"ipa": "hav", "stress": "0", "cost": 0.05, "note": "auxiliary_apocope"}], "stress": "10", "word_class": "function", "weak_h": true, "final_e": "optional_apocope"},
-    "hath": {"med_id": "MED20110", "lemma": "haven", "pos": "V-3SG", "etymon": "OE", "earliest_year": 1150, "ipa": "haθ", "stress": "0", "word_class": "function", "weak_h": true, "final_e": "none"},
-    "feere": {"med_id": "MED15660", "lemma": "fere", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈfeː.rə", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "etymological"},
-    "chere": {"med_id": "MED7501", "lemma": "chere", "pos": "N", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈtʃeː.rə", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "etymological"},
-    "dere": {"med_id": "MED11202", "lemma": "dere", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈdeː.rə", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "etymological"},
-    "here": {"med_id": "MED20480", "lemma": "heren", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈheː.rə", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "inflectional"},
-    "matere": {"med_id": "MED27049", "lemma": "matere", "pos": "N", "etymon": "OF", "earliest_year": 1230, "ipa": "ma.ˈtɛː.rə", "alt_ipas": [{"ipa": "ma.ˈteː.rə", "stress": "010", "cost": 0.08, "note": "pre_r_close_e_variant"}], "stress": "010", "word_class": "content", "vowel_quality": "open_e", "final_e": "etymological"},
-    "seruantz": {"med_id": "MED39618", "lemma": "servaunt", "pos": "N-PL", "etymon": "OF", "earliest_year": 1250, "ipa": "ˈsɛr.vantz", "alt_ipas": [{"ipa": "sɛr.ˈvantz", "stress": "01", "cost": 0.15, "note": "romance_stress"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "serue": {"med_id": "MED39625", "lemma": "serven", "pos": "V-PRES", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈsɛr.və", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "sterue": {"med_id": "MED42934", "lemma": "sterven", "pos": "V-SUBJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈstɛr.və", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "vnliklynesse": {"med_id": "MED49178", "lemma": "unliklinesse", "pos": "N", "etymon": "OE", "earliest_year": 1380, "ipa": "un.ˈliːk.li.ˌnɛs.sə", "stress": "01020", "word_class": "content", "final_e": "etymological"},
-    "derknesse": {"med_id": "MED11240", "lemma": "derknesse", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈdɛrk.ˌnɛs.sə", "alt_ipas": [{"ipa": "dɛrk.ˈnɛs.sə", "stress": "010", "cost": 0.10, "note": "rhyme_suffix_stress"}], "stress": "120", "word_class": "content", "final_e": "etymological"},
-    "gladnesse": {"med_id": "MED18704", "lemma": "gladnesse", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈglad.ˌnɛs.sə", "alt_ipas": [{"ipa": "glad.ˈnɛs.sə", "stress": "010", "cost": 0.10, "note": "rhyme_suffix_stress"}], "stress": "120", "word_class": "content", "final_e": "etymological"},
-    "ther-fore": {"med_id": "MED45222", "lemma": "ther-fore", "pos": "ADV", "etymon": "OE", "earliest_year": 1150, "ipa": "ðɛr.ˈfɔːr", "alt_ipas": [{"ipa": "ˈðɛr.fɔːr", "stress": "10", "cost": 0.10, "note": "initial_stress"}], "stress": "01", "word_class": "function", "final_e": "petrified_silent"},
-    "natheles": {"med_id": "MED29098", "lemma": "natheles", "pos": "ADV", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈnaː.ðə.ˌlɛs", "alt_ipas": [{"ipa": "ˌnaː.ðə.ˈlɛs", "stress": "201", "cost": 0.10, "note": "final_stress"}], "stress": "102", "word_class": "function", "final_e": "none"},
-    "auaille": {"med_id": "MED3114", "lemma": "availen", "pos": "V-SUBJ", "etymon": "OF", "earliest_year": 1300, "ipa": "a.ˈvai.lə", "stress": "010", "word_class": "content", "final_e": "inflectional"},
-    "trauaille": {"med_id": "MED46782", "lemma": "travail", "pos": "N", "etymon": "OF", "earliest_year": 1250, "ipa": "tra.ˈvai.lə", "stress": "010", "word_class": "content", "final_e": "etymological"},
-    "compassioun": {"med_id": "MED8696", "lemma": "compassioun", "pos": "N", "etymon": "OF", "earliest_year": 1340, "ipa": "kɔm.ˌpas.si.ˈuːn", "stress": "0201", "word_class": "content", "final_e": "none"},
-    "entencioun": {"med_id": "MED14062", "lemma": "entencioun", "pos": "N", "etymon": "OF", "earliest_year": 1340, "ipa": "ɛn.ˌtɛn.si.ˈuːn", "stress": "0201", "word_class": "content", "final_e": "none"},
-    "herkeneth": {"med_id": "MED20525", "lemma": "herknen", "pos": "V-IMP", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈhɛrk.nəθ", "alt_ipas": [{"ipa": "ˈhɛr.kə.nəθ", "stress": "100", "cost": 0.20, "note": "unsyncopated"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "owene": {"med_id": "MED31140", "lemma": "ouen", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈɔu.nə", "alt_ipas": [{"ipa": "ˈɔu.ə.nə", "stress": "100", "cost": 0.20, "note": "trisyllabic"}], "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "were": {"med_id": "MED4501", "lemma": "ben", "pos": "V-SUBJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈwɛː.rə", "alt_ipas": [{"ipa": "wɛːr", "stress": "0", "cost": 0.08, "note": "apocope"}], "stress": "10", "word_class": "function", "vowel_quality": "open_e", "final_e": "optional_apocope"},
-    "deyde": {"med_id": "MED11474", "lemma": "deien", "pos": "V-PRET", "etymon": "ON", "earliest_year": 1200, "ipa": "ˈdɛi.də", "stress": "10", "word_class": "content", "final_e": "inflectional"},
-    "heven": {"med_id": "MED20693", "lemma": "heven", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈhɛ.vən", "alt_ipas": [{"ipa": "ˈhɛvn", "stress": "1", "cost": 0.10, "note": "syncope"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "hevene": {"med_id": "MED20693", "lemma": "heven", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈhɛ.və.nə", "alt_ipas": [{"ipa": "ˈhɛv.nə", "stress": "10", "cost": 0.05, "note": "medial_syncope"}], "stress": "100", "word_class": "content", "final_e": "optional_apocope"},
-    "helle": {"med_id": "MED20309", "lemma": "helle", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈhɛl.lə", "alt_ipas": [{"ipa": "hɛl", "stress": "1", "cost": 0.15, "note": "apocope_in_phrase"}], "stress": "10", "word_class": "content", "final_e": "optional_apocope"},
-    "acorde": {"med_id": "MED421", "lemma": "acorden", "pos": "V-PRES", "etymon": "OF", "earliest_year": 1150, "ipa": "a.ˈkɔr.də", "alt_ipas": [{"ipa": "a.ˈkɔrd", "stress": "01", "cost": 0.10, "note": "apocope_1sg"}], "stress": "010", "word_class": "content", "final_e": "optional_apocope"},
-    "contree": {"med_id": "MED9602", "lemma": "contre(e", "pos": "N", "etymon": "OF", "earliest_year": 1250, "ipa": "kɔn.ˈtreː", "alt_ipas": [{"ipa": "ˈkun.treː", "stress": "10", "cost": 0.15, "note": "initial_stress"}], "stress": "01", "word_class": "content", "vowel_quality": "close_e", "final_e": "monosyllabic_root"},
-    "y-be": {"med_id": "MED4501", "lemma": "ben", "pos": "V-PP", "etymon": "OE", "earliest_year": 1150, "ipa": "i.ˈbeː", "stress": "01", "word_class": "content", "vowel_quality": "close_e", "final_e": "monosyllabic_root"},
-    "ybe": {"med_id": "MED4501", "lemma": "ben", "pos": "V-PP", "etymon": "OE", "earliest_year": 1150, "ipa": "i.ˈbeː", "stress": "01", "word_class": "content", "vowel_quality": "close_e", "final_e": "monosyllabic_root"},
-    "honour": {"med_id": "MED21147", "lemma": "honour", "pos": "N", "etymon": "OF", "earliest_year": 1200, "ipa": "ɔ.ˈnuːr", "alt_ipas": [{"ipa": "ˈɔ.nur", "stress": "10", "cost": 0.10, "note": "initial_stress"}], "stress": "01", "word_class": "content", "weak_h": true, "final_e": "none"},
-    "knyght": {"med_id": "MED24426", "lemma": "knight", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "kniçt", "stress": "1", "word_class": "content", "final_e": "none"},
-    "nyght": {"med_id": "MED29519", "lemma": "night", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "niçt", "stress": "1", "word_class": "content", "final_e": "none"},
-    "roote": {"med_id": "MED37846", "lemma": "rote", "pos": "N", "etymon": "ON", "earliest_year": 1175, "ipa": "ˈroː.tə", "stress": "10", "word_class": "content", "vowel_quality": "close_o", "final_e": "etymological"},
-    "soote": {"med_id": "MED42622", "lemma": "sote", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsoː.tə", "stress": "10", "word_class": "content", "vowel_quality": "close_o", "final_e": "etymological"},
-    "goon": {"med_id": "MED19053", "lemma": "gon", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "gɔːn", "stress": "1", "word_class": "content", "vowel_quality": "open_o", "final_e": "none"},
-    "noon": {"med_id": "MED29760", "lemma": "non", "pos": "PRON", "etymon": "OE", "earliest_year": 1150, "ipa": "nɔːn", "stress": "1", "word_class": "content", "vowel_quality": "open_o", "final_e": "none"},
-    "do": {"med_id": "MED12316", "lemma": "don", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "doː", "stress": "1", "word_class": "content", "vowel_quality": "close_o", "final_e": "none"},
-    "swete": {"med_id": "MED44169", "lemma": "swete", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈsweː.tə", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "etymological"},
-    "mete": {"med_id": "MED27556", "lemma": "meten", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈmeː.tə", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "inflectional"},
-    "rede": {"med_id": "MED36345", "lemma": "reden", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈrɛː.də", "stress": "10", "word_class": "content", "vowel_quality": "open_e", "final_e": "inflectional"},
-    "drede": {"med_id": "MED12625", "lemma": "drede", "pos": "N", "etymon": "OE", "earliest_year": 1175, "ipa": "ˈdrɛː.də", "stress": "10", "word_class": "content", "vowel_quality": "open_e", "final_e": "etymological"},
-    "assay": {"med_id": "MED2588", "lemma": "assai", "pos": "N", "etymon": "OF", "earliest_year": 1300, "ipa": "a.ˈsai", "stress": "01", "word_class": "content", "final_e": "none"},
-    "preve": {"med_id": "MED34614", "lemma": "preven", "pos": "V-INF", "etymon": "OF", "earliest_year": 1225, "ipa": "ˈpreː.və", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "inflectional"},
-    "forbede": {"med_id": "MED16533", "lemma": "forbeden", "pos": "V-SUBJ", "etymon": "OE", "earliest_year": 1150, "ipa": "fɔr.ˈbeː.də", "alt_ipas": [{"ipa": "fɔr.ˈbeːd", "stress": "01", "cost": 0.08, "note": "subjunctive_apocope"}], "stress": "010", "word_class": "content", "vowel_quality": "close_e", "final_e": "optional_apocope"},
-    "shulde": {"med_id": "MED40072", "lemma": "shulen", "pos": "V-PRET", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈʃul.də", "alt_ipas": [{"ipa": "ʃuld", "stress": "0", "cost": 0.10, "note": "modal_apocope"}], "stress": "10", "word_class": "function", "final_e": "optional_apocope"},
-    "sholde": {"med_id": "MED40072", "lemma": "shulen", "pos": "V-PRET", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈʃɔl.də", "alt_ipas": [{"ipa": "ʃɔld", "stress": "0", "cost": 0.10, "note": "modal_apocope"}], "stress": "10", "word_class": "function", "final_e": "optional_apocope"},
-    "leve": {"med_id": "MED25328", "lemma": "leven", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈleː.və", "stress": "10", "word_class": "content", "vowel_quality": "close_e", "final_e": "inflectional"},
-    "more": {"med_id": "MED28382", "lemma": "more", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈmɔː.rə", "alt_ipas": [{"ipa": "mɔːr", "stress": "1", "cost": 0.10, "note": "apocope"}], "stress": "10", "word_class": "content", "vowel_quality": "open_o", "final_e": "optional_apocope"},
-    "yë": {"med_id": "MED13561", "lemma": "eie", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈiː.ə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "lyë": {"med_id": "MED25480", "lemma": "lie", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈliː.ə", "stress": "10", "word_class": "content", "final_e": "etymological"},
-    "every-thing": {"med_id": "MED14820", "lemma": "everi-thing", "pos": "PRON", "etymon": "OE", "earliest_year": 1200, "ipa": "ˈɛv.ri.ˌθiŋg", "stress": "102", "word_class": "content", "final_e": "none"},
-    "every": {"med_id": "MED14815", "lemma": "everi", "pos": "ADJ", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈɛv.ri", "alt_ipas": [{"ipa": "ˈɛ.və.ri", "stress": "100", "cost": 0.25, "note": "unsyncopated"}], "stress": "10", "word_class": "function", "final_e": "none"},
-    "never": {"med_id": "MED29392", "lemma": "never", "pos": "ADV", "etymon": "OE", "earliest_year": 1150, "ipa": "ˈnɛ.vər", "alt_ipas": [{"ipa": "nɛːr", "stress": "1", "cost": 0.15, "note": "medial_slur"}], "stress": "10", "word_class": "function", "final_e": "none"},
-    "dooth": {"med_id": "MED12316", "lemma": "don", "pos": "V-3SG", "etymon": "OE", "earliest_year": 1150, "ipa": "doːθ", "stress": "1", "word_class": "content", "vowel_quality": "close_o", "final_e": "none"},
-    "sooth": {"med_id": "MED41880", "lemma": "soth", "pos": "N", "etymon": "OE", "earliest_year": 1150, "ipa": "soːθ", "stress": "1", "word_class": "content", "vowel_quality": "close_o", "final_e": "none"},
-    "y-see": {"med_id": "MED39260", "lemma": "sen", "pos": "V-INF", "etymon": "OE", "earliest_year": 1150, "ipa": "i.ˈseː", "stress": "01", "word_class": "content", "vowel_quality": "close_e", "final_e": "monosyllabic_root"},
-    "parde": {"med_id": "MED32362", "lemma": "parde", "pos": "INTJ", "etymon": "OF", "earliest_year": 1290, "ipa": "par.ˈdeː", "alt_ipas": [{"ipa": "ˈpar.deː", "stress": "10", "cost": 0.20, "note": "initial_stress"}], "stress": "01", "word_class": "content", "vowel_quality": "close_e", "final_e": "monosyllabic_root"},
-    "bernard": {"med_id": "PROP_BERNARD", "lemma": "Bernard", "pos": "PROP", "etymon": "OF", "earliest_year": 1250, "ipa": "ˈbɛr.nard", "alt_ipas": [{"ipa": "bɛr.ˈnard", "stress": "01", "cost": 0.15, "note": "romance_stress"}], "stress": "10", "word_class": "content", "final_e": "none"},
-    "internet": {"med_id": "POST_1400_TEST", "lemma": "internet", "pos": "N", "etymon": "MOD", "earliest_year": 1974, "ipa": "ˈin.tər.nɛt", "stress": "100", "word_class": "content", "final_e": "none"}
+    "the": {
+      "med_id": "MED45097",
+      "lemma": "the",
+      "pos": "DET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ðə",
+      "alt_ipas": [
+        {
+          "ipa": "ðeː",
+          "stress": "1",
+          "cost": 0.3,
+          "note": "oblique_pronoun_thee"
+        }
+      ],
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "monosyllabic_root"
+    },
+    "that": {
+      "med_id": "MED45059",
+      "lemma": "that",
+      "pos": "CONJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ðat",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "thise": {
+      "med_id": "MED45371",
+      "lemma": "thes(e",
+      "pos": "DET",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "ðiz",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "petrified_silent"
+    },
+    "this": {
+      "med_id": "MED45410",
+      "lemma": "this",
+      "pos": "DET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ðis",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "thow": {
+      "med_id": "MED45496",
+      "lemma": "thou",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ðuː",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "ye": {
+      "med_id": "MED53762",
+      "lemma": "ye",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "jeː",
+      "alt_ipas": [
+        {
+          "ipa": "jə",
+          "stress": "0",
+          "cost": 0.15,
+          "note": "enclitic"
+        }
+      ],
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "monosyllabic_root"
+    },
+    "yow": {
+      "med_id": "MED53924",
+      "lemma": "you",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "juː",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "i": {
+      "med_id": "MED21807",
+      "lemma": "ich",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "iː",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "me": {
+      "med_id": "MED27160",
+      "lemma": "me",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "meː",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "monosyllabic_root"
+    },
+    "he": {
+      "med_id": "MED20190",
+      "lemma": "he",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "heː",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "monosyllabic_root"
+    },
+    "she": {
+      "med_id": "MED39840",
+      "lemma": "she",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ʃeː",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "monosyllabic_root"
+    },
+    "hit": {
+      "med_id": "MED20906",
+      "lemma": "hit",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "hit",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "none"
+    },
+    "it": {
+      "med_id": "MED20906",
+      "lemma": "hit",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "it",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "his": {
+      "med_id": "MED20876",
+      "lemma": "his",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "hiz",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "none"
+    },
+    "hym": {
+      "med_id": "MED20776",
+      "lemma": "him",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "him",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "none"
+    },
+    "hem": {
+      "med_id": "MED20347",
+      "lemma": "hem",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "hɛm",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "none"
+    },
+    "hire": {
+      "med_id": "MED20829",
+      "lemma": "hir(e",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "hir",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "petrified_silent"
+    },
+    "hir": {
+      "med_id": "MED20829",
+      "lemma": "hir(e",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "hir",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "none"
+    },
+    "my": {
+      "med_id": "MED27795",
+      "lemma": "mi",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "miː",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "myn": {
+      "med_id": "MED27848",
+      "lemma": "min",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "miːn",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "oure": {
+      "med_id": "MED31015",
+      "lemma": "our(e",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "uːr",
+      "stress": "0",
+      "word_class": "function",
+      "final_e": "petrified_silent"
+    },
+    "double": {
+      "med_id": "MED12470",
+      "lemma": "double",
+      "pos": "ADJ",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈduː.blə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "twofold"
+    },
+    "sorwe": {
+      "med_id": "MED41792",
+      "lemma": "sorwe",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsɔr.wə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "grief or distress"
+    },
+    "sorwes": {
+      "med_id": "MED41792",
+      "lemma": "sorwe",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsɔr.wəs",
+      "alt_ipas": [
+        {
+          "ipa": "ˈsɔrwz",
+          "stress": "1",
+          "cost": 0.25,
+          "note": "syncope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "sorwful": {
+      "med_id": "MED41795",
+      "lemma": "sorweful",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsɔrw.ful",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "sorwynge": {
+      "med_id": "MED41794",
+      "lemma": "sorwing(e",
+      "pos": "V-PART",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "ˈsɔr.wiŋ.gə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈsɔr.wiŋg",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "participial_apocope"
+        }
+      ],
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "troilus": {
+      "med_id": "PROP_TROILUS",
+      "lemma": "Troilus",
+      "pos": "PROP",
+      "etymon": "LAT",
+      "earliest_year": 1380,
+      "ipa": "ˈtrɔ.i.lus",
+      "alt_ipas": [
+        {
+          "ipa": "ˈtrɔi.lus",
+          "stress": "10",
+          "cost": 0.2,
+          "note": "synaeresis"
+        }
+      ],
+      "stress": "102",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "priamus": {
+      "med_id": "PROP_PRIAMUS",
+      "lemma": "Priamus",
+      "pos": "PROP",
+      "etymon": "LAT",
+      "earliest_year": 1380,
+      "ipa": "pri.ˈaː.mus",
+      "alt_ipas": [
+        {
+          "ipa": "ˈpriː.a.mus",
+          "stress": "100",
+          "cost": 0.15,
+          "note": "initial_stress"
+        },
+        {
+          "ipa": "ˈpria.mus",
+          "stress": "10",
+          "cost": 0.2,
+          "note": "synaeresis"
+        }
+      ],
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "troye": {
+      "med_id": "PROP_TROYE",
+      "lemma": "Troie",
+      "pos": "PROP",
+      "etymon": "OF",
+      "earliest_year": 1275,
+      "ipa": "ˈtrɔi.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "thesiphone": {
+      "med_id": "PROP_THESIPHONE",
+      "lemma": "Thesiphone",
+      "pos": "PROP",
+      "etymon": "LAT",
+      "earliest_year": 1380,
+      "ipa": "te.ˈsi.fo.neː",
+      "stress": "0102",
+      "word_class": "content",
+      "final_e": "monosyllabic_root"
+    },
+    "criseyde": {
+      "med_id": "PROP_CRISEYDE",
+      "lemma": "Criseide",
+      "pos": "PROP",
+      "etymon": "OF",
+      "earliest_year": 1380,
+      "ipa": "kri.ˈsɛi.də",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "tellen": {
+      "med_id": "MED44755",
+      "lemma": "tellen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtɛl.lən",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "recount"
+    },
+    "telle": {
+      "med_id": "MED44755",
+      "lemma": "tellen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtɛl.lə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "recount"
+    },
+    "fellen": {
+      "med_id": "MED15190",
+      "lemma": "fallen",
+      "pos": "V-PRET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈfɛl.lən",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "sone": {
+      "med_id": "MED41645",
+      "lemma": "sone",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsu.nə",
+      "alt_ipas": [
+        {
+          "ipa": "sun",
+          "stress": "1",
+          "cost": 0.15,
+          "note": "apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "louynge": {
+      "med_id": "MED26265",
+      "lemma": "loving(e",
+      "pos": "N-GER",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈlu.viŋ.gə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈlu.viŋg",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "gerund_apocope"
+        }
+      ],
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "loue": {
+      "med_id": "MED26253",
+      "lemma": "love",
+      "pos": "N/V",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈlu.və",
+      "alt_ipas": [
+        {
+          "ipa": "luv",
+          "stress": "1",
+          "cost": 0.12,
+          "note": "apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "love": {
+      "med_id": "MED26253",
+      "lemma": "love",
+      "pos": "N/V",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈlu.və",
+      "alt_ipas": [
+        {
+          "ipa": "luv",
+          "stress": "1",
+          "cost": 0.12,
+          "note": "apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "loues": {
+      "med_id": "MED26253",
+      "lemma": "love",
+      "pos": "N-GEN",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈlu.vəs",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "lovyng": {
+      "med_id": "MED26265",
+      "lemma": "loving(e",
+      "pos": "N-GER",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈlu.viŋg",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "auentures": {
+      "med_id": "MED3161",
+      "lemma": "aventure",
+      "pos": "N-PL",
+      "etymon": "OF",
+      "earliest_year": 1230,
+      "ipa": "ˌa.vɛn.ˈtiu.rəs",
+      "alt_ipas": [
+        {
+          "ipa": "a.ˈvɛn.tjurz",
+          "stress": "010",
+          "cost": 0.2,
+          "note": "syncope"
+        }
+      ],
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "wo": {
+      "med_id": "MED53232",
+      "lemma": "wo",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "wɔː",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none",
+      "gloss": "misery"
+    },
+    "so": {
+      "med_id": "MED41297",
+      "lemma": "so",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "sɔː",
+      "stress": "1",
+      "word_class": "function",
+      "vowel_quality": "open_o",
+      "final_e": "none"
+    },
+    "also": {
+      "med_id": "MED1268",
+      "lemma": "also",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "al.ˈsɔː",
+      "alt_ipas": [
+        {
+          "ipa": "ˈal.sɔː",
+          "stress": "10",
+          "cost": 0.2,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "function",
+      "vowel_quality": "open_o",
+      "final_e": "none"
+    },
+    "fro": {
+      "med_id": "MED17843",
+      "lemma": "fro",
+      "pos": "PREP",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "frɔː",
+      "stress": "0",
+      "word_class": "function",
+      "vowel_quality": "open_o",
+      "final_e": "none"
+    },
+    "ffro": {
+      "med_id": "MED17843",
+      "lemma": "fro",
+      "pos": "PREP",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "frɔː",
+      "stress": "0",
+      "word_class": "function",
+      "vowel_quality": "open_o",
+      "final_e": "none"
+    },
+    "to": {
+      "med_id": "MED46053",
+      "lemma": "to",
+      "pos": "PREP",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "toː",
+      "stress": "0",
+      "word_class": "function",
+      "vowel_quality": "close_o",
+      "final_e": "none"
+    },
+    "wele": {
+      "med_id": "MED52124",
+      "lemma": "wele",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwɛː.lə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "etymological",
+      "gloss": "prosperity or joy"
+    },
+    "ioie": {
+      "med_id": "MED23915",
+      "lemma": "joie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈdʒɔi.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "joy"
+    },
+    "joye": {
+      "med_id": "MED23915",
+      "lemma": "joie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈdʒɔi.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "joy"
+    },
+    "purpos": {
+      "med_id": "MED35289",
+      "lemma": "purpos",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "ˈpur.pɔs",
+      "alt_ipas": [
+        {
+          "ipa": "pur.ˈpɔːs",
+          "stress": "01",
+          "cost": 0.15,
+          "note": "romance_final_stress"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "parte": {
+      "med_id": "MED32515",
+      "lemma": "parten",
+      "pos": "V-SUBJ",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈpar.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "tendite": {
+      "med_id": "MED13922",
+      "lemma": "enditen",
+      "pos": "V-INF-PROCLITIC",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "tɛn.ˈdiː.tə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "write": {
+      "med_id": "MED53602",
+      "lemma": "writen",
+      "pos": "V-PRES",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwriː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "writen": {
+      "med_id": "MED53602",
+      "lemma": "writen",
+      "pos": "V-PP",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwri.tən",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "witen": {
+      "med_id": "MED53087",
+      "lemma": "witen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwi.tən",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "woful": {
+      "med_id": "MED53245",
+      "lemma": "woful",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwɔː.ful",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "vers": {
+      "med_id": "MED50868",
+      "lemma": "vers",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1200,
+      "ipa": "vɛrs",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "wepen": {
+      "med_id": "MED52267",
+      "lemma": "wepen",
+      "pos": "V-PL",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈweː.pən",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "none"
+    },
+    "clepe": {
+      "med_id": "MED7998",
+      "lemma": "clepen",
+      "pos": "V-PRES",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈklɛː.pə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "goddesse": {
+      "med_id": "MED18928",
+      "lemma": "goddesse",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1350,
+      "ipa": "ˈgɔd.dɛs.sə",
+      "alt_ipas": [
+        {
+          "ipa": "gɔd.ˈdɛs.sə",
+          "stress": "010",
+          "cost": 0.1,
+          "note": "romance_suffix_stress"
+        }
+      ],
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "torment": {
+      "med_id": "MED46368",
+      "lemma": "torment",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "ˈtɔr.mɛnt",
+      "alt_ipas": [
+        {
+          "ipa": "tɔr.ˈmɛnt",
+          "stress": "01",
+          "cost": 0.1,
+          "note": "romance_final_stress"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "affliction"
+    },
+    "instrument": {
+      "med_id": "MED22886",
+      "lemma": "instrument",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "ˌin.stru.ˈmɛnt",
+      "alt_ipas": [
+        {
+          "ipa": "ˈin.stru.mɛnt",
+          "stress": "100",
+          "cost": 0.15,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "201",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "means or tool"
+    },
+    "cruwel": {
+      "med_id": "MED10574",
+      "lemma": "cruel",
+      "pos": "ADJ",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "ˈkriu.əl",
+      "alt_ipas": [
+        {
+          "ipa": "kriu.ˈɛl",
+          "stress": "01",
+          "cost": 0.2,
+          "note": "romance_stress"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "furie": {
+      "med_id": "MED18015",
+      "lemma": "furie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1375,
+      "ipa": "ˈfiu.ri.ə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈfiu.rjə",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "synaeresis"
+        }
+      ],
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "euere": {
+      "med_id": "MED14802",
+      "lemma": "ever",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈɛː.vər",
+      "alt_ipas": [
+        {
+          "ipa": "ˈɛv.rə",
+          "stress": "10",
+          "cost": 0.05,
+          "note": "medial_syncope"
+        },
+        {
+          "ipa": "ɛːr",
+          "stress": "1",
+          "cost": 0.25,
+          "note": "monosyllabic_slur"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "peyne": {
+      "med_id": "MED32744",
+      "lemma": "peine",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈpɛi.nə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "torment or suffering"
+    },
+    "pleyne": {
+      "med_id": "MED33665",
+      "lemma": "pleinen",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "ˈplɛi.nə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "lament"
+    },
+    "seyne": {
+      "med_id": "MED39162",
+      "lemma": "seien",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsɛi.nə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "compleyne": {
+      "med_id": "MED8723",
+      "lemma": "compleinen",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1350,
+      "ipa": "kɔm.ˈplɛi.nə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "bewail"
+    },
+    "loueres": {
+      "med_id": "MED26259",
+      "lemma": "lover(e",
+      "pos": "N-PL",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "ˈlu.və.rəs",
+      "alt_ipas": [
+        {
+          "ipa": "ˈluv.rəs",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "medial_syncope"
+        }
+      ],
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "louere": {
+      "med_id": "MED26259",
+      "lemma": "lover(e",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "ˈlu.və.rə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈlu.vər",
+          "stress": "10",
+          "cost": 0.05,
+          "note": "apocope"
+        }
+      ],
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "sothe": {
+      "med_id": "MED41880",
+      "lemma": "soth",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsoː.ðə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "inflectional"
+    },
+    "han": {
+      "med_id": "MED20110",
+      "lemma": "haven",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "han",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "none"
+    },
+    "haue": {
+      "med_id": "MED20110",
+      "lemma": "haven",
+      "pos": "V-SUBJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈha.və",
+      "alt_ipas": [
+        {
+          "ipa": "hav",
+          "stress": "0",
+          "cost": 0.05,
+          "note": "auxiliary_apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "optional_apocope"
+    },
+    "have": {
+      "med_id": "MED20110",
+      "lemma": "haven",
+      "pos": "V-PRES",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈha.və",
+      "alt_ipas": [
+        {
+          "ipa": "hav",
+          "stress": "0",
+          "cost": 0.05,
+          "note": "auxiliary_apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "optional_apocope"
+    },
+    "hath": {
+      "med_id": "MED20110",
+      "lemma": "haven",
+      "pos": "V-3SG",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "haθ",
+      "stress": "0",
+      "word_class": "function",
+      "weak_h": true,
+      "final_e": "none"
+    },
+    "feere": {
+      "med_id": "MED15660",
+      "lemma": "fere",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈfeː.rə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological"
+    },
+    "chere": {
+      "med_id": "MED7501",
+      "lemma": "chere",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈtʃeː.rə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological"
+    },
+    "dere": {
+      "med_id": "MED11202",
+      "lemma": "dere",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈdeː.rə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological"
+    },
+    "here": {
+      "med_id": "MED20480",
+      "lemma": "heren",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈheː.rə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "inflectional"
+    },
+    "matere": {
+      "med_id": "MED27049",
+      "lemma": "matere",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1230,
+      "ipa": "ma.ˈtɛː.rə",
+      "alt_ipas": [
+        {
+          "ipa": "ma.ˈteː.rə",
+          "stress": "010",
+          "cost": 0.08,
+          "note": "pre_r_close_e_variant"
+        }
+      ],
+      "stress": "010",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "etymological"
+    },
+    "seruantz": {
+      "med_id": "MED39618",
+      "lemma": "servaunt",
+      "pos": "N-PL",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "ˈsɛr.vantz",
+      "alt_ipas": [
+        {
+          "ipa": "sɛr.ˈvantz",
+          "stress": "01",
+          "cost": 0.15,
+          "note": "romance_stress"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "serue": {
+      "med_id": "MED39625",
+      "lemma": "serven",
+      "pos": "V-PRES",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈsɛr.və",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "sterue": {
+      "med_id": "MED42934",
+      "lemma": "sterven",
+      "pos": "V-SUBJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈstɛr.və",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "vnliklynesse": {
+      "med_id": "MED49178",
+      "lemma": "unliklinesse",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1380,
+      "ipa": "un.ˈliːk.li.ˌnɛs.sə",
+      "stress": "01020",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "derknesse": {
+      "med_id": "MED11240",
+      "lemma": "derknesse",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈdɛrk.ˌnɛs.sə",
+      "alt_ipas": [
+        {
+          "ipa": "dɛrk.ˈnɛs.sə",
+          "stress": "010",
+          "cost": 0.1,
+          "note": "rhyme_suffix_stress"
+        }
+      ],
+      "stress": "120",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "gladnesse": {
+      "med_id": "MED18704",
+      "lemma": "gladnesse",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈglad.ˌnɛs.sə",
+      "alt_ipas": [
+        {
+          "ipa": "glad.ˈnɛs.sə",
+          "stress": "010",
+          "cost": 0.1,
+          "note": "rhyme_suffix_stress"
+        }
+      ],
+      "stress": "120",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "ther-fore": {
+      "med_id": "MED45222",
+      "lemma": "ther-fore",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ðɛr.ˈfɔːr",
+      "alt_ipas": [
+        {
+          "ipa": "ˈðɛr.fɔːr",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "function",
+      "final_e": "petrified_silent"
+    },
+    "natheles": {
+      "med_id": "MED29098",
+      "lemma": "natheles",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈnaː.ðə.ˌlɛs",
+      "alt_ipas": [
+        {
+          "ipa": "ˌnaː.ðə.ˈlɛs",
+          "stress": "201",
+          "cost": 0.1,
+          "note": "final_stress"
+        }
+      ],
+      "stress": "102",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "auaille": {
+      "med_id": "MED3114",
+      "lemma": "availen",
+      "pos": "V-SUBJ",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "a.ˈvai.lə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "trauaille": {
+      "med_id": "MED46782",
+      "lemma": "travail",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "tra.ˈvai.lə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "compassioun": {
+      "med_id": "MED8696",
+      "lemma": "compassioun",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1340,
+      "ipa": "kɔm.ˌpas.si.ˈuːn",
+      "stress": "0201",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "fellow-suffering"
+    },
+    "entencioun": {
+      "med_id": "MED14062",
+      "lemma": "entencioun",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1340,
+      "ipa": "ɛn.ˌtɛn.si.ˈuːn",
+      "stress": "0201",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "purpose"
+    },
+    "herkeneth": {
+      "med_id": "MED20525",
+      "lemma": "herknen",
+      "pos": "V-IMP",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈhɛrk.nəθ",
+      "alt_ipas": [
+        {
+          "ipa": "ˈhɛr.kə.nəθ",
+          "stress": "100",
+          "cost": 0.2,
+          "note": "unsyncopated"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "owene": {
+      "med_id": "MED31140",
+      "lemma": "ouen",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈɔu.nə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈɔu.ə.nə",
+          "stress": "100",
+          "cost": 0.2,
+          "note": "trisyllabic"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "were": {
+      "med_id": "MED4501",
+      "lemma": "ben",
+      "pos": "V-SUBJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwɛː.rə",
+      "alt_ipas": [
+        {
+          "ipa": "wɛːr",
+          "stress": "0",
+          "cost": 0.08,
+          "note": "apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "function",
+      "vowel_quality": "open_e",
+      "final_e": "optional_apocope"
+    },
+    "deyde": {
+      "med_id": "MED11474",
+      "lemma": "deien",
+      "pos": "V-PRET",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "ˈdɛi.də",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional"
+    },
+    "heven": {
+      "med_id": "MED20693",
+      "lemma": "heven",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈhɛ.vən",
+      "alt_ipas": [
+        {
+          "ipa": "ˈhɛvn",
+          "stress": "1",
+          "cost": 0.1,
+          "note": "syncope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "hevene": {
+      "med_id": "MED20693",
+      "lemma": "heven",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈhɛ.və.nə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈhɛv.nə",
+          "stress": "10",
+          "cost": 0.05,
+          "note": "medial_syncope"
+        }
+      ],
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "helle": {
+      "med_id": "MED20309",
+      "lemma": "helle",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈhɛl.lə",
+      "alt_ipas": [
+        {
+          "ipa": "hɛl",
+          "stress": "1",
+          "cost": 0.15,
+          "note": "apocope_in_phrase"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "acorde": {
+      "med_id": "MED421",
+      "lemma": "acorden",
+      "pos": "V-PRES",
+      "etymon": "OF",
+      "earliest_year": 1150,
+      "ipa": "a.ˈkɔr.də",
+      "alt_ipas": [
+        {
+          "ipa": "a.ˈkɔrd",
+          "stress": "01",
+          "cost": 0.1,
+          "note": "apocope_1sg"
+        }
+      ],
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "optional_apocope"
+    },
+    "contree": {
+      "med_id": "MED9602",
+      "lemma": "contre(e",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "kɔn.ˈtreː",
+      "alt_ipas": [
+        {
+          "ipa": "ˈkun.treː",
+          "stress": "10",
+          "cost": 0.15,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "monosyllabic_root",
+      "gloss": "land or shire"
+    },
+    "y-be": {
+      "med_id": "MED4501",
+      "lemma": "ben",
+      "pos": "V-PP",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "i.ˈbeː",
+      "stress": "01",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "monosyllabic_root"
+    },
+    "ybe": {
+      "med_id": "MED4501",
+      "lemma": "ben",
+      "pos": "V-PP",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "i.ˈbeː",
+      "stress": "01",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "monosyllabic_root"
+    },
+    "honour": {
+      "med_id": "MED21147",
+      "lemma": "honour",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1200,
+      "ipa": "ɔ.ˈnuːr",
+      "alt_ipas": [
+        {
+          "ipa": "ˈɔ.nur",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "weak_h": true,
+      "final_e": "none",
+      "gloss": "renown or dignity"
+    },
+    "knyght": {
+      "med_id": "MED24426",
+      "lemma": "knight",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "kniçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "sworn knight"
+    },
+    "nyght": {
+      "med_id": "MED29519",
+      "lemma": "night",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "niçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "night"
+    },
+    "roote": {
+      "med_id": "MED37846",
+      "lemma": "rote",
+      "pos": "N",
+      "etymon": "ON",
+      "earliest_year": 1175,
+      "ipa": "ˈroː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "etymological",
+      "gloss": "root"
+    },
+    "soote": {
+      "med_id": "MED42622",
+      "lemma": "sote",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsoː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "etymological",
+      "gloss": "sweet"
+    },
+    "goon": {
+      "med_id": "MED19053",
+      "lemma": "gon",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "gɔːn",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none"
+    },
+    "noon": {
+      "med_id": "MED29760",
+      "lemma": "non",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "nɔːn",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none"
+    },
+    "do": {
+      "med_id": "MED12316",
+      "lemma": "don",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "doː",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "none"
+    },
+    "swete": {
+      "med_id": "MED44169",
+      "lemma": "swete",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsweː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological",
+      "gloss": "sweet"
+    },
+    "mete": {
+      "med_id": "MED27556",
+      "lemma": "meten",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈmeː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "inflectional"
+    },
+    "rede": {
+      "med_id": "MED36345",
+      "lemma": "reden",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈrɛː.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "inflectional",
+      "gloss": "read or counsel"
+    },
+    "drede": {
+      "med_id": "MED12625",
+      "lemma": "drede",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1175,
+      "ipa": "ˈdrɛː.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "etymological",
+      "gloss": "fear or doubt"
+    },
+    "assay": {
+      "med_id": "MED2588",
+      "lemma": "assai",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "a.ˈsai",
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "preve": {
+      "med_id": "MED34614",
+      "lemma": "preven",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈpreː.və",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "inflectional"
+    },
+    "forbede": {
+      "med_id": "MED16533",
+      "lemma": "forbeden",
+      "pos": "V-SUBJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "fɔr.ˈbeː.də",
+      "alt_ipas": [
+        {
+          "ipa": "fɔr.ˈbeːd",
+          "stress": "01",
+          "cost": 0.08,
+          "note": "subjunctive_apocope"
+        }
+      ],
+      "stress": "010",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "optional_apocope"
+    },
+    "shulde": {
+      "med_id": "MED40072",
+      "lemma": "shulen",
+      "pos": "V-PRET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈʃul.də",
+      "alt_ipas": [
+        {
+          "ipa": "ʃuld",
+          "stress": "0",
+          "cost": 0.1,
+          "note": "modal_apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "function",
+      "final_e": "optional_apocope"
+    },
+    "sholde": {
+      "med_id": "MED40072",
+      "lemma": "shulen",
+      "pos": "V-PRET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈʃɔl.də",
+      "alt_ipas": [
+        {
+          "ipa": "ʃɔld",
+          "stress": "0",
+          "cost": 0.1,
+          "note": "modal_apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "function",
+      "final_e": "optional_apocope"
+    },
+    "leve": {
+      "med_id": "MED25328",
+      "lemma": "leven",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈleː.və",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "inflectional"
+    },
+    "more": {
+      "med_id": "MED28382",
+      "lemma": "more",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈmɔː.rə",
+      "alt_ipas": [
+        {
+          "ipa": "mɔːr",
+          "stress": "1",
+          "cost": 0.1,
+          "note": "apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "optional_apocope"
+    },
+    "yë": {
+      "med_id": "MED13561",
+      "lemma": "eie",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈiː.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "lyë": {
+      "med_id": "MED25480",
+      "lemma": "lie",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈliː.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological"
+    },
+    "every-thing": {
+      "med_id": "MED14820",
+      "lemma": "everi-thing",
+      "pos": "PRON",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "ˈɛv.ri.ˌθiŋg",
+      "stress": "102",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "every": {
+      "med_id": "MED14815",
+      "lemma": "everi",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈɛv.ri",
+      "alt_ipas": [
+        {
+          "ipa": "ˈɛ.və.ri",
+          "stress": "100",
+          "cost": 0.25,
+          "note": "unsyncopated"
+        }
+      ],
+      "stress": "10",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "never": {
+      "med_id": "MED29392",
+      "lemma": "never",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈnɛ.vər",
+      "alt_ipas": [
+        {
+          "ipa": "nɛːr",
+          "stress": "1",
+          "cost": 0.15,
+          "note": "medial_slur"
+        }
+      ],
+      "stress": "10",
+      "word_class": "function",
+      "final_e": "none"
+    },
+    "dooth": {
+      "med_id": "MED12316",
+      "lemma": "don",
+      "pos": "V-3SG",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "doːθ",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "none"
+    },
+    "sooth": {
+      "med_id": "MED41880",
+      "lemma": "soth",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "soːθ",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "none"
+    },
+    "y-see": {
+      "med_id": "MED39260",
+      "lemma": "sen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "i.ˈseː",
+      "stress": "01",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "monosyllabic_root"
+    },
+    "parde": {
+      "med_id": "MED32362",
+      "lemma": "parde",
+      "pos": "INTJ",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "par.ˈdeː",
+      "alt_ipas": [
+        {
+          "ipa": "ˈpar.deː",
+          "stress": "10",
+          "cost": 0.2,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "monosyllabic_root"
+    },
+    "bernard": {
+      "med_id": "PROP_BERNARD",
+      "lemma": "Bernard",
+      "pos": "PROP",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "ˈbɛr.nard",
+      "alt_ipas": [
+        {
+          "ipa": "bɛr.ˈnard",
+          "stress": "01",
+          "cost": 0.15,
+          "note": "romance_stress"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "internet": {
+      "med_id": "POST_1400_TEST",
+      "lemma": "internet",
+      "pos": "N",
+      "etymon": "MOD",
+      "earliest_year": 1974,
+      "ipa": "ˈin.tər.nɛt",
+      "stress": "100",
+      "word_class": "content",
+      "final_e": "none"
+    },
+    "grace": {
+      "med_id": "MED19168",
+      "lemma": "grace",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈgraː.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "divine favor or courtesy"
+    },
+    "place": {
+      "med_id": "MED33539",
+      "lemma": "place",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈplaː.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "stead, court, or manor"
+    },
+    "space": {
+      "med_id": "MED42052",
+      "lemma": "space",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "ˈspaː.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "interval of time or room"
+    },
+    "pace": {
+      "med_id": "MED32567",
+      "lemma": "passen",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈpaː.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "proceed or step onward"
+    },
+    "face": {
+      "med_id": "MED15089",
+      "lemma": "face",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "ˈfaː.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "visage or outward countenance"
+    },
+    "trace": {
+      "med_id": "MED46624",
+      "lemma": "trace",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "ˈtraː.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "path or footprint"
+    },
+    "endite": {
+      "med_id": "MED13922",
+      "lemma": "enditen",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "ɛn.ˈdiː.tə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "compose in verse"
+    },
+    "quite": {
+      "med_id": "MED35654",
+      "lemma": "quiten",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈkwiː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "repay, requite, or match"
+    },
+    "lite": {
+      "med_id": "MED25772",
+      "lemma": "lite",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈliː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "little or small"
+    },
+    "delite": {
+      "med_id": "MED10924",
+      "lemma": "deliten",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1230,
+      "ipa": "de.ˈliː.tə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "take pleasure or solace"
+    },
+    "smite": {
+      "med_id": "MED41122",
+      "lemma": "smiten",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsmiː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "strike sharply"
+    },
+    "dede": {
+      "med_id": "MED10739",
+      "lemma": "dede",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈdɛː.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "etymological",
+      "gloss": "action or sworn work"
+    },
+    "lede": {
+      "med_id": "MED25020",
+      "lemma": "leden",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈlɛː.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "inflectional",
+      "gloss": "guide or govern"
+    },
+    "stede": {
+      "med_id": "MED42758",
+      "lemma": "stede",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈstɛː.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "etymological",
+      "gloss": "place or courser"
+    },
+    "brede": {
+      "med_id": "MED5940",
+      "lemma": "brede",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈbrɛː.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "etymological",
+      "gloss": "breadth or expanse"
+    },
+    "strete": {
+      "med_id": "MED43310",
+      "lemma": "strete",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈstreː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological",
+      "gloss": "paved road or town lane"
+    },
+    "lete": {
+      "med_id": "MED25285",
+      "lemma": "leten",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈleː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "inflectional",
+      "gloss": "leave or forsake"
+    },
+    "grete": {
+      "med_id": "MED19422",
+      "lemma": "greten",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈgreː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "inflectional",
+      "gloss": "salute or address"
+    },
+    "boote": {
+      "med_id": "MED5635",
+      "lemma": "bote",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈboː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "etymological",
+      "gloss": "remedy or spiritual healing"
+    },
+    "foote": {
+      "med_id": "MED16498",
+      "lemma": "fot",
+      "pos": "N-DAT",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈfoː.tə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_o",
+      "final_e": "inflectional",
+      "gloss": "on foot"
+    },
+    "stoon": {
+      "med_id": "MED43065",
+      "lemma": "ston",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "stɔːn",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none",
+      "gloss": "stone"
+    },
+    "anoon": {
+      "med_id": "MED1762",
+      "lemma": "anon",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "a.ˈnɔːn",
+      "stress": "01",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none",
+      "gloss": "at once, forthwith"
+    },
+    "aloon": {
+      "med_id": "MED1195",
+      "lemma": "alone",
+      "pos": "ADV",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "a.ˈlɔːn",
+      "stress": "01",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none",
+      "gloss": "solitary, alone"
+    },
+    "boon": {
+      "med_id": "MED5512",
+      "lemma": "bon",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "bɔːn",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none",
+      "gloss": "bone"
+    },
+    "gaan": {
+      "med_id": "MED19053",
+      "lemma": "gon",
+      "pos": "V-INF",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "gaːn",
+      "stress": "1",
+      "word_class": "content",
+      "dialect": "northern",
+      "final_e": "none",
+      "gloss": "go (Northern)"
+    },
+    "staan": {
+      "med_id": "MED43065",
+      "lemma": "ston",
+      "pos": "N",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "staːn",
+      "stress": "1",
+      "word_class": "content",
+      "dialect": "northern",
+      "final_e": "none",
+      "gloss": "stone (Northern)"
+    },
+    "naan": {
+      "med_id": "MED29760",
+      "lemma": "non",
+      "pos": "PRON",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "naːn",
+      "stress": "1",
+      "word_class": "content",
+      "dialect": "northern",
+      "final_e": "none",
+      "gloss": "none (Northern)"
+    },
+    "ik": {
+      "med_id": "MED21807",
+      "lemma": "ich",
+      "pos": "PRON",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "ik",
+      "stress": "0",
+      "word_class": "function",
+      "dialect": "northern",
+      "final_e": "none",
+      "gloss": "I (Northern)"
+    },
+    "ham": {
+      "med_id": "MED21095",
+      "lemma": "hom",
+      "pos": "N",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "haːm",
+      "stress": "1",
+      "word_class": "content",
+      "dialect": "northern",
+      "final_e": "none",
+      "gloss": "home (Northern)"
+    },
+    "hoom": {
+      "med_id": "MED21095",
+      "lemma": "hom",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "hɔːm",
+      "stress": "1",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "none",
+      "gloss": "home"
+    },
+    "kirke": {
+      "med_id": "MED7658",
+      "lemma": "chirche",
+      "pos": "N",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "ˈkir.kə",
+      "stress": "10",
+      "word_class": "content",
+      "dialect": "northern",
+      "final_e": "etymological",
+      "gloss": "church (Northern)"
+    },
+    "wirke": {
+      "med_id": "MED52815",
+      "lemma": "werken",
+      "pos": "V-INF",
+      "etymon": "ON",
+      "earliest_year": 1200,
+      "ipa": "ˈwir.kə",
+      "stress": "10",
+      "word_class": "content",
+      "dialect": "northern",
+      "final_e": "inflectional",
+      "gloss": "work (Northern)"
+    },
+    "chirche": {
+      "med_id": "MED7658",
+      "lemma": "chirche",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtʃir.tʃə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "church"
+    },
+    "entente": {
+      "med_id": "MED14068",
+      "lemma": "entente",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ɛn.ˈtɛn.tə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "purpose, mind, or will"
+    },
+    "sente": {
+      "med_id": "MED39481",
+      "lemma": "senden",
+      "pos": "V-PRET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsɛn.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "sent"
+    },
+    "wente": {
+      "med_id": "MED52210",
+      "lemma": "wenden",
+      "pos": "V-PRET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwɛn.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "went or turned"
+    },
+    "rente": {
+      "med_id": "MED36812",
+      "lemma": "rente",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1150,
+      "ipa": "ˈrɛn.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "revenue, tribute, or due"
+    },
+    "jugement": {
+      "med_id": "MED24011",
+      "lemma": "jugement",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "ˌdʒu.dʒə.ˈmɛnt",
+      "alt_ipas": [
+        {
+          "ipa": "ˈdʒu.dʒə.mɛnt",
+          "stress": "100",
+          "cost": 0.15,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "201",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "verdict or arbitration"
+    },
+    "assent": {
+      "med_id": "MED2621",
+      "lemma": "assent",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "a.ˈsɛnt",
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "common agreement"
+    },
+    "flour": {
+      "med_id": "MED16380",
+      "lemma": "flour",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "fluːr",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "flower or finest meal"
+    },
+    "labour": {
+      "med_id": "MED24520",
+      "lemma": "labour",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "la.ˈbuːr",
+      "alt_ipas": [
+        {
+          "ipa": "ˈlaː.bur",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "toil or honest craft"
+    },
+    "auctour": {
+      "med_id": "MED3028",
+      "lemma": "auctour",
+      "pos": "N",
+      "etymon": "LAT",
+      "earliest_year": 1340,
+      "ipa": "auk.ˈtuːr",
+      "alt_ipas": [
+        {
+          "ipa": "ˈauk.tur",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "authoritative classical writer"
+    },
+    "clamour": {
+      "med_id": "MED7915",
+      "lemma": "clamour",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1380,
+      "ipa": "kla.ˈmuːr",
+      "alt_ipas": [
+        {
+          "ipa": "ˈkla.mur",
+          "stress": "10",
+          "cost": 0.12,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "outcry or petition"
+    },
+    "mirrour": {
+      "med_id": "MED28012",
+      "lemma": "mirour",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1230,
+      "ipa": "mi.ˈruːr",
+      "alt_ipas": [
+        {
+          "ipa": "ˈmi.rur",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "mirror or exemplar"
+    },
+    "servise": {
+      "med_id": "MED39638",
+      "lemma": "servise",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1175,
+      "ipa": "sɛr.ˈviː.sə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈsɛr.viːs",
+          "stress": "10",
+          "cost": 0.15,
+          "note": "initial_apocope"
+        }
+      ],
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "feudal or devotional duty"
+    },
+    "wise": {
+      "med_id": "MED52980",
+      "lemma": "wise",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwiː.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "manner or custom"
+    },
+    "devyse": {
+      "med_id": "MED11432",
+      "lemma": "devisen",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "de.ˈviː.sə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "recount, frame, or contrive"
+    },
+    "justise": {
+      "med_id": "MED24052",
+      "lemma": "justice",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1150,
+      "ipa": "dʒus.ˈtiː.sə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "equity or royal magistrate"
+    },
+    "dwelle": {
+      "med_id": "MED12855",
+      "lemma": "dwellen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈdwɛl.lə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "abide or tarry"
+    },
+    "selle": {
+      "med_id": "MED39340",
+      "lemma": "sellen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsɛl.lə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "barter or vend"
+    },
+    "herte": {
+      "med_id": "MED20602",
+      "lemma": "herte",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈhɛr.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "heart or courage"
+    },
+    "smerte": {
+      "med_id": "MED41068",
+      "lemma": "smerte",
+      "pos": "N/ADJ",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "ˈsmɛr.tə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "sharp pain or sting"
+    },
+    "asterte": {
+      "med_id": "MED2725",
+      "lemma": "asterten",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1300,
+      "ipa": "a.ˈstɛr.tə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "escape or slip away"
+    },
+    "wight": {
+      "med_id": "MED52680",
+      "lemma": "wight",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "wiçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "living creature or person"
+    },
+    "right": {
+      "med_id": "MED37480",
+      "lemma": "right",
+      "pos": "N/ADV",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "riçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "justice or straightway"
+    },
+    "myght": {
+      "med_id": "MED27745",
+      "lemma": "might",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "miçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "strength or power"
+    },
+    "sight": {
+      "med_id": "MED40310",
+      "lemma": "sight",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "siçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "vision or providence"
+    },
+    "bright": {
+      "med_id": "MED6088",
+      "lemma": "bright",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "briçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "shining or clear"
+    },
+    "light": {
+      "med_id": "MED25530",
+      "lemma": "light",
+      "pos": "N/ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "liçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "radiance or nimble"
+    },
+    "plight": {
+      "med_id": "MED33710",
+      "lemma": "plight",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "pliçt",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "pledge or peril"
+    },
+    "tale": {
+      "med_id": "MED44420",
+      "lemma": "tale",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtaː.lə",
+      "alt_ipas": [
+        {
+          "ipa": "taːl",
+          "stress": "1",
+          "cost": 0.12,
+          "note": "apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "optional_apocope",
+      "gloss": "narrative or reckoning"
+    },
+    "ale": {
+      "med_id": "MED1042",
+      "lemma": "ale",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈaː.lə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "malted tavern ale"
+    },
+    "smale": {
+      "med_id": "MED41020",
+      "lemma": "smal",
+      "pos": "ADJ-PL",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈsmaː.lə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "slender or humble"
+    },
+    "bale": {
+      "med_id": "MED3640",
+      "lemma": "bale",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈbaː.lə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "grief or ruin"
+    },
+    "dale": {
+      "med_id": "MED10618",
+      "lemma": "dale",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈdaː.lə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "valley"
+    },
+    "toun": {
+      "med_id": "MED46490",
+      "lemma": "toun",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "tuːn",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "town or vill"
+    },
+    "resoun": {
+      "med_id": "MED37042",
+      "lemma": "resoun",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "re.ˈzuːn",
+      "alt_ipas": [
+        {
+          "ipa": "ˈrɛː.zun",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "rational order or cause"
+    },
+    "renoun": {
+      "med_id": "MED36785",
+      "lemma": "renoun",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "re.ˈnuːn",
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "chivalric fame"
+    },
+    "soun": {
+      "med_id": "MED41955",
+      "lemma": "soun",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "suːn",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "sound or melody"
+    },
+    "lyf": {
+      "med_id": "MED25495",
+      "lemma": "lif",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "liːf",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "life"
+    },
+    "wyf": {
+      "med_id": "MED52650",
+      "lemma": "wif",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "wiːf",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "woman or wife"
+    },
+    "stryf": {
+      "med_id": "MED43420",
+      "lemma": "strif",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "striːf",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "contention or quarrel"
+    },
+    "knyf": {
+      "med_id": "MED24410",
+      "lemma": "knif",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "kniːf",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "sheath-knife"
+    },
+    "lyve": {
+      "med_id": "MED25495",
+      "lemma": "lif",
+      "pos": "N-DAT",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈliː.və",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "in life, alive"
+    },
+    "wyve": {
+      "med_id": "MED52650",
+      "lemma": "wif",
+      "pos": "N-DAT",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwiː.və",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "wife"
+    },
+    "stryve": {
+      "med_id": "MED43435",
+      "lemma": "striven",
+      "pos": "V-INF",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈstriː.və",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "contend"
+    },
+    "governance": {
+      "med_id": "MED19112",
+      "lemma": "governaunce",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1340,
+      "ipa": "ˌgu.vər.ˈnaun.sə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "rule, stewardship, or self-command"
+    },
+    "observance": {
+      "med_id": "MED30122",
+      "lemma": "observaunce",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1375,
+      "ipa": "ˌɔb.zɛr.ˈvaun.sə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "customary rite or homage"
+    },
+    "penance": {
+      "med_id": "MED32810",
+      "lemma": "penaunce",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "pe.ˈnaun.sə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈpɛ.nans",
+          "stress": "10",
+          "cost": 0.15,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "penitential satisfaction"
+    },
+    "chaunce": {
+      "med_id": "MED7325",
+      "lemma": "chaunce",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "ˈtʃaun.sə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "lot, fortune, or hazard"
+    },
+    "pleasance": {
+      "med_id": "MED33690",
+      "lemma": "plesaunce",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1350,
+      "ipa": "ple.ˈzaun.sə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "delight or courtly joy"
+    },
+    "pilgrim": {
+      "med_id": "MED33340",
+      "lemma": "pilgrim",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1200,
+      "ipa": "ˈpil.grim",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "wayfarer to a shrine"
+    },
+    "companye": {
+      "med_id": "MED8685",
+      "lemma": "compaignie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "ˌkum.pa.ˈniː.ə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "fellowship"
+    },
+    "folye": {
+      "med_id": "MED16445",
+      "lemma": "folie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "fɔ.ˈliː.ə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "reckless folly"
+    },
+    "vileynye": {
+      "med_id": "MED51012",
+      "lemma": "vileinie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˌvi.lɛi.ˈniː.ə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "churlish speech or dishonor"
+    },
+    "curteisye": {
+      "med_id": "MED10602",
+      "lemma": "curteisie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˌkur.tɛi.ˈziː.ə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "courtly refinement"
+    },
+    "maistrye": {
+      "med_id": "MED26590",
+      "lemma": "maistrie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "mai.ˈstriː.ə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "sovereignty or craft mastery"
+    },
+    "jalousye": {
+      "med_id": "MED23745",
+      "lemma": "jalousie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "ˌdʒa.lu.ˈziː.ə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "possessive suspicion"
+    },
+    "melodye": {
+      "med_id": "MED27298",
+      "lemma": "melodie",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "ˌmɛ.lɔ.ˈdiː.ə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "measured song"
+    },
+    "host": {
+      "med_id": "MED21285",
+      "lemma": "host(e",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "ɔːst",
+      "stress": "1",
+      "word_class": "content",
+      "weak_h": true,
+      "final_e": "none",
+      "gloss": "innkeeper Harry Bailly"
+    },
+    "worthy": {
+      "med_id": "MED53412",
+      "lemma": "worthi",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1200,
+      "ipa": "ˈwur.ði",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "estimable or distinguished"
+    },
+    "gentil": {
+      "med_id": "MED18405",
+      "lemma": "gentil",
+      "pos": "ADJ",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˈdʒɛn.til",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "noble or generous"
+    },
+    "cherl": {
+      "med_id": "MED7524",
+      "lemma": "cherl",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "tʃɛrl",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "freeman of low estate or churl"
+    },
+    "plough": {
+      "med_id": "MED33790",
+      "lemma": "plough",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1175,
+      "ipa": "pluːx",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "plowshare"
+    },
+    "furwe": {
+      "med_id": "MED18040",
+      "lemma": "furwe",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈfur.wə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "plowed furrow"
+    },
+    "morwe": {
+      "med_id": "MED28490",
+      "lemma": "morwe",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈmɔr.wə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "morning or morrow"
+    },
+    "borwe": {
+      "med_id": "MED5580",
+      "lemma": "borwe",
+      "pos": "N/V",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈbɔr.wə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "pledge or surety"
+    },
+    "bowe": {
+      "med_id": "MED5710",
+      "lemma": "boue",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈbɔu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "yew longbow"
+    },
+    "trowe": {
+      "med_id": "MED47110",
+      "lemma": "trouen",
+      "pos": "V-PRES",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtrɔu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "believe or judge"
+    },
+    "knowe": {
+      "med_id": "MED24460",
+      "lemma": "knouen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈknɔu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "know or discern"
+    },
+    "lowe": {
+      "med_id": "MED26210",
+      "lemma": "loue",
+      "pos": "ADJ/ADV",
+      "etymon": "ON",
+      "earliest_year": 1175,
+      "ipa": "ˈlɔu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "humble or softly"
+    },
+    "grene": {
+      "med_id": "MED19370",
+      "lemma": "grene",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈgreː.nə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological",
+      "gloss": "forest green"
+    },
+    "sene": {
+      "med_id": "MED39260",
+      "lemma": "sene",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈseː.nə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological",
+      "gloss": "manifest or visible"
+    },
+    "quene": {
+      "med_id": "MED35520",
+      "lemma": "quene",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈkweː.nə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "close_e",
+      "final_e": "etymological",
+      "gloss": "queen"
+    },
+    "clene": {
+      "med_id": "MED7980",
+      "lemma": "clene",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈklɛː.nə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "etymological",
+      "gloss": "pure or unblemished"
+    },
+    "mene": {
+      "med_id": "MED27380",
+      "lemma": "menen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈmɛː.nə",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_e",
+      "final_e": "inflectional",
+      "gloss": "signify or intend"
+    },
+    "fortune": {
+      "med_id": "MED17290",
+      "lemma": "fortune",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1300,
+      "ipa": "fɔr.ˈtiu.nə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈfɔr.tun",
+          "stress": "10",
+          "cost": 0.12,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "Lady Fortune's wheel"
+    },
+    "comune": {
+      "med_id": "MED8790",
+      "lemma": "commune",
+      "pos": "ADJ/N",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "kɔ.ˈmiu.nə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "shared commonwealth"
+    },
+    "sentence": {
+      "med_id": "MED39512",
+      "lemma": "sentence",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "sɛn.ˈtɛn.sə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "moral substance or meaning"
+    },
+    "prudence": {
+      "med_id": "MED35012",
+      "lemma": "prudence",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1340,
+      "ipa": "pru.ˈdɛn.sə",
+      "stress": "010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "practical wisdom"
+    },
+    "pacience": {
+      "med_id": "MED32190",
+      "lemma": "pacience",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˌpa.si.ˈɛn.sə",
+      "alt_ipas": [
+        {
+          "ipa": "ˈpaː.sjɛns",
+          "stress": "10",
+          "cost": 0.15,
+          "note": "synaeresis"
+        }
+      ],
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "long-suffering endurance"
+    },
+    "conscience": {
+      "med_id": "MED9340",
+      "lemma": "conscience",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "ˌkɔn.si.ˈɛn.sə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "inward moral witness"
+    },
+    "reverence": {
+      "med_id": "MED37210",
+      "lemma": "reverence",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1290,
+      "ipa": "ˌrɛ.və.ˈrɛn.sə",
+      "stress": "2010",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "due honor"
+    },
+    "solaas": {
+      "med_id": "MED41510",
+      "lemma": "solas",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "sɔ.ˈlaːs",
+      "alt_ipas": [
+        {
+          "ipa": "ˈsɔː.las",
+          "stress": "10",
+          "cost": 0.1,
+          "note": "initial_stress"
+        }
+      ],
+      "stress": "01",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "mirth, pleasure, or refreshment"
+    },
+    "caas": {
+      "med_id": "MED6910",
+      "lemma": "cas",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1225,
+      "ipa": "kaːs",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "chance, plight, or legal case"
+    },
+    "paas": {
+      "med_id": "MED32550",
+      "lemma": "pas",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1250,
+      "ipa": "paːs",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "ambling riding pace"
+    },
+    "trewe": {
+      "med_id": "MED46950",
+      "lemma": "treue",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtriu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "steadfast and faithful"
+    },
+    "newe": {
+      "med_id": "MED29430",
+      "lemma": "neue",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈniu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "fresh or newfound"
+    },
+    "hewe": {
+      "med_id": "MED20712",
+      "lemma": "heu",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈhiu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "complexion or dye-color"
+    },
+    "rewe": {
+      "med_id": "MED37250",
+      "lemma": "reuen",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈriu.ə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "pity or repent"
+    },
+    "craft": {
+      "med_id": "MED10190",
+      "lemma": "craft",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "kraft",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "guild trade or cunning skill"
+    },
+    "shaft": {
+      "med_id": "MED39680",
+      "lemma": "shaft",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ʃaft",
+      "stress": "1",
+      "word_class": "content",
+      "final_e": "none",
+      "gloss": "fletched arrow-shaft"
+    },
+    "gilde": {
+      "med_id": "MED18560",
+      "lemma": "gilde",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈgil.də",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "fraternity or craft guild"
+    },
+    "bilde": {
+      "med_id": "MED4910",
+      "lemma": "bilden",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈbil.də",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "inflectional",
+      "gloss": "frame in timber or stone"
+    },
+    "wilde": {
+      "med_id": "MED52710",
+      "lemma": "wilde",
+      "pos": "ADJ",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈwiːl.də",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "untamed or woodland"
+    },
+    "olde": {
+      "med_id": "MED30450",
+      "lemma": "old",
+      "pos": "ADJ-WK",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈɔːl.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "inflectional",
+      "gloss": "ancient or time-honored"
+    },
+    "tolde": {
+      "med_id": "MED44755",
+      "lemma": "tellen",
+      "pos": "V-PRET",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtɔːl.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "inflectional",
+      "gloss": "recounted"
+    },
+    "holde": {
+      "med_id": "MED21010",
+      "lemma": "holden",
+      "pos": "V-INF",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈhɔːl.də",
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "inflectional",
+      "gloss": "keep or uphold"
+    },
+    "golde": {
+      "med_id": "MED18995",
+      "lemma": "gold",
+      "pos": "N-DAT",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈgɔːl.də",
+      "alt_ipas": [
+        {
+          "ipa": "ˈgoːl.də",
+          "stress": "10",
+          "cost": 0.12,
+          "note": "lengthened_close"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "vowel_quality": "open_o",
+      "final_e": "inflectional",
+      "gloss": "refined gold"
+    },
+    "tyme": {
+      "med_id": "MED45710",
+      "lemma": "time",
+      "pos": "N",
+      "etymon": "OE",
+      "earliest_year": 1150,
+      "ipa": "ˈtiː.mə",
+      "alt_ipas": [
+        {
+          "ipa": "tiːm",
+          "stress": "1",
+          "cost": 0.12,
+          "note": "apocope"
+        }
+      ],
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "optional_apocope",
+      "gloss": "appointed hour or season"
+    },
+    "ryme": {
+      "med_id": "MED37510",
+      "lemma": "rim",
+      "pos": "N/V",
+      "etymon": "OF",
+      "earliest_year": 1200,
+      "ipa": "ˈriː.mə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "measured verse rhyme"
+    },
+    "pryme": {
+      "med_id": "MED34720",
+      "lemma": "prime",
+      "pos": "N",
+      "etymon": "OF",
+      "earliest_year": 1200,
+      "ipa": "ˈpriː.mə",
+      "stress": "10",
+      "word_class": "content",
+      "final_e": "etymological",
+      "gloss": "first canonical hour (6–9 AM)"
+    }
   }
 }

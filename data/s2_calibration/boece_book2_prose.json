@@ -1,0 +1,16 @@
+{
+  "work_id": "BOECE_B2_PR1",
+  "title": "Boece, Book II, Prosa 1 (Fortune & Governance)",
+  "author": "Geoffrey Chaucer",
+  "date_composed": 1382,
+  "stratum": "S2",
+  "holdout_status": "calibration_allowed_non_canterbury",
+  "source_url": "https://quod.lib.umich.edu/c/cme/",
+  "metrical_form": "cadenced_prose",
+  "clauses": [
+    "After this she stynte a litel, and whan she haddeygadred by atempre stille myn attencioun, she seyde thus.",
+    "If I have understonden and knowen outrely the causes and the habyt of thy maladye, thow languyssest and art defeted for desir and talent of thy rather fortune.",
+    "Thow wenest that fortune be chaunged ayens thee; but thow wenest wrong, yif thou that wene: alwey tho ben hir maneres.",
+    "She hath rather kept as to the-ward hir propre stablenesse in the chaungynge of hirself."
+  ]
+}

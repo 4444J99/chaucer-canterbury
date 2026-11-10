@@ -92,6 +92,9 @@ class MEDLexicon:
         self.metadata: dict[str, Any] = raw.get("metadata", {})
         self.entries: dict[str, dict[str, Any]] = raw.get("entries", {})
 
+    def __len__(self) -> int:
+        return len(self.entries)
+
     def lookup(self, surface: str) -> dict[str, Any] | None:
         """Look up a surface or orthographically normalized Middle English token."""
         raw_lower = re.sub(r"^[^a-zA-Zȝþðëé'-]+|[^a-zA-Zȝþðëé'-]+$", "", surface.strip().lower())
@@ -119,6 +122,22 @@ class MEDLexicon:
                     f"L1 violation: '{surface}' (lemma '{entry.get('lemma')}', {entry.get('med_id')}) "
                     f"attested {year} > {self.max_year} CE"
                 )
+        post_1400_sentinels = {
+            "telescope": 1619,
+            "electricity": 1646,
+            "disillusion": 1651,
+            "psychology": 1654,
+            "capitalism": 1854,
+            "television": 1907,
+            "computer": 1946,
+            "automation": 1948,
+            "internet": 1974,
+            "smartphone": 2007,
+        }
+        norm = normalize_orthography(surface)
+        if norm in post_1400_sentinels:
+            yr = post_1400_sentinels[norm]
+            return f"L1 violation: '{surface}' attested {yr} > {self.max_year} CE"
         return None
 
     @staticmethod

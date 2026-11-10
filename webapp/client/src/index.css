@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ARCHIVAL VELLUM & IRON-GALL LIGHT MODE */
+:root {
+  --button-outline: rgba(30, 27, 24, 0.12);
+  --badge-outline: rgba(30, 27, 24, 0.08);
+  --opaque-button-border-intensity: -8;
+  --elevate-1: rgba(30, 27, 24, 0.035);
+  --elevate-2: rgba(30, 27, 24, 0.075);
+
+  --background: 40 31% 95%;
+  --foreground: 30 14% 11%;
+  --border: 36 20% 84%;
+
+  --card: 42 42% 97.5%;
+  --card-foreground: 30 14% 11%;
+  --card-border: 36 22% 87%;
+
+  --sidebar: 39 27% 92.5%;
+  --sidebar-foreground: 30 14% 12%;
+  --sidebar-border: 36 20% 83%;
+  --sidebar-primary: 358 58% 38%;
+  --sidebar-primary-foreground: 42 45% 98%;
+  --sidebar-accent: 38 24% 87%;
+  --sidebar-accent-foreground: 30 14% 11%;
+  --sidebar-ring: 358 58% 38%;
+
+  --popover: 42 42% 97.5%;
+  --popover-foreground: 30 14% 11%;
+  --popover-border: 36 20% 84%;
+
+  /* Ellesmere Rubricated Vermilion */
+  --primary: 358 58% 38%;
+  --primary-foreground: 42 45% 98%;
+
+  --secondary: 38 23% 89%;
+  --secondary-foreground: 30 14% 14%;
+
+  --muted: 38 22% 90%;
+  --muted-foreground: 32 10% 36%;
+
+  --accent: 206 32% 90%;
+  --accent-foreground: 206 54% 20%;
+
+  --destructive: 0 72% 40%;
+  --destructive-foreground: 42 45% 98%;
+
+  --input: 36 18% 76%;
+  --ring: 358 58% 38%;
+
+  /* Chart & Analytical Series: Vermilion, Ultramarine, Verdigris, Ochre, Plum */
+  --chart-1: 358 58% 38%;
+  --chart-2: 206 54% 31%;
+  --chart-3: 154 44% 29%;
+  --chart-4: 36 74% 41%;
+  --chart-5: 278 34% 38%;
+
+  --font-sans: "Satoshi", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --radius: 0.45rem;
+  --spacing: 0.25rem;
+}
+
+/* SCRIPTORIUM WALNUT & PARCHMENT DARK MODE */
+.dark {
+  --button-outline: rgba(237, 231, 220, 0.14);
+  --badge-outline: rgba(237, 231, 220, 0.08);
+  --opaque-button-border-intensity: 9;
+  --elevate-1: rgba(237, 231, 220, 0.045);
+  --elevate-2: rgba(237, 231, 220, 0.09);
+
+  --background: 28 14% 8%;
+  --foreground: 39 28% 91%;
+  --border: 30 12% 18%;
+
+  --card: 28 13% 11%;
+  --card-foreground: 39 28% 91%;
+  --card-border: 30 12% 16%;
+
+  --sidebar: 28 15% 9.5%;
+  --sidebar-foreground: 39 26% 90%;
+  --sidebar-border: 30 12% 16%;
+  --sidebar-primary: 2 62% 61%;
+  --sidebar-primary-foreground: 28 14% 8%;
+  --sidebar-accent: 28 12% 15.5%;
+  --sidebar-accent-foreground: 39 28% 92%;
+  --sidebar-ring: 2 62% 61%;
+
+  --popover: 28 13% 12%;
+  --popover-foreground: 39 28% 91%;
+  --popover-border: 30 12% 19%;
+
+  --primary: 2 62% 61%;
+  --primary-foreground: 28 14% 8%;
+
+  --secondary: 28 12% 16%;
+  --secondary-foreground: 39 26% 90%;
+
+  --muted: 28 11% 15%;
+  --muted-foreground: 35 12% 64%;
+
+  --accent: 206 32% 18%;
+  --accent-foreground: 206 60% 82%;
+
+  --destructive: 0 68% 54%;
+  --destructive-foreground: 39 28% 96%;
+
+  --input: 30 12% 25%;
+  --ring: 2 62% 61%;
+
+  --chart-1: 2 64% 62%;
+  --chart-2: 206 62% 63%;
+  --chart-3: 154 48% 54%;
+  --chart-4: 38 78% 60%;
+  --chart-5: 278 48% 66%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground selection:bg-primary/15 selection:text-foreground;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Enforce upright roman everywhere — never render italics */
+  em, i {
+    font-style: normal;
+  }
+}
+
+@layer utilities {
+  .num-tabular {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+}

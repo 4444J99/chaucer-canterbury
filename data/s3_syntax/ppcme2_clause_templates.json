@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "stratum": "S3",
+    "corpus_basis": "Penn-Helsinki Parsed Corpus of Middle English, 2nd ed. (PPCME2)",
+    "source_url": "https://varieng.helsinki.fi/CoRD/corpora/PPCME2/",
+    "v2_reference_url": "https://www.ling.upenn.edu/~kroch/omev2-html/node18.html"
+  },
+  "empirical_targets": {
+    "v2_nominal_inversion_rate": 0.68,
+    "v2_pronominal_inversion_rate": 0.34,
+    "negative_concord_rate": 0.84,
+    "subjunctive_final_e_retention": 0.91,
+    "hypotaxis_high_style_rate": 0.62,
+    "parataxis_fabliau_rate": 0.71
+  },
+  "constructions": [
+    {
+      "id": "C_V2_THUS",
+      "name": "Topicalized Adverbial V2 Inversion",
+      "ppcme2_label": "(IP-MAT (ADVP-TMP) (VBD/MD) (NP-SBJ) ...)",
+      "description": "Fronted temporal/manner adverb triggers finite verb inversion before subject.",
+      "register": "universal",
+      "frames": [
+        "Ther-fore moot {subj} {vp}",
+        "Thanne wolde {subj} {vp}",
+        "In olde dayes hadde {subj} {np}",
+        "Now shal {subj} {vp}",
+        "So gan {subj} {vp}"
+      ]
+    },
+    {
+      "id": "C_NEG_CONCORD",
+      "name": "Bipartite / Multipartite Negative Concord",
+      "ppcme2_label": "(IP-MAT (NP-SBJ) (NEG ne) (VBP) (ADVP nat/nevere) ...)",
+      "description": "Preverbal clitic 'ne' reinforced by postverbal 'nat', 'nevere', or 'no'.",
+      "register": "universal",
+      "frames": [
+        "Ne wolde {subj} nat {vp}",
+        "{subj} ne may no bettre {vp}",
+        "Ther nas no {noun} in al that {place}",
+        "Ne saugh {subj} nevere swich a {noun}"
+      ]
+    },
+    {
+      "id": "C_HYPOTACTIC_WHAN",
+      "name": "Correlative Temporal-Causal Subordination ('Whan that ... thanne')",
+      "ppcme2_label": "(IP-MAT (PP (P Whan) (CP-ADV (C that) ...)) (ADVP thanne) ...)",
+      "description": "Subordinate complementizer 'that' appended to wh-/prepositional heads.",
+      "register": "high_or_clerical",
+      "frames": [
+        "Whan that {clause_a}, thanne {clause_b}",
+        "Sith that {clause_a}, yet moot {clause_b}",
+        "Al be it that {clause_a}, natheles {clause_b}"
+      ]
+    },
+    {
+      "id": "C_AUCTORITAS_TAG",
+      "name": "Scholastic Compilatio Source Attribution",
+      "ppcme2_label": "(IP-MAT-PRN (PP As) (VBP seith) (NP-SBJ min auctour))",
+      "description": "Explicit delegation to pre-1400 auctoritas per Minnis compilatio model.",
+      "register": "clerical_or_narratorial",
+      "frames": [
+        "As writ min auctour in his olde boke",
+        "Right as the wise clerkes han devysed",
+        "For in olde stories may ye rede",
+        "As Boece techeth in his sentence"
+      ]
+    },
+    {
+      "id": "C_NORTHERN_CHURL_SWITCH",
+      "name": "Northern Regional Phonological & Morphological Shift",
+      "ppcme2_label": "(DIALECT-NORTH /a:/, ik, -es 3SG/PL)",
+      "description": "Unrounded OE /a:/ ('gaan', 'staan', 'ham'), pronoun 'ik', and '-es' verb ending.",
+      "register": "northern_regional",
+      "frames": [
+        "Ik sal now gaan right til that ilk place",
+        "Bi Goddes sale, naan bettre may ik wirke",
+        "Out at the kirke dore he gath anoon"
+      ]
+    }
+  ]
+}

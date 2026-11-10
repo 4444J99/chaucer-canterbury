@@ -1,0 +1,1775 @@
+{
+  "metadata": {
+    "count": 30,
+    "description": "All 30 General Prologue pilgrims parameterized solely by estate, sociolect, pragmatics, and quiting couplings (zero pre-assigned plots).",
+    "source_url": "https://chaucer.fas.harvard.edu/summary-framing-narrative"
+  },
+  "route_segments": [
+    {
+      "stage": 0,
+      "name": "Southwark \u2014 Tabard Inn",
+      "mile": 0,
+      "time_of_day": "Day 1 Dawn"
+    },
+    {
+      "stage": 1,
+      "name": "St Thomas-a-Watering",
+      "mile": 2,
+      "time_of_day": "Day 1 Prime"
+    },
+    {
+      "stage": 2,
+      "name": "Deptford & Greenwich",
+      "mile": 5,
+      "time_of_day": "Day 1 Mid-Morning"
+    },
+    {
+      "stage": 3,
+      "name": "Dartford Crossing",
+      "mile": 15,
+      "time_of_day": "Day 1 Afternoon"
+    },
+    {
+      "stage": 4,
+      "name": "Rochester Bridge & Medway",
+      "mile": 30,
+      "time_of_day": "Day 2 Morning"
+    },
+    {
+      "stage": 5,
+      "name": "Sittingbourne",
+      "mile": 40,
+      "time_of_day": "Day 2 Afternoon"
+    },
+    {
+      "stage": 6,
+      "name": "Ospringe Hostelry",
+      "mile": 46,
+      "time_of_day": "Day 3 Morning"
+    },
+    {
+      "stage": 7,
+      "name": "Boughton-under-Blean",
+      "mile": 51,
+      "time_of_day": "Day 3 Midday"
+    },
+    {
+      "stage": 8,
+      "name": "Canterbury \u2014 Shrine of St Thomas",
+      "mile": 56,
+      "time_of_day": "Day 3 Vespers"
+    },
+    {
+      "stage": 9,
+      "name": "Return Road toward Southwark",
+      "mile": 72,
+      "time_of_day": "Return Leg"
+    }
+  ],
+  "pilgrims": [
+    {
+      "id": "knight",
+      "name": "The Knight",
+      "role_title": "Chivalric Crusading Banneret",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.95,
+        "oratores": 0.15,
+        "laboratores": 0.0,
+        "urban_guild": 0.0
+      },
+      "dialect_profile": {
+        "base_region": "london_courtly",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.48,
+        "latin_liturgical_tag_rate": 0.05
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.88,
+        "irony_capacity": 0.3,
+        "self_justification_drive": 0.15,
+        "disinhibition": 0.12
+      },
+      "thematic_sensitivities": {
+        "chivalric_order": 0.95,
+        "fortune_and_providence": 0.85,
+        "churlish_disorder": -0.8
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet",
+          "rhyme_royal_ababbcc"
+        ],
+        "metrical_regularity_target": 0.96,
+        "syntax_complexity_ceiling": 0.85
+      },
+      "social_couplings": {
+        "allies": [
+          "squire",
+          "yeoman",
+          "franklin",
+          "parson"
+        ],
+        "natural_antagonists": [
+          "miller",
+          "cook"
+        ]
+      },
+      "occupational_lexicon": [
+        "honour",
+        "renoun",
+        "governance",
+        "fortune",
+        "knyght",
+        "servise"
+      ],
+      "signature_oath": "by my trouthe"
+    },
+    {
+      "id": "squire",
+      "name": "The Squire",
+      "role_title": "Courtly Aspirant & Lover-Bachelor",
+      "manuscript_status": "interrupted",
+      "estate_vector": {
+        "bellatores": 0.85,
+        "oratores": 0.05,
+        "laboratores": 0.0,
+        "urban_guild": 0.05
+      },
+      "dialect_profile": {
+        "base_region": "london_courtly",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.52,
+        "latin_liturgical_tag_rate": 0.02
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.82,
+        "irony_capacity": 0.25,
+        "self_justification_drive": 0.35,
+        "disinhibition": 0.28
+      },
+      "thematic_sensitivities": {
+        "fin_amor": 0.95,
+        "marvels_and_courtesy": 0.9,
+        "mercantile_cynicism": -0.55
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.93,
+        "syntax_complexity_ceiling": 0.78
+      },
+      "social_couplings": {
+        "allies": [
+          "knight",
+          "franklin"
+        ],
+        "natural_antagonists": [
+          "merchant",
+          "miller"
+        ]
+      },
+      "occupational_lexicon": [
+        "curteisye",
+        "pleasance",
+        "servise",
+        "melodye",
+        "flour",
+        "grace"
+      ],
+      "signature_oath": "by seint John"
+    },
+    {
+      "id": "yeoman",
+      "name": "The Yeoman",
+      "role_title": "Forester & Master Bowyer",
+      "manuscript_status": "silent_uncompleted",
+      "estate_vector": {
+        "bellatores": 0.45,
+        "oratores": 0.05,
+        "laboratores": 0.65,
+        "urban_guild": 0.2
+      },
+      "dialect_profile": {
+        "base_region": "east_midland_woodland",
+        "northernism_rate": 0.06,
+        "french_prestige_ceiling": 0.2,
+        "latin_liturgical_tag_rate": 0.01
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.68,
+        "irony_capacity": 0.22,
+        "self_justification_drive": 0.18,
+        "disinhibition": 0.3
+      },
+      "thematic_sensitivities": {
+        "woodcraft_and_venery": 0.95,
+        "feudal_loyalty": 0.8,
+        "poaching_and_sloth": -0.75
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.91,
+        "syntax_complexity_ceiling": 0.52
+      },
+      "social_couplings": {
+        "allies": [
+          "knight",
+          "squire",
+          "plowman"
+        ],
+        "natural_antagonists": [
+          "summoner",
+          "manciple",
+          "reeve"
+        ]
+      },
+      "occupational_lexicon": [
+        "bowe",
+        "shaft",
+        "grene",
+        "craft",
+        "wilde",
+        "trace"
+      ],
+      "signature_oath": "by seint Cristofre"
+    },
+    {
+      "id": "prioress",
+      "name": "Madame Eglentyne (The Prioress)",
+      "role_title": "Conventual Superior",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.35,
+        "oratores": 0.85,
+        "laboratores": 0.0,
+        "urban_guild": 0.1
+      },
+      "dialect_profile": {
+        "base_region": "stratford_atte_bowe_anglo_norman",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.46,
+        "latin_liturgical_tag_rate": 0.22
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.94,
+        "irony_capacity": 0.2,
+        "self_justification_drive": 0.45,
+        "disinhibition": 0.1
+      },
+      "thematic_sensitivities": {
+        "marian_pity": 0.96,
+        "courtly_table_manners": 0.85,
+        "ribaldry": -0.95
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "rhyme_royal_ababbcc"
+        ],
+        "metrical_regularity_target": 0.97,
+        "syntax_complexity_ceiling": 0.74
+      },
+      "social_couplings": {
+        "allies": [
+          "second_nun",
+          "nuns_priest",
+          "monk"
+        ],
+        "natural_antagonists": [
+          "miller",
+          "wife_of_bath",
+          "summoner"
+        ]
+      },
+      "occupational_lexicon": [
+        "reverence",
+        "pitous",
+        "grace",
+        "conscience",
+        "chere",
+        "servise"
+      ],
+      "signature_oath": "by seint Loy"
+    },
+    {
+      "id": "second_nun",
+      "name": "The Second Nun",
+      "role_title": "Choir Nun & Hagiographer",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.05,
+        "oratores": 0.95,
+        "laboratores": 0.05,
+        "urban_guild": 0.0
+      },
+      "dialect_profile": {
+        "base_region": "london_clerical",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.4,
+        "latin_liturgical_tag_rate": 0.28
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.88,
+        "irony_capacity": 0.12,
+        "self_justification_drive": 0.1,
+        "disinhibition": 0.08
+      },
+      "thematic_sensitivities": {
+        "martyrdom_and_work": 0.95,
+        "idleness": -0.9,
+        "simony": -0.75
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "rhyme_royal_ababbcc"
+        ],
+        "metrical_regularity_target": 0.97,
+        "syntax_complexity_ceiling": 0.8
+      },
+      "social_couplings": {
+        "allies": [
+          "prioress",
+          "parson",
+          "clerk"
+        ],
+        "natural_antagonists": [
+          "pardoner",
+          "summoner"
+        ]
+      },
+      "occupational_lexicon": [
+        "servise",
+        "grace",
+        "coroune",
+        "entente",
+        "clene",
+        "sentence"
+      ],
+      "signature_oath": "for Cristes love"
+    },
+    {
+      "id": "nuns_priest",
+      "name": "Sir John (The Nun's Priest)",
+      "role_title": "Conventual Confessor & Rhetorician",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.05,
+        "oratores": 0.85,
+        "laboratores": 0.15,
+        "urban_guild": 0.1
+      },
+      "dialect_profile": {
+        "base_region": "london_clerical",
+        "northernism_rate": 0.02,
+        "french_prestige_ceiling": 0.42,
+        "latin_liturgical_tag_rate": 0.24
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.76,
+        "irony_capacity": 0.94,
+        "self_justification_drive": 0.3,
+        "disinhibition": 0.42
+      },
+      "thematic_sensitivities": {
+        "flattery_and_predestination": 0.9,
+        "mock_heroic_irony": 0.95,
+        "pomposity": -0.8
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.96,
+        "syntax_complexity_ceiling": 0.86
+      },
+      "social_couplings": {
+        "allies": [
+          "prioress",
+          "clerk",
+          "chaucer_pilgrim"
+        ],
+        "natural_antagonists": [
+          "monk",
+          "wife_of_bath"
+        ]
+      },
+      "occupational_lexicon": [
+        "auctour",
+        "fortune",
+        "sentence",
+        "solaas",
+        "resoun",
+        "chaunce"
+      ],
+      "signature_oath": "by my fader soule"
+    },
+    {
+      "id": "monk",
+      "name": "Daun Piers (The Monk)",
+      "role_title": "Outrider Cellarer & Hunting Prelate",
+      "manuscript_status": "interrupted",
+      "estate_vector": {
+        "bellatores": 0.45,
+        "oratores": 0.75,
+        "laboratores": 0.0,
+        "urban_guild": 0.15
+      },
+      "dialect_profile": {
+        "base_region": "london_prelatical",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.45,
+        "latin_liturgical_tag_rate": 0.2
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.82,
+        "irony_capacity": 0.25,
+        "self_justification_drive": 0.65,
+        "disinhibition": 0.32
+      },
+      "thematic_sensitivities": {
+        "tragic_de_casibus_fortune": 0.92,
+        "claustral_austere_rule": -0.75,
+        "host_mockery": -0.8
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "rhyme_royal_ababbcc"
+        ],
+        "metrical_regularity_target": 0.95,
+        "syntax_complexity_ceiling": 0.8
+      },
+      "social_couplings": {
+        "allies": [
+          "prioress",
+          "franklin",
+          "man_of_law"
+        ],
+        "natural_antagonists": [
+          "harry_bailly",
+          "knight",
+          "nuns_priest"
+        ]
+      },
+      "occupational_lexicon": [
+        "fortune",
+        "torment",
+        "renoun",
+        "chaunce",
+        "bale",
+        "honour"
+      ],
+      "signature_oath": "by seint Edward"
+    },
+    {
+      "id": "friar",
+      "name": "Huberd (The Friar)",
+      "role_title": "Mendicant Limitour",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.1,
+        "oratores": 0.78,
+        "laboratores": 0.05,
+        "urban_guild": 0.35
+      },
+      "dialect_profile": {
+        "base_region": "london_mendicant_lisping",
+        "northernism_rate": 0.02,
+        "french_prestige_ceiling": 0.42,
+        "latin_liturgical_tag_rate": 0.18
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.75,
+        "irony_capacity": 0.82,
+        "self_justification_drive": 0.8,
+        "disinhibition": 0.68
+      },
+      "thematic_sensitivities": {
+        "ecclesiastical_court_extortion": 0.95,
+        "mendicant_privilege": 0.88,
+        "summoner_corruption": 0.98
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.94,
+        "syntax_complexity_ceiling": 0.72
+      },
+      "social_couplings": {
+        "allies": [
+          "merchant",
+          "franklin"
+        ],
+        "natural_antagonists": [
+          "summoner",
+          "wife_of_bath",
+          "parson"
+        ]
+      },
+      "occupational_lexicon": [
+        "penance",
+        "rente",
+        "jugement",
+        "plesaunce",
+        "silver",
+        "grace"
+      ],
+      "signature_oath": "by seint Jame"
+    },
+    {
+      "id": "merchant",
+      "name": "The Merchant",
+      "role_title": "Flemish Wool & Exchange Stapler",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.15,
+        "oratores": 0.05,
+        "laboratores": 0.0,
+        "urban_guild": 0.95
+      },
+      "dialect_profile": {
+        "base_region": "london_mercantile",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.44,
+        "latin_liturgical_tag_rate": 0.06
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.8,
+        "irony_capacity": 0.88,
+        "self_justification_drive": 0.82,
+        "disinhibition": 0.55
+      },
+      "thematic_sensitivities": {
+        "mercantile_credit": 0.9,
+        "marital_disillusionment": 0.96,
+        "naive_idealism": -0.88
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.94,
+        "syntax_complexity_ceiling": 0.78
+      },
+      "social_couplings": {
+        "allies": [
+          "man_of_law",
+          "franklin",
+          "haberdasher"
+        ],
+        "natural_antagonists": [
+          "wife_of_bath",
+          "squire",
+          "clerk"
+        ]
+      },
+      "occupational_lexicon": [
+        "rente",
+        "chaunce",
+        "jalousye",
+        "governance",
+        "prudence",
+        "plesaunce"
+      ],
+      "signature_oath": "by seint Thomas of Ynde"
+    },
+    {
+      "id": "clerk",
+      "name": "The Clerk of Oxenford",
+      "role_title": "University Logician & Moral Philosopher",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.92,
+        "laboratores": 0.05,
+        "urban_guild": 0.05
+      },
+      "dialect_profile": {
+        "base_region": "oxford_east_midland",
+        "northernism_rate": 0.01,
+        "french_prestige_ceiling": 0.46,
+        "latin_liturgical_tag_rate": 0.3
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.86,
+        "irony_capacity": 0.78,
+        "self_justification_drive": 0.2,
+        "disinhibition": 0.18
+      },
+      "thematic_sensitivities": {
+        "patient_virtue": 0.95,
+        "female_maistrye_debate": 0.9,
+        "worldly_avarice": -0.85
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "rhyme_royal_ababbcc",
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.98,
+        "syntax_complexity_ceiling": 0.9
+      },
+      "social_couplings": {
+        "allies": [
+          "parson",
+          "second_nun",
+          "nuns_priest"
+        ],
+        "natural_antagonists": [
+          "wife_of_bath",
+          "merchant",
+          "miller"
+        ]
+      },
+      "occupational_lexicon": [
+        "pacience",
+        "sentence",
+        "auctour",
+        "resoun",
+        "reverence",
+        "preve"
+      ],
+      "signature_oath": "by seint Jame"
+    },
+    {
+      "id": "man_of_law",
+      "name": "The Sergeant of the Lawe",
+      "role_title": "Justice of Assize & Conveyancer",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.3,
+        "oratores": 0.15,
+        "laboratores": 0.0,
+        "urban_guild": 0.85
+      },
+      "dialect_profile": {
+        "base_region": "westminster_legal",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.54,
+        "latin_liturgical_tag_rate": 0.16
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.9,
+        "irony_capacity": 0.4,
+        "self_justification_drive": 0.65,
+        "disinhibition": 0.22
+      },
+      "thematic_sensitivities": {
+        "providential_law_and_constancy": 0.95,
+        "incest_and_disorder": -0.9,
+        "poverty": -0.75
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "rhyme_royal_ababbcc"
+        ],
+        "metrical_regularity_target": 0.96,
+        "syntax_complexity_ceiling": 0.88
+      },
+      "social_couplings": {
+        "allies": [
+          "franklin",
+          "merchant",
+          "knight"
+        ],
+        "natural_antagonists": [
+          "shipman",
+          "parson"
+        ]
+      },
+      "occupational_lexicon": [
+        "justise",
+        "jugement",
+        "caas",
+        "governance",
+        "assent",
+        "fortune"
+      ],
+      "signature_oath": "depardieux"
+    },
+    {
+      "id": "franklin",
+      "name": "The Franklin",
+      "role_title": "Country Vavasour & Epicurean Householder",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.55,
+        "oratores": 0.05,
+        "laboratores": 0.2,
+        "urban_guild": 0.65
+      },
+      "dialect_profile": {
+        "base_region": "southern_gentry",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.44,
+        "latin_liturgical_tag_rate": 0.04
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.85,
+        "irony_capacity": 0.5,
+        "self_justification_drive": 0.55,
+        "disinhibition": 0.28
+      },
+      "thematic_sensitivities": {
+        "gentillesse_and_trouthe": 0.96,
+        "marital_forbearance": 0.92,
+        "tyrannical_maistrye": -0.85
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.95,
+        "syntax_complexity_ceiling": 0.78
+      },
+      "social_couplings": {
+        "allies": [
+          "man_of_law",
+          "knight",
+          "squire"
+        ],
+        "natural_antagonists": [
+          "merchant",
+          "pardoner"
+        ]
+      },
+      "occupational_lexicon": [
+        "gentil",
+        "curteisye",
+        "trewe",
+        "pleasance",
+        "honour",
+        "grace"
+      ],
+      "signature_oath": "by my trouthe"
+    },
+    {
+      "id": "haberdasher",
+      "name": "The Haberdasher",
+      "role_title": "London Small-Wares Guildsman & Aldermanic Burghess",
+      "manuscript_status": "silent_uncompleted",
+      "estate_vector": {
+        "bellatores": 0.05,
+        "oratores": 0.05,
+        "laboratores": 0.1,
+        "urban_guild": 0.95
+      },
+      "dialect_profile": {
+        "base_region": "london_guildhall",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.36,
+        "latin_liturgical_tag_rate": 0.03
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.78,
+        "irony_capacity": 0.35,
+        "self_justification_drive": 0.55,
+        "disinhibition": 0.25
+      },
+      "thematic_sensitivities": {
+        "civic_dignity_and_credit": 0.92,
+        "apprentice_riot": -0.85,
+        "guild_fraternity": 0.9
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.92,
+        "syntax_complexity_ceiling": 0.64
+      },
+      "social_couplings": {
+        "allies": [
+          "carpenter",
+          "weaver",
+          "dyer",
+          "tapestry_maker",
+          "merchant"
+        ],
+        "natural_antagonists": [
+          "cook",
+          "miller"
+        ]
+      },
+      "occupational_lexicon": [
+        "gilde",
+        "craft",
+        "toun",
+        "assent",
+        "rente",
+        "wise"
+      ],
+      "signature_oath": "by seint Poules"
+    },
+    {
+      "id": "carpenter",
+      "name": "The London Carpenter",
+      "role_title": "Master Timber-Framer & Guildsman",
+      "manuscript_status": "silent_uncompleted",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.05,
+        "laboratores": 0.35,
+        "urban_guild": 0.9
+      },
+      "dialect_profile": {
+        "base_region": "london_guildhall",
+        "northernism_rate": 0.02,
+        "french_prestige_ceiling": 0.28,
+        "latin_liturgical_tag_rate": 0.02
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.72,
+        "irony_capacity": 0.32,
+        "self_justification_drive": 0.68,
+        "disinhibition": 0.45
+      },
+      "thematic_sensitivities": {
+        "carpenter_slander_rebuttal": 0.98,
+        "honest_joinery": 0.9,
+        "clerical_cuckoldry_jokes": -0.98
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.91,
+        "syntax_complexity_ceiling": 0.58
+      },
+      "social_couplings": {
+        "allies": [
+          "reeve",
+          "haberdasher",
+          "weaver",
+          "dyer",
+          "tapestry_maker"
+        ],
+        "natural_antagonists": [
+          "miller",
+          "cook",
+          "clerk"
+        ]
+      },
+      "occupational_lexicon": [
+        "bilde",
+        "craft",
+        "gilde",
+        "trewe",
+        "labour",
+        "right"
+      ],
+      "signature_oath": "by seint Joseph"
+    },
+    {
+      "id": "weaver",
+      "name": "The Weaver",
+      "role_title": "Cloth-Loom Mystery Guildsman",
+      "manuscript_status": "silent_uncompleted",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.05,
+        "laboratores": 0.3,
+        "urban_guild": 0.92
+      },
+      "dialect_profile": {
+        "base_region": "london_guildhall",
+        "northernism_rate": 0.01,
+        "french_prestige_ceiling": 0.3,
+        "latin_liturgical_tag_rate": 0.02
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.74,
+        "irony_capacity": 0.38,
+        "self_justification_drive": 0.5,
+        "disinhibition": 0.28
+      },
+      "thematic_sensitivities": {
+        "flemish_and_west_country_cloth_rivalry": 0.9,
+        "fair_measure": 0.88,
+        "wife_of_bath_cloth_boast": 0.72
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.91,
+        "syntax_complexity_ceiling": 0.6
+      },
+      "social_couplings": {
+        "allies": [
+          "dyer",
+          "tapestry_maker",
+          "haberdasher",
+          "carpenter"
+        ],
+        "natural_antagonists": [
+          "wife_of_bath",
+          "manciple"
+        ]
+      },
+      "occupational_lexicon": [
+        "craft",
+        "gilde",
+        "labour",
+        "selle",
+        "toun",
+        "assent"
+      ],
+      "signature_oath": "by seint Severyn"
+    },
+    {
+      "id": "dyer",
+      "name": "The Dyer",
+      "role_title": "Madder & Woad Cloth-Finisher Guildsman",
+      "manuscript_status": "silent_uncompleted",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.05,
+        "laboratores": 0.25,
+        "urban_guild": 0.92
+      },
+      "dialect_profile": {
+        "base_region": "london_guildhall",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.32,
+        "latin_liturgical_tag_rate": 0.02
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.75,
+        "irony_capacity": 0.4,
+        "self_justification_drive": 0.48,
+        "disinhibition": 0.26
+      },
+      "thematic_sensitivities": {
+        "fast_color_vs_counterfeit_dye": 0.94,
+        "alchemical_fraud": -0.82,
+        "guild_honor": 0.88
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.92,
+        "syntax_complexity_ceiling": 0.62
+      },
+      "social_couplings": {
+        "allies": [
+          "weaver",
+          "tapestry_maker",
+          "haberdasher",
+          "carpenter"
+        ],
+        "natural_antagonists": [
+          "pardoner",
+          "cook"
+        ]
+      },
+      "occupational_lexicon": [
+        "hewe",
+        "bright",
+        "craft",
+        "gilde",
+        "trewe",
+        "preve"
+      ],
+      "signature_oath": "by seint Dunstan"
+    },
+    {
+      "id": "tapestry_maker",
+      "name": "The Tapestry-Maker",
+      "role_title": "Arras & Story-Hanging Guildsman",
+      "manuscript_status": "silent_uncompleted",
+      "estate_vector": {
+        "bellatores": 0.1,
+        "oratores": 0.05,
+        "laboratores": 0.2,
+        "urban_guild": 0.92
+      },
+      "dialect_profile": {
+        "base_region": "london_guildhall",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.38,
+        "latin_liturgical_tag_rate": 0.04
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.78,
+        "irony_capacity": 0.48,
+        "self_justification_drive": 0.45,
+        "disinhibition": 0.24
+      },
+      "thematic_sensitivities": {
+        "woven_exempla_and_ekphrasis": 0.95,
+        "courtly_commission_default": -0.8,
+        "visual_truth": 0.88
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet",
+          "rhyme_royal_ababbcc"
+        ],
+        "metrical_regularity_target": 0.93,
+        "syntax_complexity_ceiling": 0.68
+      },
+      "social_couplings": {
+        "allies": [
+          "dyer",
+          "weaver",
+          "haberdasher",
+          "squire"
+        ],
+        "natural_antagonists": [
+          "miller",
+          "manciple"
+        ]
+      },
+      "occupational_lexicon": [
+        "mirrour",
+        "craft",
+        "face",
+        "hewe",
+        "olde",
+        "devyse"
+      ],
+      "signature_oath": "by seintuk"
+    },
+    {
+      "id": "cook",
+      "name": "Hogge of Ware (The Cook)",
+      "role_title": "London Victualler",
+      "manuscript_status": "interrupted",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.0,
+        "laboratores": 0.65,
+        "urban_guild": 0.55
+      },
+      "dialect_profile": {
+        "base_region": "london_cheapside",
+        "northernism_rate": 0.04,
+        "french_prestige_ceiling": 0.22,
+        "latin_liturgical_tag_rate": 0.01
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.35,
+        "irony_capacity": 0.55,
+        "self_justification_drive": 0.6,
+        "disinhibition": 0.92
+      },
+      "thematic_sensitivities": {
+        "tavern_rioting_and_dice": 0.92,
+        "host_hygiene_taunts": 0.96,
+        "manciple_mockery": 0.95
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.86,
+        "syntax_complexity_ceiling": 0.48
+      },
+      "social_couplings": {
+        "allies": [
+          "miller",
+          "shipman"
+        ],
+        "natural_antagonists": [
+          "harry_bailly",
+          "manciple",
+          "haberdasher"
+        ]
+      },
+      "occupational_lexicon": [
+        "ale",
+        "strete",
+        "toun",
+        "solaas",
+        "chaunce",
+        "mete"
+      ],
+      "signature_oath": "for Cristes passioun"
+    },
+    {
+      "id": "shipman",
+      "name": "The Shipman of Dartmouth",
+      "role_title": "Master Mariner & Privateer",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.2,
+        "oratores": 0.0,
+        "laboratores": 0.6,
+        "urban_guild": 0.5
+      },
+      "dialect_profile": {
+        "base_region": "southwestern_maritime",
+        "northernism_rate": 0.02,
+        "french_prestige_ceiling": 0.26,
+        "latin_liturgical_tag_rate": 0.01
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.48,
+        "irony_capacity": 0.68,
+        "self_justification_drive": 0.45,
+        "disinhibition": 0.72
+      },
+      "thematic_sensitivities": {
+        "mercantile_tally_and_cuckoldry": 0.9,
+        "lollard_preaching": -0.92,
+        "pragmatic_cunning": 0.85
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.91,
+        "syntax_complexity_ceiling": 0.58
+      },
+      "social_couplings": {
+        "allies": [
+          "miller",
+          "cook"
+        ],
+        "natural_antagonists": [
+          "parson",
+          "monk",
+          "merchant"
+        ]
+      },
+      "occupational_lexicon": [
+        "chaunce",
+        "toun",
+        "rente",
+        "paas",
+        "solaas",
+        "wight"
+      ],
+      "signature_oath": "by my joly body"
+    },
+    {
+      "id": "physician",
+      "name": "The Doctour of Phisik",
+      "role_title": "Astrological & Humoral Physician",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.1,
+        "oratores": 0.35,
+        "laboratores": 0.0,
+        "urban_guild": 0.75
+      },
+      "dialect_profile": {
+        "base_region": "london_learned",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.48,
+        "latin_liturgical_tag_rate": 0.25
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.84,
+        "irony_capacity": 0.22,
+        "self_justification_drive": 0.6,
+        "disinhibition": 0.2
+      },
+      "thematic_sensitivities": {
+        "natural_governance_and_chastity": 0.9,
+        "corrupt_judges": -0.92,
+        "temperance": 0.85
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.94,
+        "syntax_complexity_ceiling": 0.76
+      },
+      "social_couplings": {
+        "allies": [
+          "man_of_law",
+          "merchant"
+        ],
+        "natural_antagonists": [
+          "pardoner",
+          "harry_bailly"
+        ]
+      },
+      "occupational_lexicon": [
+        "boote",
+        "roote",
+        "governance",
+        "justise",
+        "auctour",
+        "caas"
+      ],
+      "signature_oath": "as seith Avycen"
+    },
+    {
+      "id": "wife_of_bath",
+      "name": "Alisoun (The Wife of Bath)",
+      "role_title": "West-Country Clothier & Veteran Pilgrim",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.05,
+        "oratores": 0.1,
+        "laboratores": 0.3,
+        "urban_guild": 0.85
+      },
+      "dialect_profile": {
+        "base_region": "west_midland_london",
+        "northernism_rate": 0.01,
+        "french_prestige_ceiling": 0.38,
+        "latin_liturgical_tag_rate": 0.12
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.52,
+        "irony_capacity": 0.88,
+        "self_justification_drive": 0.94,
+        "disinhibition": 0.82
+      },
+      "thematic_sensitivities": {
+        "female_maistrye_and_experience": 0.98,
+        "clerical_antifeminism": 0.98,
+        "gentillesse": 0.85
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.93,
+        "syntax_complexity_ceiling": 0.74
+      },
+      "social_couplings": {
+        "allies": [
+          "franklin"
+        ],
+        "natural_antagonists": [
+          "clerk",
+          "friar",
+          "pardoner",
+          "merchant",
+          "weaver"
+        ]
+      },
+      "occupational_lexicon": [
+        "maistrye",
+        "wyf",
+        "lyf",
+        "stryf",
+        "pleasance",
+        "grace"
+      ],
+      "signature_oath": "by seinte Venus"
+    },
+    {
+      "id": "parson",
+      "name": "The Persoun of a Toun",
+      "role_title": "Rural Parish Priest",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.98,
+        "laboratores": 0.35,
+        "urban_guild": 0.0
+      },
+      "dialect_profile": {
+        "base_region": "east_midland_plain",
+        "northernism_rate": 0.03,
+        "french_prestige_ceiling": 0.32,
+        "latin_liturgical_tag_rate": 0.26
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.8,
+        "irony_capacity": 0.08,
+        "self_justification_drive": 0.05,
+        "disinhibition": 0.05
+      },
+      "thematic_sensitivities": {
+        "penitence_and_charity": 0.99,
+        "fables_and_ribaldry": -0.95,
+        "mercenary_clergy": -0.92
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "cadenced_prose",
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.95,
+        "syntax_complexity_ceiling": 0.72
+      },
+      "social_couplings": {
+        "allies": [
+          "plowman",
+          "clerk",
+          "knight",
+          "second_nun"
+        ],
+        "natural_antagonists": [
+          "pardoner",
+          "summoner",
+          "friar",
+          "shipman"
+        ]
+      },
+      "occupational_lexicon": [
+        "penance",
+        "sentence",
+        "conscience",
+        "boote",
+        "grace",
+        "charitee"
+      ],
+      "signature_oath": "for Cristes sake"
+    },
+    {
+      "id": "plowman",
+      "name": "The Plowman",
+      "role_title": "Tithe-Paying Agrarian Laborer (Brother to the Parson)",
+      "manuscript_status": "silent_uncompleted",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.3,
+        "laboratores": 0.96,
+        "urban_guild": 0.0
+      },
+      "dialect_profile": {
+        "base_region": "east_midland_rural",
+        "northernism_rate": 0.04,
+        "french_prestige_ceiling": 0.16,
+        "latin_liturgical_tag_rate": 0.06
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.66,
+        "irony_capacity": 0.14,
+        "self_justification_drive": 0.1,
+        "disinhibition": 0.12
+      },
+      "thematic_sensitivities": {
+        "tithe_and_charity": 0.95,
+        "common_plough_solidarity": 0.94,
+        "clerical_extortion": -0.88
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet",
+          "cadenced_prose"
+        ],
+        "metrical_regularity_target": 0.9,
+        "syntax_complexity_ceiling": 0.48
+      },
+      "social_couplings": {
+        "allies": [
+          "parson",
+          "knight",
+          "yeoman"
+        ],
+        "natural_antagonists": [
+          "miller",
+          "reeve",
+          "summoner",
+          "pardoner"
+        ]
+      },
+      "occupational_lexicon": [
+        "plough",
+        "furwe",
+        "labour",
+        "trewe",
+        "comune",
+        "boote"
+      ],
+      "signature_oath": "for Cristes love"
+    },
+    {
+      "id": "miller",
+      "name": "Robyn (The Miller)",
+      "role_title": "Brawny Toll-Miller & Bagpiper",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.0,
+        "laboratores": 0.92,
+        "urban_guild": 0.15
+      },
+      "dialect_profile": {
+        "base_region": "oxfordshire_churl",
+        "northernism_rate": 0.05,
+        "french_prestige_ceiling": 0.22,
+        "latin_liturgical_tag_rate": 0.03
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.25,
+        "irony_capacity": 0.72,
+        "self_justification_drive": 0.65,
+        "disinhibition": 0.96
+      },
+      "thematic_sensitivities": {
+        "subverting_courtly_hierarchy": 0.96,
+        "carpenter_cuckoldry": 0.95,
+        "drunken_solaas": 0.94
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.89,
+        "syntax_complexity_ceiling": 0.52
+      },
+      "social_couplings": {
+        "allies": [
+          "cook",
+          "shipman"
+        ],
+        "natural_antagonists": [
+          "reeve",
+          "knight",
+          "carpenter",
+          "harry_bailly"
+        ]
+      },
+      "occupational_lexicon": [
+        "solaas",
+        "ale",
+        "flour",
+        "cherl",
+        "jalousye",
+        "melodye"
+      ],
+      "signature_oath": "by armes and by blood and bones"
+    },
+    {
+      "id": "manciple",
+      "name": "The Manciple of the Temple",
+      "role_title": "Inns-of-Court Provisioner",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.05,
+        "oratores": 0.05,
+        "laboratores": 0.35,
+        "urban_guild": 0.8
+      },
+      "dialect_profile": {
+        "base_region": "london_inns_of_court",
+        "northernism_rate": 0.01,
+        "french_prestige_ceiling": 0.34,
+        "latin_liturgical_tag_rate": 0.05
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.62,
+        "irony_capacity": 0.76,
+        "self_justification_drive": 0.7,
+        "disinhibition": 0.64
+      },
+      "thematic_sensitivities": {
+        "restraint_of_tongue": 0.92,
+        "outwitting_learned_masters": 0.9,
+        "cook_drunkenness": 0.94
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.93,
+        "syntax_complexity_ceiling": 0.66
+      },
+      "social_couplings": {
+        "allies": [
+          "merchant",
+          "man_of_law"
+        ],
+        "natural_antagonists": [
+          "cook",
+          "reeve"
+        ]
+      },
+      "occupational_lexicon": [
+        "prudence",
+        "speche",
+        "craft",
+        "toun",
+        "wise",
+        "folie"
+      ],
+      "signature_oath": "by my fader kin"
+    },
+    {
+      "id": "reeve",
+      "name": "Osewold (The Reeve)",
+      "role_title": "Norfolk Manorial Bailiff & Former Carpenter",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.0,
+        "laboratores": 0.85,
+        "urban_guild": 0.35
+      },
+      "dialect_profile": {
+        "base_region": "norfolk_northern_border",
+        "northernism_rate": 0.42,
+        "french_prestige_ceiling": 0.22,
+        "latin_liturgical_tag_rate": 0.02
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.4,
+        "irony_capacity": 0.8,
+        "self_justification_drive": 0.88,
+        "disinhibition": 0.84
+      },
+      "thematic_sensitivities": {
+        "carpenter_revenge_quiting": 0.99,
+        "miller_theft_exposure": 0.98,
+        "old_age_bitterness": 0.85
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.9,
+        "syntax_complexity_ceiling": 0.56
+      },
+      "social_couplings": {
+        "allies": [
+          "carpenter",
+          "manciple"
+        ],
+        "natural_antagonists": [
+          "miller",
+          "summoner",
+          "plowman"
+        ]
+      },
+      "occupational_lexicon": [
+        "rente",
+        "craft",
+        "flour",
+        "right",
+        "smerte",
+        "quite"
+      ],
+      "signature_oath": "so theek"
+    },
+    {
+      "id": "summoner",
+      "name": "The Summoner",
+      "role_title": "Archdeacon's Consistory Apparitor",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.4,
+        "laboratores": 0.6,
+        "urban_guild": 0.25
+      },
+      "dialect_profile": {
+        "base_region": "london_consistory_vulgar",
+        "northernism_rate": 0.04,
+        "french_prestige_ceiling": 0.28,
+        "latin_liturgical_tag_rate": 0.18
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.28,
+        "irony_capacity": 0.75,
+        "self_justification_drive": 0.85,
+        "disinhibition": 0.93
+      },
+      "thematic_sensitivities": {
+        "mendicant_hypocrisy_revenge": 0.99,
+        "archdeacon_purse_law": 0.9,
+        "friar_humiliation": 0.99
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.88,
+        "syntax_complexity_ceiling": 0.54
+      },
+      "social_couplings": {
+        "allies": [
+          "pardoner"
+        ],
+        "natural_antagonists": [
+          "friar",
+          "parson",
+          "plowman",
+          "yeoman"
+        ]
+      },
+      "occupational_lexicon": [
+        "jugement",
+        "helle",
+        "rente",
+        "torment",
+        "clamour",
+        "peyne"
+      ],
+      "signature_oath": "by Goddes armes two"
+    },
+    {
+      "id": "pardoner",
+      "name": "The Pardoner of Rouncival",
+      "role_title": "Papal Indulgence Seller & Relic Preacher",
+      "manuscript_status": "extant_teller",
+      "estate_vector": {
+        "bellatores": 0.0,
+        "oratores": 0.65,
+        "laboratores": 0.1,
+        "urban_guild": 0.45
+      },
+      "dialect_profile": {
+        "base_region": "london_pulpit_rhetorical",
+        "northernism_rate": 0.0,
+        "french_prestige_ceiling": 0.46,
+        "latin_liturgical_tag_rate": 0.26
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.55,
+        "irony_capacity": 0.96,
+        "self_justification_drive": 0.98,
+        "disinhibition": 0.86
+      },
+      "thematic_sensitivities": {
+        "radix_malorum_cupiditas": 0.98,
+        "performative_self_exposure": 0.96,
+        "host_humiliation": 0.92
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.96,
+        "syntax_complexity_ceiling": 0.84
+      },
+      "social_couplings": {
+        "allies": [
+          "summoner"
+        ],
+        "natural_antagonists": [
+          "harry_bailly",
+          "parson",
+          "plowman",
+          "physician"
+        ]
+      },
+      "occupational_lexicon": [
+        "avarice",
+        "golde",
+        "bale",
+        "helle",
+        "sentence",
+        "grace"
+      ],
+      "signature_oath": "by seint Ronyan"
+    },
+    {
+      "id": "chaucer_pilgrim",
+      "name": "Geffrey (The Pilgrim-Reporter)",
+      "role_title": "Accommodating Narrator & Court Civil Servant",
+      "manuscript_status": "interrupted",
+      "estate_vector": {
+        "bellatores": 0.15,
+        "oratores": 0.25,
+        "laboratores": 0.1,
+        "urban_guild": 0.65
+      },
+      "dialect_profile": {
+        "base_region": "london_customs_house",
+        "northernism_rate": 0.02,
+        "french_prestige_ceiling": 0.46,
+        "latin_liturgical_tag_rate": 0.12
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.86,
+        "irony_capacity": 0.98,
+        "self_justification_drive": 0.72,
+        "disinhibition": 0.2
+      },
+      "thematic_sensitivities": {
+        "burlesque_self_parody": 0.95,
+        "boethian_counsel_and_prudence": 0.92,
+        "verbatim_rehearsal_alibi": 0.96
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "tail_rhyme_sixain",
+          "cadenced_prose",
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.95,
+        "syntax_complexity_ceiling": 0.86
+      },
+      "social_couplings": {
+        "allies": [
+          "nuns_priest",
+          "harry_bailly",
+          "clerk"
+        ],
+        "natural_antagonists": []
+      },
+      "occupational_lexicon": [
+        "ryme",
+        "solaas",
+        "sentence",
+        "prudence",
+        "matere",
+        "mirth"
+      ],
+      "signature_oath": "by my trouthe"
+    },
+    {
+      "id": "harry_bailly",
+      "name": "Harry Bailly (The Host)",
+      "role_title": "Southwark Tabard Innkeeper & Pilgrimage Governor",
+      "manuscript_status": "arbiter",
+      "estate_vector": {
+        "bellatores": 0.1,
+        "oratores": 0.05,
+        "laboratores": 0.25,
+        "urban_guild": 0.88
+      },
+      "dialect_profile": {
+        "base_region": "southwark_westminster",
+        "northernism_rate": 0.01,
+        "french_prestige_ceiling": 0.32,
+        "latin_liturgical_tag_rate": 0.06
+      },
+      "pragmatic_posture": {
+        "pronoun_formality_bias": 0.52,
+        "irony_capacity": 0.68,
+        "self_justification_drive": 0.6,
+        "disinhibition": 0.7
+      },
+      "thematic_sensitivities": {
+        "sentence_and_solaas_balance": 0.98,
+        "road_schedule_governance": 0.96,
+        "tedious_drasty_verse": -0.96
+      },
+      "prosodic_competence": {
+        "preferred_forms": [
+          "riding_rhyme_couplet"
+        ],
+        "metrical_regularity_target": 0.92,
+        "syntax_complexity_ceiling": 0.6
+      },
+      "social_couplings": {
+        "allies": [
+          "knight",
+          "franklin",
+          "chaucer_pilgrim"
+        ],
+        "natural_antagonists": [
+          "pardoner",
+          "cook",
+          "monk",
+          "miller"
+        ]
+      },
+      "occupational_lexicon": [
+        "solaas",
+        "sentence",
+        "jugement",
+        "paas",
+        "ale",
+        "companye"
+      ],
+      "signature_oath": "by my fader soule"
+    }
+  ]
+}

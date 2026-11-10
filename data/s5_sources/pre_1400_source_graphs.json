@@ -1,0 +1,1426 @@
+{
+  "metadata": {
+    "stratum": "S5",
+    "count": 16,
+    "description": "Pre-1400 compilatio source beat graphs (<=1390 CE) serving as the non-Canterbury narrative substrate under Conservation Law L3.",
+    "sources": [
+      "https://www.blackwellpublishing.com/content/bpl_images/content_store/sample_chapter/0631232893/Dalrymple_sample%20chapter_middle%20english%20literature.pdf",
+      "https://chaucer.fas.harvard.edu/summary-framing-narrative"
+    ]
+  },
+  "source_graphs": [
+    {
+      "source_id": "S5_BOCC_TESEIDA",
+      "title": "Teseida delle nozze d'Emilia (Chivalric Rivalry & Providence)",
+      "auctor": "Giovanni Boccaccio",
+      "original_language": "Italian",
+      "year_composed": 1341,
+      "genre": "chivalric_romance",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.82,
+      "solaas_weight": 0.45,
+      "estate_affinity": {
+        "bellatores": 0.95,
+        "oratores": 0.25,
+        "laboratores": 0.05,
+        "urban_guild": 0.2
+      },
+      "motifs": [
+        "sworn_brotherhood",
+        "fortune_wheel",
+        "amphitheater_judgment"
+      ],
+      "provokes_pilgrims": [
+        "miller"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "two captive knights swear brotherhood yet behold one noble lady from prison",
+          "focus_lex": [
+            "knyght",
+            "honour",
+            "prison",
+            "sight"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "love fractures their oath so each knight sues high fortune in arms",
+          "focus_lex": [
+            "love",
+            "stryf",
+            "fortune",
+            "grace"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "a sovereign duke ordains a tournament of governance to adjudicate their right",
+          "focus_lex": [
+            "governance",
+            "justise",
+            "place",
+            "myght"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "sudden planetary accident fells the victor at the hour of triumph",
+          "focus_lex": [
+            "chaunce",
+            "sorwe",
+            "peyne",
+            "herte"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "first mover providence binds mortal sorrow into patient concord",
+          "focus_lex": [
+            "sentence",
+            "pacience",
+            "ioie",
+            "wele"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_FAB_CHARPENTIER",
+      "title": "Fabliau de Gombert et du Charpentier (Craftsman Duped by Clerk)",
+      "auctor": "Jean Bodel / Old French Fabliau",
+      "original_language": "Old French",
+      "year_composed": 1295,
+      "genre": "fabliau",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.18,
+      "solaas_weight": 0.96,
+      "estate_affinity": {
+        "bellatores": 0.05,
+        "oratores": 0.05,
+        "laboratores": 0.92,
+        "urban_guild": 0.3
+      },
+      "motifs": [
+        "jealous_husband",
+        "astrological_ruse",
+        "mechanical_farce"
+      ],
+      "provokes_pilgrims": [
+        "reeve",
+        "carpenter",
+        "clerk"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a rich old timber-wright weds a young wife and guards her in narrow jealousy",
+          "focus_lex": [
+            "wyf",
+            "jalousye",
+            "bilde",
+            "toun"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a subtle lodger-clerk feigns secret prophecy of a midnight flood",
+          "focus_lex": [
+            "craft",
+            "nyght",
+            "drede",
+            "devyse"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "the credulous wright hangs aloft in a tub under the rafters awaiting grace",
+          "focus_lex": [
+            "place",
+            "grace",
+            "folye",
+            "lowe"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "a rival suitor at the window triggers a cry that cuts the rope",
+          "focus_lex": [
+            "clamour",
+            "smite",
+            "smerte",
+            "caas"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "every churl who meddles above his wit receives full quiting in the town",
+          "focus_lex": [
+            "quite",
+            "solaas",
+            "ale",
+            "resoun"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_FAB_MEUNIER",
+      "title": "Le Meunier et les Deux Clercs (Dishonest Miller Outwitted)",
+      "auctor": "Old French Recueil G\u00e9n\u00e9ral",
+      "original_language": "Old French",
+      "year_composed": 1280,
+      "genre": "fabliau",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.24,
+      "solaas_weight": 0.94,
+      "estate_affinity": {
+        "bellatores": 0.05,
+        "oratores": 0.1,
+        "laboratores": 0.88,
+        "urban_guild": 0.45
+      },
+      "motifs": [
+        "stolen_grain",
+        "cradle_swap",
+        "northern_clerks",
+        "quiting_revenge"
+      ],
+      "provokes_pilgrims": [
+        "miller",
+        "cook"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a proud toll-miller steals bolted meal from two northern scholars",
+          "focus_lex": [
+            "flour",
+            "craft",
+            "cherl",
+            "right"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "therefore",
+          "proposition": "the northern clerks beg lodging in his narrow chamber at nightfall",
+          "focus_lex": [
+            "nyght",
+            "space",
+            "gaan",
+            "ham"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "but",
+          "proposition": "shifting the cradle in darkness misleads each sleeper in the room",
+          "focus_lex": [
+            "derknesse",
+            "chaunce",
+            "stede",
+            "wight"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "therefore",
+          "proposition": "the boastful miller loses both his stolen cake and his household pride",
+          "focus_lex": [
+            "smerte",
+            "stryf",
+            "bale",
+            "quite"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "false guile is repaid by guile according to ancient proverb",
+          "focus_lex": [
+            "jugement",
+            "right",
+            "rede",
+            "sooth"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_PHEBUS_CHASSE",
+      "title": "Livre de Chasse (Woodland Venery, Track-Craft, and Forest Stewardship)",
+      "auctor": "Gaston Ph\u00e9bus",
+      "original_language": "Old French",
+      "year_composed": 1389,
+      "genre": "woodland_exemplum",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.68,
+      "solaas_weight": 0.64,
+      "estate_affinity": {
+        "bellatores": 0.55,
+        "oratores": 0.1,
+        "laboratores": 0.78,
+        "urban_guild": 0.25
+      },
+      "motifs": [
+        "greenwood_stewardship",
+        "false_bailey_poacher",
+        "longbow_trouthe"
+      ],
+      "provokes_pilgrims": [
+        "reeve",
+        "summoner",
+        "manciple"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a sworn forester keeps the greenwood bounds with yew bow and clean shaft",
+          "focus_lex": [
+            "grene",
+            "bowe",
+            "shaft",
+            "trewe"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a greedy manorial bailiff bribes night-poachers and blames a poor cottager",
+          "focus_lex": [
+            "rente",
+            "nyght",
+            "vileynye",
+            "bale"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "the forester reads the bruised moss and hoof-trace at prime of morrow",
+          "focus_lex": [
+            "trace",
+            "morwe",
+            "pryme",
+            "knowe"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "the bailiff's own marked bolt is drawn before the forest eyre",
+          "focus_lex": [
+            "justise",
+            "sight",
+            "jugement",
+            "drede"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "woodcraft and clean truth outlast every forged tally in hall or shaw",
+          "focus_lex": [
+            "craft",
+            "sooth",
+            "honour",
+            "grace"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_SOMME_PLOUGH",
+      "title": "Somme le Roi & Handlyng Synne (The True Furrow and the Unmerciful Tither)",
+      "auctor": "Fr\u00e8re Laurent / Robert Mannyng",
+      "original_language": "Anglo-Norman / ME",
+      "year_composed": 1303,
+      "genre": "agrarian_exemplum",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.92,
+      "solaas_weight": 0.34,
+      "estate_affinity": {
+        "bellatores": 0.1,
+        "oratores": 0.7,
+        "laboratores": 0.96,
+        "urban_guild": 0.15
+      },
+      "motifs": [
+        "common_plough",
+        "works_of_mercy",
+        "extortionate_apparitor"
+      ],
+      "provokes_pilgrims": [
+        "summoner",
+        "pardoner",
+        "miller"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "an honest plowman drives his furrow in rain and frost to feed the commune",
+          "focus_lex": [
+            "plough",
+            "furwe",
+            "labour",
+            "comune"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a grasping consistory summoner demands silver coin from a widow's garner",
+          "focus_lex": [
+            "rente",
+            "peyne",
+            "clamour",
+            "sorwe"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "the plowman pledges his own seed-corn as surety at the church door",
+          "focus_lex": [
+            "borwe",
+            "chirche",
+            "trewe",
+            "herte"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "autumn harvest multiplies the shared acre while blight strikes the hoarded barn",
+          "focus_lex": [
+            "flour",
+            "boote",
+            "chaunce",
+            "sene"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "clean labor and charity stand nearer heaven than purchased parchment seals",
+          "focus_lex": [
+            "sentence",
+            "grace",
+            "hevene",
+            "sooth"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_GUILD_ORDINANCE",
+      "title": "Liber Custumarum & London Mystery Ordinances (Counterfeit Work vs. Sworn Craft)",
+      "auctor": "London Guildhall Statutes",
+      "original_language": "Anglo-Norman / Latin",
+      "year_composed": 1365,
+      "genre": "civic_craft_exemplum",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.74,
+      "solaas_weight": 0.58,
+      "estate_affinity": {
+        "bellatores": 0.1,
+        "oratores": 0.15,
+        "laboratores": 0.35,
+        "urban_guild": 0.96
+      },
+      "motifs": [
+        "guild_assay",
+        "counterfeit_ware",
+        "master_joinery_and_dye"
+      ],
+      "provokes_pilgrims": [
+        "cook",
+        "pardoner",
+        "miller"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "five sworn burgesses of a London mystery uphold true measure and fast dye",
+          "focus_lex": [
+            "gilde",
+            "craft",
+            "hewe",
+            "toun"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a plausible factor sells night-wrought timber and fading madder for gold",
+          "focus_lex": [
+            "golde",
+            "selle",
+            "nyght",
+            "folye"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "wardens summon an open assay in Cheapside before the aldermen",
+          "focus_lex": [
+            "assay",
+            "strete",
+            "preve",
+            "assent"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "rain and plumb-line expose the warped beam while honest work stands fast",
+          "focus_lex": [
+            "bilde",
+            "right",
+            "bright",
+            "smerte"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "civic credit rests on proved handiwork rather than gilded boast",
+          "focus_lex": [
+            "prudence",
+            "honour",
+            "trewe",
+            "resoun"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_OVID_BRETON_LAY",
+      "title": "Breton Lay & Ovidian Marvel (Rash Promise and Forbearance)",
+      "auctor": "Marie de France / Ovid",
+      "original_language": "Old French / Latin",
+      "year_composed": 1180,
+      "genre": "breton_lay",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.72,
+      "solaas_weight": 0.78,
+      "estate_affinity": {
+        "bellatores": 0.7,
+        "oratores": 0.2,
+        "laboratores": 0.25,
+        "urban_guild": 0.65
+      },
+      "motifs": [
+        "rash_boon",
+        "illusion_on_coast",
+        "gentillesse_contest"
+      ],
+      "provokes_pilgrims": [
+        "merchant",
+        "pardoner"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a knight and lady bind marriage in free trouthe without tyrannical mastery",
+          "focus_lex": [
+            "trewe",
+            "maistrye",
+            "knyght",
+            "pleasance"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a rash jesting promise grants a suitor hope if coastal rocks vanish",
+          "focus_lex": [
+            "stoon",
+            "drede",
+            "sorwe",
+            "plight"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "natural magic creates the appearance that every black stone is gone",
+          "focus_lex": [
+            "goon",
+            "sight",
+            "chaunce",
+            "wo"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "each party releases the other's bond out of competing generosity",
+          "focus_lex": [
+            "gentil",
+            "curteisye",
+            "grace",
+            "lete"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "franchise and kept trouthe surpass both clerkly craft and lordly force",
+          "focus_lex": [
+            "honour",
+            "lyve",
+            "ioie",
+            "wele"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_LEGENDA_AUREA",
+      "title": "Legenda Aurea (Steadfast Virgin Martyr and Tyrannical Prefect)",
+      "auctor": "Jacobus de Voragine",
+      "original_language": "Latin",
+      "year_composed": 1265,
+      "genre": "saints_vita",
+      "recommended_form": "rhyme_royal_ababbcc",
+      "sentence_weight": 0.96,
+      "solaas_weight": 0.22,
+      "estate_affinity": {
+        "bellatores": 0.2,
+        "oratores": 0.96,
+        "laboratores": 0.3,
+        "urban_guild": 0.25
+      },
+      "motifs": [
+        "spiritual_alchemy",
+        "uncorrupted_witness",
+        "roman_prefect_baffled"
+      ],
+      "provokes_pilgrims": [
+        "pardoner",
+        "summoner"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a noble maiden flees idleness through ceaseless prayer and clean work",
+          "focus_lex": [
+            "clene",
+            "servise",
+            "entente",
+            "grace"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a proud earthly judge commands sacrifice to dumb idols on pain of death",
+          "focus_lex": [
+            "jugement",
+            "torment",
+            "drede",
+            "myght"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "she disputes his temporal power as a wind-blown bladder of vanity",
+          "focus_lex": [
+            "resoun",
+            "folye",
+            "sooth",
+            "rede"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "in midst of flame her witness converts the executioners to pity",
+          "focus_lex": [
+            "compassioun",
+            "light",
+            "bright",
+            "boote"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "steadfast conscience triumphs where worldly governance falls to dust",
+          "focus_lex": [
+            "conscience",
+            "reverence",
+            "hevene",
+            "sentence"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_PETRARCH_GRISELDA",
+      "title": "De Obedientia ac Fide Uxoria (Clerkly Trial of Patience)",
+      "auctor": "Francesco Petrarch / Boccaccio X.10",
+      "original_language": "Latin",
+      "year_composed": 1373,
+      "genre": "philosophical_exemplum",
+      "recommended_form": "rhyme_royal_ababbcc",
+      "sentence_weight": 0.9,
+      "solaas_weight": 0.38,
+      "estate_affinity": {
+        "bellatores": 0.4,
+        "oratores": 0.92,
+        "laboratores": 0.4,
+        "urban_guild": 0.3
+      },
+      "motifs": [
+        "patient_endurance",
+        "marquis_assay",
+        "rebuttal_of_sovereignty_boast"
+      ],
+      "provokes_pilgrims": [
+        "wife_of_bath",
+        "merchant"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a marquis weds a poor villager of surpassing virtue and humble cheer",
+          "focus_lex": [
+            "lowe",
+            "worthy",
+            "chere",
+            "grace"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "needless desire to assay her constancy drives him to harsh trials",
+          "focus_lex": [
+            "assay",
+            "peyne",
+            "cruwel",
+            "entente"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "she yields her robe and estate without one word of rancor or complaint",
+          "focus_lex": [
+            "pacience",
+            "pleyne",
+            "trewe",
+            "herte"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "truth restores her children while clerks warn husbands not to copy his rigor",
+          "focus_lex": [
+            "ioie",
+            "auctour",
+            "prudence",
+            "rede"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "allegory teaches every soul constancy under adversity rather than wifely servitude",
+          "focus_lex": [
+            "sentence",
+            "fortuna",
+            "preve",
+            "sooth"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_GOWER_LOATHLY_LADY",
+      "title": "Confessio Amantis Book I / Sovereignty Riddle Exemplum",
+      "auctor": "John Gower",
+      "original_language": "Middle English / Latin",
+      "year_composed": 1390,
+      "genre": "arthuri_sovereignty_romance",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.65,
+      "solaas_weight": 0.85,
+      "estate_affinity": {
+        "bellatores": 0.45,
+        "oratores": 0.2,
+        "laboratores": 0.4,
+        "urban_guild": 0.8
+      },
+      "motifs": [
+        "sovereignty_riddle",
+        "true_gentillesse",
+        "transformative_choice"
+      ],
+      "provokes_pilgrims": [
+        "clerk",
+        "friar",
+        "pardoner"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a young bachelor must learn within twelve months what women desire most",
+          "focus_lex": [
+            "knyght",
+            "tyme",
+            "knowe",
+            "lyf"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "only an aged wise woman in the greenwood holds the saving answer",
+          "focus_lex": [
+            "olde",
+            "grene",
+            "wise",
+            "plight"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "her answer of free maistrye saves his neck yet claims his marriage pledge",
+          "focus_lex": [
+            "maistrye",
+            "quene",
+            "wyf",
+            "right"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "her pillow sermon proves gentillesse comes from virtuous deed not lineage",
+          "focus_lex": [
+            "gentil",
+            "dede",
+            "honour",
+            "grace"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "yielding governance willingly turns discord into mutual delight",
+          "focus_lex": [
+            "governance",
+            "delite",
+            "joye",
+            "wele"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_EXEMPLUM_RADIX_MALORUM",
+      "title": "Novellino LXXXIII / Three Rioters Seeking Death Under the Oak",
+      "auctor": "Italian Novellino / Latin Homiletic Exemplum",
+      "original_language": "Italian / Latin",
+      "year_composed": 1290,
+      "genre": "moral_exemplum",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.86,
+      "solaas_weight": 0.72,
+      "estate_affinity": {
+        "bellatores": 0.15,
+        "oratores": 0.75,
+        "laboratores": 0.35,
+        "urban_guild": 0.5
+      },
+      "motifs": [
+        "tavern_oaths",
+        "gold_florins",
+        "mutual_betrayal"
+      ],
+      "provokes_pilgrims": [
+        "harry_bailly",
+        "cook",
+        "physician"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "three tavern revellers swear brotherhood to slay death before prime",
+          "focus_lex": [
+            "ale",
+            "pryme",
+            "stryf",
+            "toun"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "an old wayfarer points them beneath an oak where heaped gold lies",
+          "focus_lex": [
+            "olde",
+            "golde",
+            "trace",
+            "place"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "greed turns sworn fellows to plot secret murder by knife and poison",
+          "focus_lex": [
+            "knyf",
+            "folye",
+            "nyght",
+            "entente"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "therefore",
+          "proposition": "each conspirator drinks the death he prepared for his companion",
+          "focus_lex": [
+            "bale",
+            "smerte",
+            "deyde",
+            "caas"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "covetousness of gold proves the very root of mortal ruin",
+          "focus_lex": [
+            "roote",
+            "sentence",
+            "drede",
+            "rede"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_MARIE_BEAST_FABLE",
+      "title": "Esope / Roman de Renart (The Proud Singer and the Flattering Fox)",
+      "auctor": "Marie de France / Pierre de Saint-Cloud",
+      "original_language": "Anglo-Norman",
+      "year_composed": 1190,
+      "genre": "beast_fable",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.76,
+      "solaas_weight": 0.92,
+      "estate_affinity": {
+        "bellatores": 0.3,
+        "oratores": 0.85,
+        "laboratores": 0.55,
+        "urban_guild": 0.45
+      },
+      "motifs": [
+        "prophetic_dream",
+        "courtly_flattery",
+        "counter_trick"
+      ],
+      "provokes_pilgrims": [
+        "monk",
+        "wife_of_bath"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a proud chanticleer in a widow's yard scorns a warning dream of peril",
+          "focus_lex": [
+            "soun",
+            "melodye",
+            "drede",
+            "morwe"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a sly fox praises his father's voice until he shuts both eyes to sing",
+          "focus_lex": [
+            "curteisye",
+            "folye",
+            "sight",
+            "chere"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "the fox seizes him toward the wood amid loud outcry from the yard",
+          "focus_lex": [
+            "clamour",
+            "wilde",
+            "sorwe",
+            "chaunce"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "the captive prompts his captor to boast aloud and flies into the bough",
+          "focus_lex": [
+            "craft",
+            "asterte",
+            "bright",
+            "pleasance"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "take the moral fruit and leave the chaff of flattery behind",
+          "focus_lex": [
+            "sentence",
+            "solaas",
+            "prudence",
+            "wise"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_BOCC_DE_CASIBUS",
+      "title": "De Casibus Virorum Illustrium (Tragic Falls from High Estate)",
+      "auctor": "Giovanni Boccaccio",
+      "original_language": "Latin",
+      "year_composed": 1360,
+      "genre": "de_casibus_tragedy",
+      "recommended_form": "rhyme_royal_ababbcc",
+      "sentence_weight": 0.88,
+      "solaas_weight": 0.16,
+      "estate_affinity": {
+        "bellatores": 0.55,
+        "oratores": 0.8,
+        "laboratores": 0.1,
+        "urban_guild": 0.25
+      },
+      "motifs": [
+        "wheel_of_fortune",
+        "princely_hubris",
+        "monastic_catalog"
+      ],
+      "provokes_pilgrims": [
+        "harry_bailly",
+        "knight"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a prince sits exalted in wealth and renown trusting unstable fortune",
+          "focus_lex": [
+            "renoun",
+            "honour",
+            "fortune",
+            "wele"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "pride blinds his counsel to the turning wheel of mutability",
+          "focus_lex": [
+            "folye",
+            "derknesse",
+            "chaunce",
+            "drede"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "sudden overthrow strips crown and hall into unpitied captivity",
+          "focus_lex": [
+            "wo",
+            "torment",
+            "bale",
+            "peyne"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "no earthly flatterer abides when prosperity departs",
+          "focus_lex": [
+            "aloon",
+            "sorwe",
+            "rewe",
+            "pleyne"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "let no wight trust blind prosperity that ends in heaviness",
+          "focus_lex": [
+            "wight",
+            "sentence",
+            "auctour",
+            "mirror"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_ALBERTANUS_MELIBEE",
+      "title": "Liber Consolationis et Consilii (Prudence Counselling Against Vengeance)",
+      "auctor": "Albertanus of Brescia / Renaud de Louens",
+      "original_language": "Latin / Old French",
+      "year_composed": 1246,
+      "genre": "prose_allegory_counsel",
+      "recommended_form": "cadenced_prose",
+      "sentence_weight": 0.95,
+      "solaas_weight": 0.25,
+      "estate_affinity": {
+        "bellatores": 0.45,
+        "oratores": 0.85,
+        "laboratores": 0.3,
+        "urban_guild": 0.7
+      },
+      "motifs": [
+        "dame_prudence",
+        "private_war_restraint",
+        "reconciliation"
+      ],
+      "provokes_pilgrims": [
+        "miller",
+        "reeve"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a wronged householder gathers hasty flatterers clamoring for war and vengeance",
+          "focus_lex": [
+            "clamour",
+            "stryf",
+            "sorwe",
+            "folye"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "Dame Prudence examines each counsellor by reason and old authorities",
+          "focus_lex": [
+            "prudence",
+            "resoun",
+            "auctour",
+            "rede"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "she exposes how private wrath breeds endless talion and ruin",
+          "focus_lex": [
+            "bale",
+            "jugement",
+            "governance",
+            "pacience"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "therefore",
+          "proposition": "adversaries submit in contrition and receive measured clemency",
+          "focus_lex": [
+            "compassioun",
+            "grace",
+            "assent",
+            "boote"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "mercy and wise governance conquer where hasty iron fails",
+          "focus_lex": [
+            "sentence",
+            "honour",
+            "conscience",
+            "wele"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_CONSISTORY_SATIRE",
+      "title": "De Nugis Curialium / Mendicant & Apparitor Jurisdiction Exempla",
+      "auctor": "Walter Map / Latin Satiric Exempla",
+      "original_language": "Latin",
+      "year_composed": 1192,
+      "genre": "estates_satire",
+      "recommended_form": "riding_rhyme_couplet",
+      "sentence_weight": 0.48,
+      "solaas_weight": 0.88,
+      "estate_affinity": {
+        "bellatores": 0.1,
+        "oratores": 0.75,
+        "laboratores": 0.5,
+        "urban_guild": 0.55
+      },
+      "motifs": [
+        "heartfelt_curse",
+        "false_summons",
+        "hypocritical_glossing"
+      ],
+      "provokes_pilgrims": [
+        "summoner",
+        "friar"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a corrupt bailiff or limitour rides forth to fleece simple folk by feigned writ",
+          "focus_lex": [
+            "rente",
+            "craft",
+            "toun",
+            "vileynye"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "a shrewd fellow traveler matches oaths and reveals hidden trade secrets",
+          "focus_lex": [
+            "companye",
+            "knowe",
+            "devyse",
+            "wise"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "he demands silver where no sin was done and scorns tearful prayer",
+          "focus_lex": [
+            "golde",
+            "sorwe",
+            "cruwel",
+            "helle"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "an earnest curse spoken from the whole heart seals the extortioner's debt",
+          "focus_lex": [
+            "herte",
+            "entente",
+            "jugement",
+            "peyne"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "intent governs every oath whether in consistory or open street",
+          "focus_lex": [
+            "entencioun",
+            "right",
+            "rede",
+            "sooth"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "S5_BURLESQUE_TAIL_RHYME",
+      "title": "Guy of Warwick / Horn Childe Popular Minstrel Romance Conventions",
+      "auctor": "Anglo-Norman / Auchinleck Minstrel Tradition",
+      "original_language": "Middle English",
+      "year_composed": 1330,
+      "genre": "tail_rhyme_parody",
+      "recommended_form": "tail_rhyme_sixain",
+      "sentence_weight": 0.08,
+      "solaas_weight": 0.9,
+      "estate_affinity": {
+        "bellatores": 0.2,
+        "oratores": 0.15,
+        "laboratores": 0.3,
+        "urban_guild": 0.65
+      },
+      "motifs": [
+        "ambling_palfrey",
+        "elf_queen_quest",
+        "host_interruption_bait"
+      ],
+      "provokes_pilgrims": [
+        "harry_bailly"
+      ],
+      "beats": [
+        {
+          "beat_id": "B1",
+          "role": "setup",
+          "edge": "initial",
+          "proposition": "a dapper bourgeois knight pricks across a pleasant wood in saffron hose",
+          "focus_lex": [
+            "knyght",
+            "grene",
+            "bright",
+            "paas"
+          ]
+        },
+        {
+          "beat_id": "B2",
+          "role": "complication",
+          "edge": "but",
+          "proposition": "he dreams suddenly of an elf-queen while forgetting any real battle",
+          "focus_lex": [
+            "quene",
+            "solaas",
+            "dale",
+            "smale"
+          ]
+        },
+        {
+          "beat_id": "B3",
+          "role": "crisis",
+          "edge": "therefore",
+          "proposition": "a three-headed giant pelts him from a dale so he trots home for spice-ale",
+          "focus_lex": [
+            "stoon",
+            "hoom",
+            "ale",
+            "tale"
+          ]
+        },
+        {
+          "beat_id": "B4",
+          "role": "reversal",
+          "edge": "but",
+          "proposition": "endless arming catalogues test every listener's patience on the road",
+          "focus_lex": [
+            "space",
+            "ryme",
+            "tyme",
+            "place"
+          ]
+        },
+        {
+          "beat_id": "B5",
+          "role": "sententia",
+          "edge": "therefore",
+          "proposition": "minstrel doggerel invites the governor of the road to cry halt",
+          "focus_lex": [
+            "host",
+            "resoun",
+            "lete",
+            "anoon"
+          ]
+        }
+      ]
+    }
+  ]
+}

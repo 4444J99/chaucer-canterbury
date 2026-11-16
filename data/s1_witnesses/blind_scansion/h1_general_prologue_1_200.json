@@ -1,0 +1,1823 @@
+{
+  "metadata": {
+    "stratum": "S1",
+    "holdout_flag": "EVALUATION_ONLY",
+    "holdout_policy": "STRICT_EVALUATION_ONLY_NEVER_EXPOSED_TO_GENERATOR_OR_CALIBRATION",
+    "set_id": "H1",
+    "role": "Main recall set (riding-rhyme couplets)",
+    "metrical_form": "riding_rhyme_couplet",
+    "edition": "W. W. Skeat (ed.), The Complete Works of Geoffrey Chaucer, vol. 4, The Canterbury Tales: Text, 2nd ed., Oxford: Clarendon Press, 1900 (Project Gutenberg #22120).",
+    "source_url": "https://github.com/GITenberg/Chaucer-s-Works-Volume-4--of-7----The-Canterbury-Tales_22120",
+    "upstream_file": "22120-8.txt",
+    "upstream_commit": "1e7f4c2ef672531d0676159202f2f9e2520e174c",
+    "upstream_sha256": "2506000b31a78ae72dd9d1dd755fb3f305c42516b293960c222ad78509fc00db"
+  },
+  "work_id": "BLIND_H1",
+  "title": "General Prologue, lines 1-200 (Skeat 1900)",
+  "stanzas": [
+    {
+      "stanza_id": "GP.C001",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.1",
+          "line_number": 1,
+          "text": "Whan that Aprille with his shoures sote",
+          "contested": false
+        },
+        {
+          "ref": "GP.2",
+          "line_number": 2,
+          "text": "The droghte of Marche hath perced to the rote,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C002",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.3",
+          "line_number": 3,
+          "text": "And bathed every veyne in swich licour,",
+          "contested": false
+        },
+        {
+          "ref": "GP.4",
+          "line_number": 4,
+          "text": "Of which vertu engendred is the flour;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C003",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.5",
+          "line_number": 5,
+          "text": "Whan Zephirus eek with his swete breeth",
+          "contested": false
+        },
+        {
+          "ref": "GP.6",
+          "line_number": 6,
+          "text": "Inspired hath in every holt and heeth",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C004",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.7",
+          "line_number": 7,
+          "text": "The tendre croppes, and the yonge sonne",
+          "contested": false
+        },
+        {
+          "ref": "GP.8",
+          "line_number": 8,
+          "text": "Hath in the Ram his halfe cours y-ronne,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C005",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.9",
+          "line_number": 9,
+          "text": "And smale fowles maken melodye,",
+          "contested": false
+        },
+        {
+          "ref": "GP.10",
+          "line_number": 10,
+          "text": "That slepen al the night with open yë,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C006",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.11",
+          "line_number": 11,
+          "text": "(So priketh hem nature in hir corages):",
+          "contested": false
+        },
+        {
+          "ref": "GP.12",
+          "line_number": 12,
+          "text": "Than longen folk to goon on pilgrimages",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C007",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.13",
+          "line_number": 13,
+          "text": "(And palmers for to seken straunge strondes)",
+          "contested": false
+        },
+        {
+          "ref": "GP.14",
+          "line_number": 14,
+          "text": "To ferne halwes, couthe in sondry londes;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C008",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.15",
+          "line_number": 15,
+          "text": "And specially, from every shires ende",
+          "contested": false
+        },
+        {
+          "ref": "GP.16",
+          "line_number": 16,
+          "text": "Of Engelond, to Caunterbury they wende,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C009",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.17",
+          "line_number": 17,
+          "text": "The holy blisful martir for to seke,",
+          "contested": false
+        },
+        {
+          "ref": "GP.18",
+          "line_number": 18,
+          "text": "That hem hath holpen, whan that they were seke.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C010",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.19",
+          "line_number": 19,
+          "text": "Bifel that, in that seson on a day,",
+          "contested": false
+        },
+        {
+          "ref": "GP.20",
+          "line_number": 20,
+          "text": "In Southwerk at the Tabard as I lay",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C011",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.21",
+          "line_number": 21,
+          "text": "Redy to wenden on my pilgrimage",
+          "contested": false
+        },
+        {
+          "ref": "GP.22",
+          "line_number": 22,
+          "text": "To Caunterbury with ful devout corage,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C012",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.23",
+          "line_number": 23,
+          "text": "At night was come in-to that hostelrye",
+          "contested": false
+        },
+        {
+          "ref": "GP.24",
+          "line_number": 24,
+          "text": "Wel nyne and twenty in a companye,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C013",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.25",
+          "line_number": 25,
+          "text": "Of sondry folk, by aventure y-falle",
+          "contested": false
+        },
+        {
+          "ref": "GP.26",
+          "line_number": 26,
+          "text": "In felawshipe, and pilgrims were they alle,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C014",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.27",
+          "line_number": 27,
+          "text": "That toward Caunterbury wolden ryde;",
+          "contested": false
+        },
+        {
+          "ref": "GP.28",
+          "line_number": 28,
+          "text": "The chambres and the stables weren wyde,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C015",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.29",
+          "line_number": 29,
+          "text": "And wel we weren esed atte beste.",
+          "contested": false
+        },
+        {
+          "ref": "GP.30",
+          "line_number": 30,
+          "text": "And shortly, whan the sonne was to reste,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C016",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.31",
+          "line_number": 31,
+          "text": "So hadde I spoken with hem everichon,",
+          "contested": false
+        },
+        {
+          "ref": "GP.32",
+          "line_number": 32,
+          "text": "That I was of hir felawshipe anon,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C017",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.33",
+          "line_number": 33,
+          "text": "And made forward erly for to ryse,",
+          "contested": false
+        },
+        {
+          "ref": "GP.34",
+          "line_number": 34,
+          "text": "To take our wey, ther as I yow devyse.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C018",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.35",
+          "line_number": 35,
+          "text": "But natheles, whyl I have tyme and space,",
+          "contested": false
+        },
+        {
+          "ref": "GP.36",
+          "line_number": 36,
+          "text": "Er that I ferther in this tale pace,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C019",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.37",
+          "line_number": 37,
+          "text": "Me thinketh it acordaunt to resoun,",
+          "contested": false
+        },
+        {
+          "ref": "GP.38",
+          "line_number": 38,
+          "text": "To telle yow al the condicioun",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C020",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.39",
+          "line_number": 39,
+          "text": "Of ech of hem, so as it semed me,",
+          "contested": false
+        },
+        {
+          "ref": "GP.40",
+          "line_number": 40,
+          "text": "And whiche they weren, and of what degree;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C021",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.41",
+          "line_number": 41,
+          "text": "And eek in what array that they were inne:",
+          "contested": false
+        },
+        {
+          "ref": "GP.42",
+          "line_number": 42,
+          "text": "And at a knight than wol I first biginne.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C022",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.43",
+          "line_number": 43,
+          "text": "A KNIGHT ther was, and that a worthy man,",
+          "contested": false
+        },
+        {
+          "ref": "GP.44",
+          "line_number": 44,
+          "text": "That fro the tyme that he first bigan",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C023",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.45",
+          "line_number": 45,
+          "text": "To ryden out, he loved chivalrye,",
+          "contested": false
+        },
+        {
+          "ref": "GP.46",
+          "line_number": 46,
+          "text": "Trouthe and honour, fredom and curteisye.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C024",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.47",
+          "line_number": 47,
+          "text": "Ful worthy was he in his lordes werre,",
+          "contested": false
+        },
+        {
+          "ref": "GP.48",
+          "line_number": 48,
+          "text": "And therto hadde he riden (no man ferre)",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C025",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.49",
+          "line_number": 49,
+          "text": "As wel in Cristendom as hethenesse,",
+          "contested": false
+        },
+        {
+          "ref": "GP.50",
+          "line_number": 50,
+          "text": "And ever honoured for his worthinesse.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C026",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.51",
+          "line_number": 51,
+          "text": "At Alisaundre he was, whan it was wonne;",
+          "contested": false
+        },
+        {
+          "ref": "GP.52",
+          "line_number": 52,
+          "text": "Ful ofte tyme he hadde the bord bigonne",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C027",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.53",
+          "line_number": 53,
+          "text": "Aboven alle naciouns in Pruce.",
+          "contested": false
+        },
+        {
+          "ref": "GP.54",
+          "line_number": 54,
+          "text": "In Lettow hadde he reysed and in Ruce,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C028",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.55",
+          "line_number": 55,
+          "text": "No Cristen man so ofte of his degree.",
+          "contested": false
+        },
+        {
+          "ref": "GP.56",
+          "line_number": 56,
+          "text": "In Gernade at the sege eek hadde he be",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C029",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.57",
+          "line_number": 57,
+          "text": "Of Algezir, and riden in Belmarye.",
+          "contested": false
+        },
+        {
+          "ref": "GP.58",
+          "line_number": 58,
+          "text": "At Lyeys was he, and at Satalye,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C030",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.59",
+          "line_number": 59,
+          "text": "Whan they were wonne; and in the Grete See",
+          "contested": false
+        },
+        {
+          "ref": "GP.60",
+          "line_number": 60,
+          "text": "At many a noble aryve hadde he be.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C031",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.61",
+          "line_number": 61,
+          "text": "At mortal batailles hadde he been fiftene,",
+          "contested": false
+        },
+        {
+          "ref": "GP.62",
+          "line_number": 62,
+          "text": "And foughten for our feith at Tramissene",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C032",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.63",
+          "line_number": 63,
+          "text": "In listes thryes, and ay slayn his foo.",
+          "contested": false
+        },
+        {
+          "ref": "GP.64",
+          "line_number": 64,
+          "text": "This ilke worthy knight had been also",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C033",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.65",
+          "line_number": 65,
+          "text": "Somtyme with the lord of Palatye,",
+          "contested": false
+        },
+        {
+          "ref": "GP.66",
+          "line_number": 66,
+          "text": "Ageyn another hethen in Turkye:",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C034",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.67",
+          "line_number": 67,
+          "text": "And evermore he hadde a sovereyn prys.",
+          "contested": false
+        },
+        {
+          "ref": "GP.68",
+          "line_number": 68,
+          "text": "And though that he were worthy, he was wys,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C035",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.69",
+          "line_number": 69,
+          "text": "And of his port as meke as is a mayde.",
+          "contested": false
+        },
+        {
+          "ref": "GP.70",
+          "line_number": 70,
+          "text": "He never yet no vileinye ne sayde",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C036",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.71",
+          "line_number": 71,
+          "text": "In al his lyf, un-to no maner wight.",
+          "contested": false
+        },
+        {
+          "ref": "GP.72",
+          "line_number": 72,
+          "text": "He was a verray parfit gentil knight.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C037",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.73",
+          "line_number": 73,
+          "text": "But for to tellen yow of his array,",
+          "contested": false
+        },
+        {
+          "ref": "GP.74",
+          "line_number": 74,
+          "text": "His hors were gode, but he was nat gay.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C038",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.75",
+          "line_number": 75,
+          "text": "Of fustian he wered a gipoun",
+          "contested": false
+        },
+        {
+          "ref": "GP.76",
+          "line_number": 76,
+          "text": "Al bismotered with his habergeoun;",
+          "contested": true,
+          "contested_reason": "Irregular initial/syncopated scansion ('Al bismotered with his habergeoun'); noted in Benson p. xliv."
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C039",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.77",
+          "line_number": 77,
+          "text": "For he was late y-come from his viage,",
+          "contested": false
+        },
+        {
+          "ref": "GP.78",
+          "line_number": 78,
+          "text": "And wente for to doon his pilgrimage.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C040",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.79",
+          "line_number": 79,
+          "text": "With him ther was his sone, a yong SQUYER,",
+          "contested": false
+        },
+        {
+          "ref": "GP.80",
+          "line_number": 80,
+          "text": "A lovyere, and a lusty bacheler,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C041",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.81",
+          "line_number": 81,
+          "text": "With lokkes crulle, as they were leyd in presse.",
+          "contested": false
+        },
+        {
+          "ref": "GP.82",
+          "line_number": 82,
+          "text": "Of twenty yeer of age he was, I gesse.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C042",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.83",
+          "line_number": 83,
+          "text": "Of his stature he was of evene lengthe,",
+          "contested": false
+        },
+        {
+          "ref": "GP.84",
+          "line_number": 84,
+          "text": "And wonderly deliver, and greet of strengthe.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C043",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.85",
+          "line_number": 85,
+          "text": "And he had been somtyme in chivachye,",
+          "contested": false
+        },
+        {
+          "ref": "GP.86",
+          "line_number": 86,
+          "text": "In Flaundres, in Artoys, and Picardye,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C044",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.87",
+          "line_number": 87,
+          "text": "And born him wel, as of so litel space,",
+          "contested": false
+        },
+        {
+          "ref": "GP.88",
+          "line_number": 88,
+          "text": "In hope to stonden in his lady grace.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C045",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.89",
+          "line_number": 89,
+          "text": "Embrouded was he, as it were a mede",
+          "contested": false
+        },
+        {
+          "ref": "GP.90",
+          "line_number": 90,
+          "text": "Al ful of fresshe floures, whyte and rede.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C046",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.91",
+          "line_number": 91,
+          "text": "Singinge he was, or floytinge, al the day;",
+          "contested": false
+        },
+        {
+          "ref": "GP.92",
+          "line_number": 92,
+          "text": "He was as fresh as is the month of May.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C047",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.93",
+          "line_number": 93,
+          "text": "Short was his goune, with sleves longe and wyde.",
+          "contested": false
+        },
+        {
+          "ref": "GP.94",
+          "line_number": 94,
+          "text": "Wel coude he sitte on hors, and faire ryde.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C048",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.95",
+          "line_number": 95,
+          "text": "He coude songes make and wel endyte,",
+          "contested": false
+        },
+        {
+          "ref": "GP.96",
+          "line_number": 96,
+          "text": "Iuste and eek daunce, and wel purtreye and wryte,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C049",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.97",
+          "line_number": 97,
+          "text": "So hote he lovede, that by nightertale",
+          "contested": false
+        },
+        {
+          "ref": "GP.98",
+          "line_number": 98,
+          "text": "He sleep namore than dooth a nightingale.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C050",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.99",
+          "line_number": 99,
+          "text": "Curteys he was, lowly, and servisable,",
+          "contested": false
+        },
+        {
+          "ref": "GP.100",
+          "line_number": 100,
+          "text": "And carf biforn his fader at the table.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C051",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.101",
+          "line_number": 101,
+          "text": "A YEMAN hadde he, and servaunts namo",
+          "contested": false
+        },
+        {
+          "ref": "GP.102",
+          "line_number": 102,
+          "text": "At that tyme, for him liste ryde so;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C052",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.103",
+          "line_number": 103,
+          "text": "And he was clad in cote and hood of grene;",
+          "contested": false
+        },
+        {
+          "ref": "GP.104",
+          "line_number": 104,
+          "text": "A sheef of pecok-arwes brighte and kene",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C053",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.105",
+          "line_number": 105,
+          "text": "Under his belt he bar ful thriftily;",
+          "contested": false
+        },
+        {
+          "ref": "GP.106",
+          "line_number": 106,
+          "text": "(Wel coude he dresse his takel yemanly:",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C054",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.107",
+          "line_number": 107,
+          "text": "His arwes drouped noght with fetheres lowe),",
+          "contested": false
+        },
+        {
+          "ref": "GP.108",
+          "line_number": 108,
+          "text": "And in his hand he bar a mighty bowe.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C055",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.109",
+          "line_number": 109,
+          "text": "A not-heed hadde he, with a broun visage.",
+          "contested": false
+        },
+        {
+          "ref": "GP.110",
+          "line_number": 110,
+          "text": "Of wode-craft wel coude he al the usage.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C056",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.111",
+          "line_number": 111,
+          "text": "Upon his arm he bar a gay bracer,",
+          "contested": false
+        },
+        {
+          "ref": "GP.112",
+          "line_number": 112,
+          "text": "And by his syde a swerd and a bokeler,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C057",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.113",
+          "line_number": 113,
+          "text": "And on that other syde a gay daggere,",
+          "contested": false
+        },
+        {
+          "ref": "GP.114",
+          "line_number": 114,
+          "text": "Harneised wel, and sharp as point of spere;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C058",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.115",
+          "line_number": 115,
+          "text": "A Cristofre on his brest of silver shene.",
+          "contested": false
+        },
+        {
+          "ref": "GP.116",
+          "line_number": 116,
+          "text": "An horn he bar, the bawdrik was of grene;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C059",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.117",
+          "line_number": 117,
+          "text": "A forster was he, soothly, as I gesse.",
+          "contested": false
+        },
+        {
+          "ref": "GP.118",
+          "line_number": 118,
+          "text": "Ther was also a Nonne, a PRIORESSE,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C060",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.119",
+          "line_number": 119,
+          "text": "That of hir smyling was ful simple and coy;",
+          "contested": false
+        },
+        {
+          "ref": "GP.120",
+          "line_number": 120,
+          "text": "Hir gretteste ooth was but by sëynt Loy;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C061",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.121",
+          "line_number": 121,
+          "text": "And she was cleped madame Eglentyne.",
+          "contested": false
+        },
+        {
+          "ref": "GP.122",
+          "line_number": 122,
+          "text": "Ful wel she song the service divyne,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C062",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.123",
+          "line_number": 123,
+          "text": "Entuned in hir nose ful semely;",
+          "contested": false
+        },
+        {
+          "ref": "GP.124",
+          "line_number": 124,
+          "text": "And Frensh she spak ful faire and fetisly,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C063",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.125",
+          "line_number": 125,
+          "text": "After the scole of Stratford atte Bowe,",
+          "contested": false
+        },
+        {
+          "ref": "GP.126",
+          "line_number": 126,
+          "text": "For Frensh of Paris was to hir unknowe.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C064",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.127",
+          "line_number": 127,
+          "text": "At mete wel y-taught was she with-alle;",
+          "contested": false
+        },
+        {
+          "ref": "GP.128",
+          "line_number": 128,
+          "text": "She leet no morsel from hir lippes falle,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C065",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.129",
+          "line_number": 129,
+          "text": "Ne wette hir fingres in hir sauce depe.",
+          "contested": false
+        },
+        {
+          "ref": "GP.130",
+          "line_number": 130,
+          "text": "Wel coude she carie a morsel, and wel kepe,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C066",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.131",
+          "line_number": 131,
+          "text": "That no drope ne fille up-on hir brest.",
+          "contested": true,
+          "contested_reason": "Manuscript variation and irregular initial foot ('That no drope ne fille'); Skeat vol. 5 note to A.131."
+        },
+        {
+          "ref": "GP.132",
+          "line_number": 132,
+          "text": "In curteisye was set ful muche hir lest.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C067",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.133",
+          "line_number": 133,
+          "text": "Hir over lippe wyped she so clene,",
+          "contested": false
+        },
+        {
+          "ref": "GP.134",
+          "line_number": 134,
+          "text": "That in hir coppe was no ferthing sene",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C068",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.135",
+          "line_number": 135,
+          "text": "Of grece, whan she dronken hadde hir draughte.",
+          "contested": false
+        },
+        {
+          "ref": "GP.136",
+          "line_number": 136,
+          "text": "Ful semely after hir mete she raughte,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C069",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.137",
+          "line_number": 137,
+          "text": "And sikerly she was of greet disport,",
+          "contested": false
+        },
+        {
+          "ref": "GP.138",
+          "line_number": 138,
+          "text": "And ful plesaunt, and amiable of port,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C070",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.139",
+          "line_number": 139,
+          "text": "And peyned hir to countrefete chere",
+          "contested": false
+        },
+        {
+          "ref": "GP.140",
+          "line_number": 140,
+          "text": "Of court, and been estatlich of manere,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C071",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.141",
+          "line_number": 141,
+          "text": "And to ben holden digne of reverence.",
+          "contested": false
+        },
+        {
+          "ref": "GP.142",
+          "line_number": 142,
+          "text": "But, for to speken of hir conscience,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C072",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.143",
+          "line_number": 143,
+          "text": "She was so charitable and so pitous,",
+          "contested": false
+        },
+        {
+          "ref": "GP.144",
+          "line_number": 144,
+          "text": "She wolde wepe, if that she sawe a mous",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C073",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.145",
+          "line_number": 145,
+          "text": "Caught in a trappe, if it were deed or bledde.",
+          "contested": false
+        },
+        {
+          "ref": "GP.146",
+          "line_number": 146,
+          "text": "Of smale houndes had she, that she fedde",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C074",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.147",
+          "line_number": 147,
+          "text": "With rosted flesh, or milk and wastel-breed.",
+          "contested": false
+        },
+        {
+          "ref": "GP.148",
+          "line_number": 148,
+          "text": "But sore weep she if oon of hem were deed,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C075",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.149",
+          "line_number": 149,
+          "text": "Or if men smoot it with a yerde smerte:",
+          "contested": false
+        },
+        {
+          "ref": "GP.150",
+          "line_number": 150,
+          "text": "And al was conscience and tendre herte.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C076",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.151",
+          "line_number": 151,
+          "text": "Ful semely hir wimpel pinched was;",
+          "contested": false
+        },
+        {
+          "ref": "GP.152",
+          "line_number": 152,
+          "text": "Hir nose tretys; hir eyen greye as glas;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C077",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.153",
+          "line_number": 153,
+          "text": "Hir mouth ful smal, and ther-to softe and reed;",
+          "contested": false
+        },
+        {
+          "ref": "GP.154",
+          "line_number": 154,
+          "text": "But sikerly she hadde a fair forheed;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C078",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.155",
+          "line_number": 155,
+          "text": "It was almost a spanne brood, I trowe;",
+          "contested": false
+        },
+        {
+          "ref": "GP.156",
+          "line_number": 156,
+          "text": "For, hardily, she was nat undergrowe.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C079",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.157",
+          "line_number": 157,
+          "text": "Ful fetis was hir cloke, as I was war.",
+          "contested": false
+        },
+        {
+          "ref": "GP.158",
+          "line_number": 158,
+          "text": "Of smal coral aboute hir arm she bar",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C080",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.159",
+          "line_number": 159,
+          "text": "A peire of bedes, gauded al with grene;",
+          "contested": false
+        },
+        {
+          "ref": "GP.160",
+          "line_number": 160,
+          "text": "And ther-on heng a broche of gold ful shene,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C081",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.161",
+          "line_number": 161,
+          "text": "On which ther was first write a crowned A,",
+          "contested": false
+        },
+        {
+          "ref": "GP.162",
+          "line_number": 162,
+          "text": "And after, _Amor vincit omnia._",
+          "contested": true,
+          "contested_reason": "Macaronic Latin motto ('And after, Amor vincit omnia') outside English phonology."
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C082",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.163",
+          "line_number": 163,
+          "text": "Another NONNE with hir hadde she,",
+          "contested": true,
+          "contested_reason": "Textually disputed four-stress/incomplete line ('Another NONNE with hir hadde she'); Riverside note to I.163-64."
+        },
+        {
+          "ref": "GP.164",
+          "line_number": 164,
+          "text": "That was hir chapeleyne, and PREESTES three.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C083",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.165",
+          "line_number": 165,
+          "text": "A MONK ther was, a fair for the maistrye,",
+          "contested": false
+        },
+        {
+          "ref": "GP.166",
+          "line_number": 166,
+          "text": "An out-rydere, that lovede venerye;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C084",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.167",
+          "line_number": 167,
+          "text": "A manly man, to been an abbot able.",
+          "contested": false
+        },
+        {
+          "ref": "GP.168",
+          "line_number": 168,
+          "text": "Ful many a deyntee hors hadde he in stable:",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C085",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.169",
+          "line_number": 169,
+          "text": "And, whan he rood, men mighte his brydel here",
+          "contested": false
+        },
+        {
+          "ref": "GP.170",
+          "line_number": 170,
+          "text": "Ginglen in a whistling wind as clere,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C086",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.171",
+          "line_number": 171,
+          "text": "And eek as loude as dooth the chapel-belle,",
+          "contested": false
+        },
+        {
+          "ref": "GP.172",
+          "line_number": 172,
+          "text": "Ther as this lord was keper of the celle.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C087",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.173",
+          "line_number": 173,
+          "text": "The reule of seint Maure or of seint Beneit,",
+          "contested": false
+        },
+        {
+          "ref": "GP.174",
+          "line_number": 174,
+          "text": "By-cause that it was old and som-del streit,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C088",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.175",
+          "line_number": 175,
+          "text": "This ilke monk leet olde thinges pace,",
+          "contested": false
+        },
+        {
+          "ref": "GP.176",
+          "line_number": 176,
+          "text": "And held after the newe world the space.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C089",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.177",
+          "line_number": 177,
+          "text": "He yaf nat of that text a pulled hen,",
+          "contested": false
+        },
+        {
+          "ref": "GP.178",
+          "line_number": 178,
+          "text": "That seith, that hunters been nat holy men;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C090",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.179",
+          "line_number": 179,
+          "text": "Ne that a monk, whan he is cloisterlees,",
+          "contested": false
+        },
+        {
+          "ref": "GP.180",
+          "line_number": 180,
+          "text": "Is lykned til a fish that is waterlees;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C091",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.181",
+          "line_number": 181,
+          "text": "This is to seyn, a monk out of his cloistre.",
+          "contested": false
+        },
+        {
+          "ref": "GP.182",
+          "line_number": 182,
+          "text": "But thilke text held he nat worth an oistre;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C092",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.183",
+          "line_number": 183,
+          "text": "And I seyde, his opinioun was good.",
+          "contested": false
+        },
+        {
+          "ref": "GP.184",
+          "line_number": 184,
+          "text": "What sholde he studie, and make him-selven wood,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C093",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.185",
+          "line_number": 185,
+          "text": "Upon a book in cloistre alwey to poure,",
+          "contested": false
+        },
+        {
+          "ref": "GP.186",
+          "line_number": 186,
+          "text": "Or swinken with his handes, and laboure,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C094",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.187",
+          "line_number": 187,
+          "text": "As Austin bit? How shal the world be served?",
+          "contested": false
+        },
+        {
+          "ref": "GP.188",
+          "line_number": 188,
+          "text": "Lat Austin have his swink to him reserved.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C095",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.189",
+          "line_number": 189,
+          "text": "Therfore he was a pricasour aright;",
+          "contested": false
+        },
+        {
+          "ref": "GP.190",
+          "line_number": 190,
+          "text": "Grehoundes he hadde, as swifte as fowel in flight;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C096",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.191",
+          "line_number": 191,
+          "text": "Of priking and of hunting for the hare",
+          "contested": false
+        },
+        {
+          "ref": "GP.192",
+          "line_number": 192,
+          "text": "Was al his lust, for no cost wolde he spare.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C097",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.193",
+          "line_number": 193,
+          "text": "I seigh his sleves purfiled at the hond",
+          "contested": false
+        },
+        {
+          "ref": "GP.194",
+          "line_number": 194,
+          "text": "With grys, and that the fyneste of a lond;",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C098",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.195",
+          "line_number": 195,
+          "text": "And, for to festne his hood under his chin,",
+          "contested": false
+        },
+        {
+          "ref": "GP.196",
+          "line_number": 196,
+          "text": "He hadde of gold y-wroght a curious pin:",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C099",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.197",
+          "line_number": 197,
+          "text": "A love-knotte in the gretter ende ther was.",
+          "contested": false
+        },
+        {
+          "ref": "GP.198",
+          "line_number": 198,
+          "text": "His heed was balled, that shoon as any glas,",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "GP.C100",
+      "rhyme_scheme": "AA",
+      "lines": [
+        {
+          "ref": "GP.199",
+          "line_number": 199,
+          "text": "And eek his face, as he had been anoint.",
+          "contested": false
+        },
+        {
+          "ref": "GP.200",
+          "line_number": 200,
+          "text": "He was a lord ful fat and in good point;",
+          "contested": false
+        }
+      ]
+    }
+  ]
+}

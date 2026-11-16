@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "stratum": "S1",
+    "holdout_flag": "EVALUATION_ONLY",
+    "holdout_policy": "STRICT_EVALUATION_ONLY_NEVER_EXPOSED_TO_GENERATOR_OR_CALIBRATION",
+    "set_id": "H3",
+    "role": "Tests the tail-rhyme form (Sir Thopas, first 10 six-line stanzas)",
+    "metrical_form": "tail_rhyme_aabccb",
+    "edition": "W. W. Skeat (ed.), The Complete Works of Geoffrey Chaucer, vol. 4, The Canterbury Tales: Text, 2nd ed., Oxford: Clarendon Press, 1900 (Project Gutenberg #22120).",
+    "source_url": "https://github.com/GITenberg/Chaucer-s-Works-Volume-4--of-7----The-Canterbury-Tales_22120",
+    "upstream_file": "22120-8.txt",
+    "upstream_commit": "1e7f4c2ef672531d0676159202f2f9e2520e174c",
+    "upstream_sha256": "2506000b31a78ae72dd9d1dd755fb3f305c42516b293960c222ad78509fc00db"
+  },
+  "work_id": "BLIND_H3",
+  "title": "The Tale of Sir Thopas, lines 1902-1961 (Skeat 1900)",
+  "stanzas": [
+    {
+      "stanza_id": "TH.S01",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1902",
+          "line_number": 1902,
+          "text": "Listeth, lordes, in good entent,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1903",
+          "line_number": 1903,
+          "text": "And I wol telle verrayment",
+          "contested": false
+        },
+        {
+          "ref": "TH.1904",
+          "line_number": 1904,
+          "text": "Of mirthe and of solas;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1905",
+          "line_number": 1905,
+          "text": "Al of a knyght was fair and gent",
+          "contested": false
+        },
+        {
+          "ref": "TH.1906",
+          "line_number": 1906,
+          "text": "In bataille and in tourneyment,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1907",
+          "line_number": 1907,
+          "text": "His name was sir Thopas.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S02",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1908",
+          "line_number": 1908,
+          "text": "Y-born he was in fer contree,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1909",
+          "line_number": 1909,
+          "text": "In Flaundres, al biyonde the see,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1910",
+          "line_number": 1910,
+          "text": "At Popering, in the place;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1911",
+          "line_number": 1911,
+          "text": "His fader was a man ful free,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1912",
+          "line_number": 1912,
+          "text": "And lord he was of that contree,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1913",
+          "line_number": 1913,
+          "text": "As it was goddes grace.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S03",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1914",
+          "line_number": 1914,
+          "text": "Sir Thopas wex a doghty swayn,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1915",
+          "line_number": 1915,
+          "text": "Whyt was his face as payndemayn,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1916",
+          "line_number": 1916,
+          "text": "His lippes rede as rose;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1917",
+          "line_number": 1917,
+          "text": "His rode is lyk scarlet in grayn,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1918",
+          "line_number": 1918,
+          "text": "And I yow telle in good certayn,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1919",
+          "line_number": 1919,
+          "text": "He hadde a semely nose.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S04",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1920",
+          "line_number": 1920,
+          "text": "His heer, his berd was lyk saffroun,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1921",
+          "line_number": 1921,
+          "text": "That to his girdel raughte adoun;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1922",
+          "line_number": 1922,
+          "text": "His shoon of Cordewane.",
+          "contested": false
+        },
+        {
+          "ref": "TH.1923",
+          "line_number": 1923,
+          "text": "Of Brugges were his hosen broun,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1924",
+          "line_number": 1924,
+          "text": "His robe was of ciclatoun,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1925",
+          "line_number": 1925,
+          "text": "That coste many a Iane.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S05",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1926",
+          "line_number": 1926,
+          "text": "He coude hunte at wilde deer,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1927",
+          "line_number": 1927,
+          "text": "And ryde an hauking for riveer,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1928",
+          "line_number": 1928,
+          "text": "With grey goshauk on honde;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1929",
+          "line_number": 1929,
+          "text": "Ther-to be was a good archeer,",
+          "contested": true,
+          "contested_reason": "Project Gutenberg #22120 OCR misprint ('Ther-to be was a good archeer' for 'he')."
+        },
+        {
+          "ref": "TH.1930",
+          "line_number": 1930,
+          "text": "Of wrastling was ther noon his peer,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1931",
+          "line_number": 1931,
+          "text": "Ther any ram shal stonde.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S06",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1932",
+          "line_number": 1932,
+          "text": "Ful many a mayde, bright in bour,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1933",
+          "line_number": 1933,
+          "text": "They moorne for him, paramour,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1934",
+          "line_number": 1934,
+          "text": "Whan hem were bet to slepe;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1935",
+          "line_number": 1935,
+          "text": "But he was chast and no lechour,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1936",
+          "line_number": 1936,
+          "text": "And sweet as is the bremble-flour",
+          "contested": false
+        },
+        {
+          "ref": "TH.1937",
+          "line_number": 1937,
+          "text": "That bereth the rede hepe.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S07",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1938",
+          "line_number": 1938,
+          "text": "And so bifel up-on a day,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1939",
+          "line_number": 1939,
+          "text": "For sothe, as I yow telle may,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1940",
+          "line_number": 1940,
+          "text": "Sir Thopas wolde out ryde;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1941",
+          "line_number": 1941,
+          "text": "He worth upon his stede gray,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1942",
+          "line_number": 1942,
+          "text": "And in his honde a launcegay,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1943",
+          "line_number": 1943,
+          "text": "A long swerd by his syde.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S08",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1944",
+          "line_number": 1944,
+          "text": "He priketh thurgh a fair forest,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1945",
+          "line_number": 1945,
+          "text": "Ther-inne is many a wilde best,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1946",
+          "line_number": 1946,
+          "text": "Ye, bothe bukke and hare;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1947",
+          "line_number": 1947,
+          "text": "And, as he priketh north and est,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1948",
+          "line_number": 1948,
+          "text": "I telle it yow, him hadde almest",
+          "contested": false
+        },
+        {
+          "ref": "TH.1949",
+          "line_number": 1949,
+          "text": "Bitid a sory care.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S09",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1950",
+          "line_number": 1950,
+          "text": "Ther springen herbes grete and smale,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1951",
+          "line_number": 1951,
+          "text": "The lycorys and cetewale,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1952",
+          "line_number": 1952,
+          "text": "And many a clowe-gilofre;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1953",
+          "line_number": 1953,
+          "text": "And notemuge to putte in ale,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1954",
+          "line_number": 1954,
+          "text": "Whether it be moyste or stale,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1955",
+          "line_number": 1955,
+          "text": "Or for to leye in cofre.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "TH.S10",
+      "rhyme_scheme": "AABCCB",
+      "beat_targets": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "lines": [
+        {
+          "ref": "TH.1956",
+          "line_number": 1956,
+          "text": "The briddes singe, it is no nay,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1957",
+          "line_number": 1957,
+          "text": "The sparhauk and the papeiay,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1958",
+          "line_number": 1958,
+          "text": "That Ioye it was to here;",
+          "contested": false
+        },
+        {
+          "ref": "TH.1959",
+          "line_number": 1959,
+          "text": "The thrustelcok made eek his lay,",
+          "contested": false
+        },
+        {
+          "ref": "TH.1960",
+          "line_number": 1960,
+          "text": "The wodedowve upon the spray",
+          "contested": false
+        },
+        {
+          "ref": "TH.1961",
+          "line_number": 1961,
+          "text": "She sang ful loude and clere.",
+          "contested": false
+        }
+      ]
+    }
+  ]
+}

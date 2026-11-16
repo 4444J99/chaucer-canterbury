@@ -1,0 +1,981 @@
+{
+  "metadata": {
+    "stratum": "S1",
+    "holdout_flag": "EVALUATION_ONLY",
+    "holdout_policy": "STRICT_EVALUATION_ONLY_NEVER_EXPOSED_TO_GENERATOR_OR_CALIBRATION",
+    "set_id": "H2",
+    "role": "Stanza and rhyme recall (Clerk's Tale Prima Pars, 20 rhyme-royal stanzas)",
+    "metrical_form": "rhyme_royal_ababbcc",
+    "edition": "W. W. Skeat (ed.), The Complete Works of Geoffrey Chaucer, vol. 4, The Canterbury Tales: Text, 2nd ed., Oxford: Clarendon Press, 1900 (Project Gutenberg #22120).",
+    "source_url": "https://github.com/GITenberg/Chaucer-s-Works-Volume-4--of-7----The-Canterbury-Tales_22120",
+    "upstream_file": "22120-8.txt",
+    "upstream_commit": "1e7f4c2ef672531d0676159202f2f9e2520e174c",
+    "upstream_sha256": "2506000b31a78ae72dd9d1dd755fb3f305c42516b293960c222ad78509fc00db"
+  },
+  "work_id": "BLIND_H2",
+  "title": "The Clerk's Tale, Prima Pars, lines 57-196 (Skeat 1900)",
+  "stanzas": [
+    {
+      "stanza_id": "CL.S01",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.57",
+          "line_number": 57,
+          "text": "Ther is, at the west syde of Itaille,",
+          "contested": true,
+          "contested_reason": "Hengwrt/Skeat lacks 'right' ('Ther is, at the west syde of Itaille') vs Ellesmere regularization; Skeat note to E.57."
+        },
+        {
+          "ref": "CL.58",
+          "line_number": 58,
+          "text": "Doun at the rote of Vesulus the colde,",
+          "contested": false
+        },
+        {
+          "ref": "CL.59",
+          "line_number": 59,
+          "text": "A lusty playne, habundant of vitaille,",
+          "contested": false
+        },
+        {
+          "ref": "CL.60",
+          "line_number": 60,
+          "text": "Wher many a tour and toun thou mayst biholde,",
+          "contested": false
+        },
+        {
+          "ref": "CL.61",
+          "line_number": 61,
+          "text": "That founded were in tyme of fadres olde,",
+          "contested": false
+        },
+        {
+          "ref": "CL.62",
+          "line_number": 62,
+          "text": "And many another delitable sighte,",
+          "contested": false
+        },
+        {
+          "ref": "CL.63",
+          "line_number": 63,
+          "text": "And Saluces this noble contree highte.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S02",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.64",
+          "line_number": 64,
+          "text": "A markis whylom lord was of that londe,",
+          "contested": false
+        },
+        {
+          "ref": "CL.65",
+          "line_number": 65,
+          "text": "As were his worthy eldres him bifore;",
+          "contested": false
+        },
+        {
+          "ref": "CL.66",
+          "line_number": 66,
+          "text": "And obeisant and redy to his honde",
+          "contested": false
+        },
+        {
+          "ref": "CL.67",
+          "line_number": 67,
+          "text": "Were alle his liges, bothe lasse and more.",
+          "contested": false
+        },
+        {
+          "ref": "CL.68",
+          "line_number": 68,
+          "text": "Thus in delyt he liveth, and hath don yore,",
+          "contested": false
+        },
+        {
+          "ref": "CL.69",
+          "line_number": 69,
+          "text": "Biloved and drad, thurgh favour of fortune,",
+          "contested": false
+        },
+        {
+          "ref": "CL.70",
+          "line_number": 70,
+          "text": "Bothe of his lordes and of his commune.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S03",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.71",
+          "line_number": 71,
+          "text": "Therwith he was, to speke as of linage,",
+          "contested": false
+        },
+        {
+          "ref": "CL.72",
+          "line_number": 72,
+          "text": "The gentilleste y-born of Lumbardye,",
+          "contested": false
+        },
+        {
+          "ref": "CL.73",
+          "line_number": 73,
+          "text": "A fair persone, and strong, and yong of age,",
+          "contested": false
+        },
+        {
+          "ref": "CL.74",
+          "line_number": 74,
+          "text": "And ful of honour and of curteisye;",
+          "contested": false
+        },
+        {
+          "ref": "CL.75",
+          "line_number": 75,
+          "text": "Discreet y-nogh his contree for to gye,",
+          "contested": false
+        },
+        {
+          "ref": "CL.76",
+          "line_number": 76,
+          "text": "Save in somme thinges that he was to blame,",
+          "contested": false
+        },
+        {
+          "ref": "CL.77",
+          "line_number": 77,
+          "text": "And Walter was this yonge lordes name.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S04",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.78",
+          "line_number": 78,
+          "text": "I blame him thus, that he considereth noght",
+          "contested": false
+        },
+        {
+          "ref": "CL.79",
+          "line_number": 79,
+          "text": "In tyme cominge what mighte him bityde,",
+          "contested": false
+        },
+        {
+          "ref": "CL.80",
+          "line_number": 80,
+          "text": "But on his lust present was al his thoght,",
+          "contested": false
+        },
+        {
+          "ref": "CL.81",
+          "line_number": 81,
+          "text": "As for to hauke and hunte on every syde;",
+          "contested": false
+        },
+        {
+          "ref": "CL.82",
+          "line_number": 82,
+          "text": "Wel ny alle othere cures leet he slyde,",
+          "contested": false
+        },
+        {
+          "ref": "CL.83",
+          "line_number": 83,
+          "text": "And eek he nolde, and that was worst of alle,",
+          "contested": false
+        },
+        {
+          "ref": "CL.84",
+          "line_number": 84,
+          "text": "Wedde no wyf, for noght that may bifalle.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S05",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.85",
+          "line_number": 85,
+          "text": "Only that point his peple bar so sore,",
+          "contested": false
+        },
+        {
+          "ref": "CL.86",
+          "line_number": 86,
+          "text": "That flokmele on a day they to him wente,",
+          "contested": false
+        },
+        {
+          "ref": "CL.87",
+          "line_number": 87,
+          "text": "And oon of hem, that wysest was of lore,",
+          "contested": false
+        },
+        {
+          "ref": "CL.88",
+          "line_number": 88,
+          "text": "Or elles that the lord best wolde assente",
+          "contested": false
+        },
+        {
+          "ref": "CL.89",
+          "line_number": 89,
+          "text": "That he sholde telle him what his peple mente,",
+          "contested": false
+        },
+        {
+          "ref": "CL.90",
+          "line_number": 90,
+          "text": "Or elles coude he shewe wel swich matere,",
+          "contested": false
+        },
+        {
+          "ref": "CL.91",
+          "line_number": 91,
+          "text": "He to the markis seyde as ye shul here.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S06",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.92",
+          "line_number": 92,
+          "text": "'O noble markis, your humanitee",
+          "contested": false
+        },
+        {
+          "ref": "CL.93",
+          "line_number": 93,
+          "text": "Assureth us and yeveth us hardinesse,",
+          "contested": false
+        },
+        {
+          "ref": "CL.94",
+          "line_number": 94,
+          "text": "As ofte as tyme is of necessitee",
+          "contested": false
+        },
+        {
+          "ref": "CL.95",
+          "line_number": 95,
+          "text": "That we to yow mowe telle our hevinesse;",
+          "contested": false
+        },
+        {
+          "ref": "CL.96",
+          "line_number": 96,
+          "text": "Accepteth, lord, now for your gentillesse,",
+          "contested": false
+        },
+        {
+          "ref": "CL.97",
+          "line_number": 97,
+          "text": "That we with pitous herte un-to yow pleyne,",
+          "contested": false
+        },
+        {
+          "ref": "CL.98",
+          "line_number": 98,
+          "text": "And lete your eres nat my voys disdeyne.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S07",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.99",
+          "line_number": 99,
+          "text": "Al have I noght to done in this matere",
+          "contested": false
+        },
+        {
+          "ref": "CL.100",
+          "line_number": 100,
+          "text": "More than another man hath in this place,",
+          "contested": false
+        },
+        {
+          "ref": "CL.101",
+          "line_number": 101,
+          "text": "Yet for as muche as ye, my lord so dere,",
+          "contested": false
+        },
+        {
+          "ref": "CL.102",
+          "line_number": 102,
+          "text": "Han alwey shewed me favour and grace,",
+          "contested": false
+        },
+        {
+          "ref": "CL.103",
+          "line_number": 103,
+          "text": "I dar the better aske of yow a space",
+          "contested": false
+        },
+        {
+          "ref": "CL.104",
+          "line_number": 104,
+          "text": "Of audience, to shewen our requeste,",
+          "contested": false
+        },
+        {
+          "ref": "CL.105",
+          "line_number": 105,
+          "text": "And ye, my lord, to doon right as yow leste.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S08",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.106",
+          "line_number": 106,
+          "text": "For certes, lord, so wel us lyketh yow",
+          "contested": false
+        },
+        {
+          "ref": "CL.107",
+          "line_number": 107,
+          "text": "And al your werk and ever han doon, that we",
+          "contested": false
+        },
+        {
+          "ref": "CL.108",
+          "line_number": 108,
+          "text": "Ne coude nat us self devysen how",
+          "contested": false
+        },
+        {
+          "ref": "CL.109",
+          "line_number": 109,
+          "text": "We mighte liven in more felicitee,",
+          "contested": false
+        },
+        {
+          "ref": "CL.110",
+          "line_number": 110,
+          "text": "Save o thing, lord, if it your wille be,",
+          "contested": false
+        },
+        {
+          "ref": "CL.111",
+          "line_number": 111,
+          "text": "That for to been a wedded man yow leste,",
+          "contested": false
+        },
+        {
+          "ref": "CL.112",
+          "line_number": 112,
+          "text": "Than were your peple in sovereyn hertes reste.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S09",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.113",
+          "line_number": 113,
+          "text": "Boweth your nekke under that blisful yok",
+          "contested": false
+        },
+        {
+          "ref": "CL.114",
+          "line_number": 114,
+          "text": "Of soveraynetee, noght of servyse,",
+          "contested": false
+        },
+        {
+          "ref": "CL.115",
+          "line_number": 115,
+          "text": "Which that men clepeth spousaille or wedlok;",
+          "contested": false
+        },
+        {
+          "ref": "CL.116",
+          "line_number": 116,
+          "text": "And thenketh, lord, among your thoghtes wyse,",
+          "contested": false
+        },
+        {
+          "ref": "CL.117",
+          "line_number": 117,
+          "text": "How that our dayes passe in sondry wyse;",
+          "contested": false
+        },
+        {
+          "ref": "CL.118",
+          "line_number": 118,
+          "text": "For though we slepe or wake, or rome, or ryde,",
+          "contested": false
+        },
+        {
+          "ref": "CL.119",
+          "line_number": 119,
+          "text": "Ay fleeth the tyme, it nil no man abyde.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S10",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.120",
+          "line_number": 120,
+          "text": "And though your grene youthe floure as yit,",
+          "contested": false
+        },
+        {
+          "ref": "CL.121",
+          "line_number": 121,
+          "text": "In crepeth age alwey, as stille as stoon,",
+          "contested": false
+        },
+        {
+          "ref": "CL.122",
+          "line_number": 122,
+          "text": "And deeth manaceth every age, and smit",
+          "contested": false
+        },
+        {
+          "ref": "CL.123",
+          "line_number": 123,
+          "text": "In ech estaat, for ther escapeth noon:",
+          "contested": false
+        },
+        {
+          "ref": "CL.124",
+          "line_number": 124,
+          "text": "And al so certein as we knowe echoon",
+          "contested": false
+        },
+        {
+          "ref": "CL.125",
+          "line_number": 125,
+          "text": "That we shul deye, as uncerteyn we alle",
+          "contested": false
+        },
+        {
+          "ref": "CL.126",
+          "line_number": 126,
+          "text": "Been of that day whan deeth shal on us falle.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S11",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.127",
+          "line_number": 127,
+          "text": "Accepteth than of us the trewe entente,",
+          "contested": false
+        },
+        {
+          "ref": "CL.128",
+          "line_number": 128,
+          "text": "That never yet refuseden your heste,",
+          "contested": false
+        },
+        {
+          "ref": "CL.129",
+          "line_number": 129,
+          "text": "And we wol, lord, if that ye wol assente,",
+          "contested": false
+        },
+        {
+          "ref": "CL.130",
+          "line_number": 130,
+          "text": "Chese yow a wyf in short tyme, atte leste,",
+          "contested": false
+        },
+        {
+          "ref": "CL.131",
+          "line_number": 131,
+          "text": "Born of the gentilleste and of the meste",
+          "contested": false
+        },
+        {
+          "ref": "CL.132",
+          "line_number": 132,
+          "text": "Of al this lond, so that it oghte seme",
+          "contested": false
+        },
+        {
+          "ref": "CL.133",
+          "line_number": 133,
+          "text": "Honour to god and yow, as we can deme.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S12",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.134",
+          "line_number": 134,
+          "text": "Deliver us out of al this bisy drede,",
+          "contested": false
+        },
+        {
+          "ref": "CL.135",
+          "line_number": 135,
+          "text": "And tak a wyf, for hye goddes sake;",
+          "contested": false
+        },
+        {
+          "ref": "CL.136",
+          "line_number": 136,
+          "text": "For if it so bifelle, as god forbede,",
+          "contested": false
+        },
+        {
+          "ref": "CL.137",
+          "line_number": 137,
+          "text": "That thurgh your deeth your linage sholde slake,",
+          "contested": false
+        },
+        {
+          "ref": "CL.138",
+          "line_number": 138,
+          "text": "And that a straunge successour sholde take",
+          "contested": false
+        },
+        {
+          "ref": "CL.139",
+          "line_number": 139,
+          "text": "Your heritage, o! wo were us alyve!",
+          "contested": false
+        },
+        {
+          "ref": "CL.140",
+          "line_number": 140,
+          "text": "Wherfor we pray you hastily to wyve.'",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S13",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.141",
+          "line_number": 141,
+          "text": "Hir meke preyere and hir pitous chere",
+          "contested": false
+        },
+        {
+          "ref": "CL.142",
+          "line_number": 142,
+          "text": "Made the markis herte han pitee.",
+          "contested": true,
+          "contested_reason": "Broken-backed/nine-syllable line ('Made the markis herte han pitee'); Skeat vol. 5 note to E.142."
+        },
+        {
+          "ref": "CL.143",
+          "line_number": 143,
+          "text": "'Ye wol,' quod he, 'myn owene peple dere,",
+          "contested": false
+        },
+        {
+          "ref": "CL.144",
+          "line_number": 144,
+          "text": "To that I never erst thoghte streyne me.",
+          "contested": false
+        },
+        {
+          "ref": "CL.145",
+          "line_number": 145,
+          "text": "I me reioysed of my libertee,",
+          "contested": false
+        },
+        {
+          "ref": "CL.146",
+          "line_number": 146,
+          "text": "That selde tyme is founde in mariage;",
+          "contested": false
+        },
+        {
+          "ref": "CL.147",
+          "line_number": 147,
+          "text": "Ther I was free, I moot been in servage.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S14",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.148",
+          "line_number": 148,
+          "text": "But nathelees I see your trewe entente,",
+          "contested": false
+        },
+        {
+          "ref": "CL.149",
+          "line_number": 149,
+          "text": "And truste upon your wit, and have don ay;",
+          "contested": false
+        },
+        {
+          "ref": "CL.150",
+          "line_number": 150,
+          "text": "Wherfor of my free wil I wol assente",
+          "contested": false
+        },
+        {
+          "ref": "CL.151",
+          "line_number": 151,
+          "text": "To wedde me, as sone as ever I may.",
+          "contested": false
+        },
+        {
+          "ref": "CL.152",
+          "line_number": 152,
+          "text": "But ther-as ye han profred me to-day",
+          "contested": false
+        },
+        {
+          "ref": "CL.153",
+          "line_number": 153,
+          "text": "To chese me a wyf, I yow relesse",
+          "contested": false
+        },
+        {
+          "ref": "CL.154",
+          "line_number": 154,
+          "text": "That choys, and prey yow of that profre cesse.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S15",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.155",
+          "line_number": 155,
+          "text": "For god it woot, that children ofte been",
+          "contested": false
+        },
+        {
+          "ref": "CL.156",
+          "line_number": 156,
+          "text": "Unlyk her worthy eldres hem bifore;",
+          "contested": false
+        },
+        {
+          "ref": "CL.157",
+          "line_number": 157,
+          "text": "Bountee comth al of god, nat of the streen",
+          "contested": false
+        },
+        {
+          "ref": "CL.158",
+          "line_number": 158,
+          "text": "Of which they been engendred and y-bore;",
+          "contested": false
+        },
+        {
+          "ref": "CL.159",
+          "line_number": 159,
+          "text": "I truste in goddes bountee, and therfore",
+          "contested": false
+        },
+        {
+          "ref": "CL.160",
+          "line_number": 160,
+          "text": "My mariage and myn estaat and reste",
+          "contested": false
+        },
+        {
+          "ref": "CL.161",
+          "line_number": 161,
+          "text": "I him bitake; he may don as him leste.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S16",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.162",
+          "line_number": 162,
+          "text": "Lat me alone in chesinge of my wyf,",
+          "contested": false
+        },
+        {
+          "ref": "CL.163",
+          "line_number": 163,
+          "text": "That charge up-on my bak I wol endure;",
+          "contested": false
+        },
+        {
+          "ref": "CL.164",
+          "line_number": 164,
+          "text": "But I yow preye, and charge up-on your lyf,",
+          "contested": false
+        },
+        {
+          "ref": "CL.165",
+          "line_number": 165,
+          "text": "That what wyf that I take, ye me assure",
+          "contested": false
+        },
+        {
+          "ref": "CL.166",
+          "line_number": 166,
+          "text": "To worshipe hir, whyl that hir lyf may dure,",
+          "contested": false
+        },
+        {
+          "ref": "CL.167",
+          "line_number": 167,
+          "text": "In word and werk, bothe here and everywhere,",
+          "contested": false
+        },
+        {
+          "ref": "CL.168",
+          "line_number": 168,
+          "text": "As she an emperoures doghter were.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S17",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.169",
+          "line_number": 169,
+          "text": "And forthermore, this shal ye swere, that ye",
+          "contested": false
+        },
+        {
+          "ref": "CL.170",
+          "line_number": 170,
+          "text": "Agayn my choys shul neither grucche ne stryve;",
+          "contested": false
+        },
+        {
+          "ref": "CL.171",
+          "line_number": 171,
+          "text": "For sith I shal forgoon my libertee",
+          "contested": false
+        },
+        {
+          "ref": "CL.172",
+          "line_number": 172,
+          "text": "At your requeste, as ever moot I thryve,",
+          "contested": false
+        },
+        {
+          "ref": "CL.173",
+          "line_number": 173,
+          "text": "Ther as myn herte is set, ther wol I wyve;",
+          "contested": false
+        },
+        {
+          "ref": "CL.174",
+          "line_number": 174,
+          "text": "And but ye wole assente in swich manere,",
+          "contested": false
+        },
+        {
+          "ref": "CL.175",
+          "line_number": 175,
+          "text": "I prey yow, speketh na-more of this matere.'",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S18",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.176",
+          "line_number": 176,
+          "text": "With hertly wil they sworen, and assenten",
+          "contested": false
+        },
+        {
+          "ref": "CL.177",
+          "line_number": 177,
+          "text": "To al this thing, ther seyde no wight nay;",
+          "contested": false
+        },
+        {
+          "ref": "CL.178",
+          "line_number": 178,
+          "text": "Bisekinge him of grace, er that they wenten,",
+          "contested": false
+        },
+        {
+          "ref": "CL.179",
+          "line_number": 179,
+          "text": "That he wolde graunten hem a certein day",
+          "contested": false
+        },
+        {
+          "ref": "CL.180",
+          "line_number": 180,
+          "text": "Of his spousaille, as sone as ever he may;",
+          "contested": false
+        },
+        {
+          "ref": "CL.181",
+          "line_number": 181,
+          "text": "For yet alwey the peple som-what dredde",
+          "contested": false
+        },
+        {
+          "ref": "CL.182",
+          "line_number": 182,
+          "text": "Lest that this markis no wyf wolde wedde.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S19",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.183",
+          "line_number": 183,
+          "text": "He graunted hem a day, swich as him leste,",
+          "contested": false
+        },
+        {
+          "ref": "CL.184",
+          "line_number": 184,
+          "text": "On which he wolde be wedded sikerly,",
+          "contested": false
+        },
+        {
+          "ref": "CL.185",
+          "line_number": 185,
+          "text": "And seyde, he dide al this at hir requeste;",
+          "contested": false
+        },
+        {
+          "ref": "CL.186",
+          "line_number": 186,
+          "text": "And they, with humble entente, buxomly,",
+          "contested": false
+        },
+        {
+          "ref": "CL.187",
+          "line_number": 187,
+          "text": "Knelinge up-on her knees ful reverently",
+          "contested": false
+        },
+        {
+          "ref": "CL.188",
+          "line_number": 188,
+          "text": "Him thanken alle, and thus they han an ende",
+          "contested": false
+        },
+        {
+          "ref": "CL.189",
+          "line_number": 189,
+          "text": "Of hir entente, and hoom agayn they wende.",
+          "contested": false
+        }
+      ]
+    },
+    {
+      "stanza_id": "CL.S20",
+      "rhyme_scheme": "ABABBCC",
+      "lines": [
+        {
+          "ref": "CL.190",
+          "line_number": 190,
+          "text": "And heer-up-on he to his officeres",
+          "contested": false
+        },
+        {
+          "ref": "CL.191",
+          "line_number": 191,
+          "text": "Comaundeth for the feste to purveye,",
+          "contested": false
+        },
+        {
+          "ref": "CL.192",
+          "line_number": 192,
+          "text": "And to his privee knightes and squyeres",
+          "contested": false
+        },
+        {
+          "ref": "CL.193",
+          "line_number": 193,
+          "text": "Swich charge yaf, as him liste on hem leye;",
+          "contested": false
+        },
+        {
+          "ref": "CL.194",
+          "line_number": 194,
+          "text": "And they to his comandement obeye,",
+          "contested": false
+        },
+        {
+          "ref": "CL.195",
+          "line_number": 195,
+          "text": "And ech of hem doth al his diligence",
+          "contested": false
+        },
+        {
+          "ref": "CL.196",
+          "line_number": 196,
+          "text": "To doon un-to the feste reverence.",
+          "contested": false
+        }
+      ]
+    }
+  ]
+}

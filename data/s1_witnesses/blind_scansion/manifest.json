@@ -1,0 +1,49 @@
+{
+  "plan_id": "validation-plan-02-blind-scansion",
+  "holdout_flag": "EVALUATION_ONLY",
+  "frozen_date": "2026-11-15",
+  "edition": "W. W. Skeat (ed.), The Complete Works of Geoffrey Chaucer, vol. 4, The Canterbury Tales: Text, 2nd ed., Oxford: Clarendon Press, 1900 (Project Gutenberg #22120).",
+  "upstream_repo": "https://github.com/GITenberg/Chaucer-s-Works-Volume-4--of-7----The-Canterbury-Tales_22120",
+  "upstream_commit": "1e7f4c2ef672531d0676159202f2f9e2520e174c",
+  "upstream_file": "22120-8.txt",
+  "upstream_sha256": "2506000b31a78ae72dd9d1dd755fb3f305c42516b293960c222ad78509fc00db",
+  "extraction_script": "scripts/extract_skeat_holdouts.py",
+  "files": {
+    "h1_general_prologue_1_200.json": {
+      "sha256": "cc3798111923cc2380bf049c3827f5a8d382e206d68875b315d84f2b9a0bcd43",
+      "bytes": 44260,
+      "set_id": "H1",
+      "holdout_flag": "EVALUATION_ONLY"
+    },
+    "h2_clerks_tale_stanzas_1_20.json": {
+      "sha256": "5722eecd90bc803f55dea2b3cad7d3668e2082a7599705b6b7816ae69b97d776",
+      "bytes": 26669,
+      "set_id": "H2",
+      "holdout_flag": "EVALUATION_ONLY"
+    },
+    "h3_sir_thopas_1_60.json": {
+      "sha256": "7193c14e9e68fc78de24d68691c90296bd22b340e3daa81597d12066faa7cdd5",
+      "bytes": 12573,
+      "set_id": "H3",
+      "holdout_flag": "EVALUATION_ONLY"
+    },
+    "h4_general_prologue_201_400.json": {
+      "sha256": "5c030127fdeefb17e6be2937526ca3dd074e228b55be4be8a5ce4a046976fd53",
+      "bytes": 43864,
+      "set_id": "H4",
+      "holdout_flag": "EVALUATION_ONLY"
+    },
+    "n1_corrupted_340.json": {
+      "sha256": "30e54413805a0993690c451b9d1eec9c0c3063f1d6906fd49b6cbfe08458b6f2",
+      "bytes": 138701,
+      "set_id": "N1",
+      "holdout_flag": "EVALUATION_ONLY"
+    },
+    "reference_annotations_70.json": {
+      "sha256": "b315a3d9861c12e69075e144cbffd01cfc0011b13f2028b8edfe2fdbd2cb13a4",
+      "bytes": 40107,
+      "set_id": "REF70",
+      "holdout_flag": "EVALUATION_ONLY"
+    }
+  }
+}

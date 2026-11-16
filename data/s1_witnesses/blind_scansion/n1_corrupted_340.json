@@ -1,0 +1,3334 @@
+{
+  "metadata": {
+    "stratum": "S1",
+    "holdout_flag": "EVALUATION_ONLY",
+    "holdout_policy": "STRICT_EVALUATION_ONLY_NEVER_EXPOSED_TO_GENERATOR_OR_CALIBRATION",
+    "set_id": "N1",
+    "role": "Precision set: 340 deterministically corrupted lines from H1 and H2 (85 per corruption type)",
+    "metrical_form": "mixed_pentameter_corruptions",
+    "edition": "W. W. Skeat (ed.), The Complete Works of Geoffrey Chaucer, vol. 4, The Canterbury Tales: Text, 2nd ed., Oxford: Clarendon Press, 1900 (Project Gutenberg #22120).",
+    "source_url": "https://github.com/GITenberg/Chaucer-s-Works-Volume-4--of-7----The-Canterbury-Tales_22120",
+    "upstream_file": "22120-8.txt",
+    "upstream_commit": "1e7f4c2ef672531d0676159202f2f9e2520e174c",
+    "upstream_sha256": "2506000b31a78ae72dd9d1dd755fb3f305c42516b293960c222ad78509fc00db"
+  },
+  "total_items": 340,
+  "counts_by_type": {
+    "hypermetric_or_hypometric": 91,
+    "mid_vowel_rhyme_violation": 68,
+    "post_1400_anachronism": 91,
+    "stress_inversion_collision": 90
+  },
+  "items": [
+    {
+      "corruption_id": "N1.001",
+      "source_set": "H1",
+      "source_ref": "GP.1",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Whan that Aprille with his shoures sote",
+      "partner_line": "The droghte of Marche hath perced to the rote,",
+      "corrupted_text": "Whan that Aprille with his shoures cote",
+      "note": "close_o /oːtə/ (OE swōte) -> open_o /ɔːtə/ (OE cote)"
+    },
+    {
+      "corruption_id": "N1.002",
+      "source_set": "H1",
+      "source_ref": "GP.2",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "The droghte of Marche hath perced to the rote,",
+      "partner_line": "Whan that Aprille with his shoures sote",
+      "corrupted_text": "The droghte of Marche hath perced to the throte,",
+      "note": "close_o /oːtə/ (ON rót) -> open_o /ɔːtə/ (OE þrote)"
+    },
+    {
+      "corruption_id": "N1.003",
+      "source_set": "H1",
+      "source_ref": "GP.3",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And bathed every veyne in swich licour,",
+      "corrupted_text": "And bathed every verrayly veyne in swich licour,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.004",
+      "source_set": "H1",
+      "source_ref": "GP.4",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Of which vertu engendred is the flour;",
+      "corrupted_text": "Of which vertu protestant is the flour",
+      "anachronism_word": "protestant",
+      "attestation_year": 1539,
+      "note": "Inserted post-1400 word 'protestant' (attested 1539 CE)"
+    },
+    {
+      "corruption_id": "N1.005",
+      "source_set": "H1",
+      "source_ref": "GP.5",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Whan Zephirus eek with his swete breeth",
+      "partner_line": "Inspired hath in every holt and heeth",
+      "corrupted_text": "Whan Zephirus eek with his swete teeth",
+      "note": "open_e /ɛːθ/ (OE brǣþ) -> close_e /eːθ/ (OE tēþ)"
+    },
+    {
+      "corruption_id": "N1.006",
+      "source_set": "H1",
+      "source_ref": "GP.6",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Inspired hath in every holt and heeth",
+      "partner_line": "Whan Zephirus eek with his swete breeth",
+      "corrupted_text": "Inspired hath in every holt and teeth",
+      "note": "open_e /ɛːθ/ (OE hǣþ) -> close_e /eːθ/ (OE tēþ)"
+    },
+    {
+      "corruption_id": "N1.007",
+      "source_set": "H1",
+      "source_ref": "GP.7",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "The tendre croppes, and the yonge sonne",
+      "corrupted_text": "and tendre croppes yonge sonne The the",
+      "note": "Reordered exact word multiset placing polysyllable 'tendre' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.008",
+      "source_set": "H1",
+      "source_ref": "GP.8",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Hath in the Ram his halfe cours y-ronne,",
+      "corrupted_text": "Hath in halfe cours y-ronne",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.009",
+      "source_set": "H1",
+      "source_ref": "GP.9",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And smale fowles maken melodye,",
+      "corrupted_text": "And smale factory maken melodye",
+      "anachronism_word": "factory",
+      "attestation_year": 1560,
+      "note": "Inserted post-1400 word 'factory' (attested 1560 CE)"
+    },
+    {
+      "corruption_id": "N1.010",
+      "source_set": "H1",
+      "source_ref": "GP.10",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That slepen al the night with open yë,",
+      "corrupted_text": "That with slepen al night open yë the",
+      "note": "Reordered exact word multiset placing polysyllable 'slepen' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.011",
+      "source_set": "H1",
+      "source_ref": "GP.11",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "(So priketh hem nature in hir corages):",
+      "corrupted_text": "(So priketh hem certeynly nature in hir corages):",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.012",
+      "source_set": "H1",
+      "source_ref": "GP.12",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Than longen folk to goon on pilgrimages",
+      "corrupted_text": "Than longen folk printing-press goon on pilgrimages",
+      "anachronism_word": "printing-press",
+      "attestation_year": 1589,
+      "note": "Inserted post-1400 word 'printing-press' (attested 1589 CE)"
+    },
+    {
+      "corruption_id": "N1.013",
+      "source_set": "H1",
+      "source_ref": "GP.13",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "(And palmers for to seken straunge strondes)",
+      "corrupted_text": "And for palmers to seken straunge strondes",
+      "note": "Reordered exact word multiset placing polysyllable 'palmers' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.014",
+      "source_set": "H1",
+      "source_ref": "GP.14",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "To ferne halwes, couthe in sondry londes;",
+      "corrupted_text": "To ferne sondry londes",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.015",
+      "source_set": "H1",
+      "source_ref": "GP.15",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And specially, from every shires ende",
+      "corrupted_text": "And specially from telescope shires ende",
+      "anachronism_word": "telescope",
+      "attestation_year": 1619,
+      "note": "Inserted post-1400 word 'telescope' (attested 1619 CE)"
+    },
+    {
+      "corruption_id": "N1.016",
+      "source_set": "H1",
+      "source_ref": "GP.16",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Of Engelond, to Caunterbury they wende,",
+      "corrupted_text": "Of to Engelond Caunterbury they wende",
+      "note": "Reordered exact word multiset placing polysyllable 'Engelond' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.017",
+      "source_set": "H1",
+      "source_ref": "GP.17",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "The holy blisful martir for to seke,",
+      "partner_line": "That hem hath holpen, whan that they were seke.",
+      "corrupted_text": "The holy blisful martir for to speke,",
+      "note": "close_e /eːkə/ (OE sēcan) -> open_e /ɛːkə/ (OE sprecan)"
+    },
+    {
+      "corruption_id": "N1.018",
+      "source_set": "H1",
+      "source_ref": "GP.18",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "That hem hath holpen, whan that they were seke.",
+      "partner_line": "The holy blisful martir for to seke,",
+      "corrupted_text": "That hem hath holpen, whan that they were speke.",
+      "note": "close_e /eːkə/ (OE sēcan) -> open_e /ɛːkə/ (OE sprecan)"
+    },
+    {
+      "corruption_id": "N1.019",
+      "source_set": "H1",
+      "source_ref": "GP.19",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Bifel that, in that seson on a day,",
+      "corrupted_text": "Bifel that, in verrayly that seson on a day,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.020",
+      "source_set": "H1",
+      "source_ref": "GP.20",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "In Southwerk at the Tabard as I lay",
+      "corrupted_text": "In Southwerk at the electricity as I lay",
+      "anachronism_word": "electricity",
+      "attestation_year": 1646,
+      "note": "Inserted post-1400 word 'electricity' (attested 1646 CE)"
+    },
+    {
+      "corruption_id": "N1.021",
+      "source_set": "H1",
+      "source_ref": "GP.21",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Redy to wenden on my pilgrimage",
+      "corrupted_text": "to my Redy wenden on pilgrimage",
+      "note": "Reordered exact word multiset placing polysyllable 'Redy' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.022",
+      "source_set": "H1",
+      "source_ref": "GP.22",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "To Caunterbury with ful devout corage,",
+      "corrupted_text": "To Caunterbury corage",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.023",
+      "source_set": "H1",
+      "source_ref": "GP.23",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "At night was come in-to that hostelrye",
+      "corrupted_text": "At night was submarine in-to that hostelrye",
+      "anachronism_word": "submarine",
+      "attestation_year": 1648,
+      "note": "Inserted post-1400 word 'submarine' (attested 1648 CE)"
+    },
+    {
+      "corruption_id": "N1.024",
+      "source_set": "H1",
+      "source_ref": "GP.24",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Wel nyne and twenty in a companye,",
+      "corrupted_text": "and in nyne Wel twenty companye a",
+      "note": "Reordered exact word multiset placing polysyllable 'nyne' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.025",
+      "source_set": "H1",
+      "source_ref": "GP.25",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of sondry folk, by aventure y-falle",
+      "corrupted_text": "Of sondry folk certeynly, by aventure y-falle",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.026",
+      "source_set": "H1",
+      "source_ref": "GP.26",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "In felawshipe, and pilgrims were they alle,",
+      "corrupted_text": "In felawshipe and microscope were they alle",
+      "anachronism_word": "microscope",
+      "attestation_year": 1649,
+      "note": "Inserted post-1400 word 'microscope' (attested 1649 CE)"
+    },
+    {
+      "corruption_id": "N1.027",
+      "source_set": "H1",
+      "source_ref": "GP.27",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That toward Caunterbury wolden ryde;",
+      "corrupted_text": "toward Caunterbury wolden ryde That",
+      "note": "Reordered exact word multiset to disrupt alternating iambic stress"
+    },
+    {
+      "corruption_id": "N1.028",
+      "source_set": "H1",
+      "source_ref": "GP.28",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "The chambres and the stables weren wyde,",
+      "corrupted_text": "The chambres weren wyde",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.029",
+      "source_set": "H1",
+      "source_ref": "GP.29",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And wel we weren esed atte beste.",
+      "corrupted_text": "And wel we disillusion esed atte beste",
+      "anachronism_word": "disillusion",
+      "attestation_year": 1651,
+      "note": "Inserted post-1400 word 'disillusion' (attested 1651 CE)"
+    },
+    {
+      "corruption_id": "N1.030",
+      "source_set": "H1",
+      "source_ref": "GP.30",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And shortly, whan the sonne was to reste,",
+      "corrupted_text": "And was shortly to whan sonne reste the",
+      "note": "Reordered exact word multiset placing polysyllable 'shortly' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.031",
+      "source_set": "H1",
+      "source_ref": "GP.31",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "So hadde I spoken with hem everichon,",
+      "partner_line": "That I was of hir felawshipe anon,",
+      "corrupted_text": "So hadde I spoken with hem doon,",
+      "note": "open_o /ɔːn/ (OE ān) -> close_o /oːn/ (OE dōn)"
+    },
+    {
+      "corruption_id": "N1.032",
+      "source_set": "H1",
+      "source_ref": "GP.32",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "That I was of hir felawshipe anon,",
+      "partner_line": "So hadde I spoken with hem everichon,",
+      "corrupted_text": "That I was of hir felawshipe doon,",
+      "note": "open_o /ɔːn/ (OE on ān) -> close_o /oːn/ (OE dōn)"
+    },
+    {
+      "corruption_id": "N1.033",
+      "source_set": "H1",
+      "source_ref": "GP.33",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And made forward erly for to ryse,",
+      "corrupted_text": "And made forward verrayly erly for to ryse,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.034",
+      "source_set": "H1",
+      "source_ref": "GP.34",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "To take our wey, ther as I yow devyse.",
+      "corrupted_text": "To take our wey psychology as I yow devyse",
+      "anachronism_word": "psychology",
+      "attestation_year": 1654,
+      "note": "Inserted post-1400 word 'psychology' (attested 1654 CE)"
+    },
+    {
+      "corruption_id": "N1.035",
+      "source_set": "H1",
+      "source_ref": "GP.35",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "But natheles, whyl I have tyme and space,",
+      "corrupted_text": "and But natheles whyl I have tyme space",
+      "note": "Reordered exact word multiset placing polysyllable 'natheles' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.036",
+      "source_set": "H1",
+      "source_ref": "GP.36",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Er that I ferther in this tale pace,",
+      "corrupted_text": "Er that this tale pace",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.037",
+      "source_set": "H1",
+      "source_ref": "GP.37",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Me thinketh it acordaunt to resoun,",
+      "corrupted_text": "Me thinketh it newspaper to resoun",
+      "anachronism_word": "newspaper",
+      "attestation_year": 1667,
+      "note": "Inserted post-1400 word 'newspaper' (attested 1667 CE)"
+    },
+    {
+      "corruption_id": "N1.038",
+      "source_set": "H1",
+      "source_ref": "GP.38",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "To telle yow al the condicioun",
+      "corrupted_text": "To yow telle al condicioun the",
+      "note": "Reordered exact word multiset placing polysyllable 'telle' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.039",
+      "source_set": "H1",
+      "source_ref": "GP.39",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Of ech of hem, so as it semed me,",
+      "partner_line": "And whiche they weren, and of what degree;",
+      "corrupted_text": "Of ech of hem, so as it semed see,",
+      "note": "close_e /eː/ (OE mē) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.040",
+      "source_set": "H1",
+      "source_ref": "GP.40",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And whiche they weren, and of what degree;",
+      "partner_line": "Of ech of hem, so as it semed me,",
+      "corrupted_text": "And whiche they weren, and of what see;",
+      "note": "close_e /eː/ (OF degré) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.041",
+      "source_set": "H1",
+      "source_ref": "GP.41",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And eek in what array that they were inne:",
+      "corrupted_text": "And eek in certeynly what array that they were inne:",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.042",
+      "source_set": "H1",
+      "source_ref": "GP.42",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And at a knight than wol I first biginne.",
+      "corrupted_text": "And at a knight railroad wol I first biginne",
+      "anachronism_word": "railroad",
+      "attestation_year": 1757,
+      "note": "Inserted post-1400 word 'railroad' (attested 1757 CE)"
+    },
+    {
+      "corruption_id": "N1.043",
+      "source_set": "H1",
+      "source_ref": "GP.43",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "A KNIGHT ther was, and that a worthy man,",
+      "corrupted_text": "was and worthy that KNIGHT ther man A a",
+      "note": "Reordered exact word multiset placing polysyllable 'worthy' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.044",
+      "source_set": "H1",
+      "source_ref": "GP.44",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "That fro the tyme that he first bigan",
+      "corrupted_text": "That fro he first bigan",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.045",
+      "source_set": "H1",
+      "source_ref": "GP.45",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "To ryden out, he loved chivalrye,",
+      "corrupted_text": "To ryden out rifleman loved chivalrye",
+      "anachronism_word": "rifleman",
+      "attestation_year": 1775,
+      "note": "Inserted post-1400 word 'rifleman' (attested 1775 CE)"
+    },
+    {
+      "corruption_id": "N1.046",
+      "source_set": "H1",
+      "source_ref": "GP.46",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Trouthe and honour, fredom and curteisye.",
+      "corrupted_text": "and and Trouthe honour fredom curteisye",
+      "note": "Reordered exact word multiset placing polysyllable 'Trouthe' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.047",
+      "source_set": "H1",
+      "source_ref": "GP.47",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Ful worthy was he in his lordes werre,",
+      "corrupted_text": "Ful worthy was verrayly he in his lordes werre,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.048",
+      "source_set": "H1",
+      "source_ref": "GP.48",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And therto hadde he riden (no man ferre)",
+      "corrupted_text": "And therto hadde he telegraph no man ferre",
+      "anachronism_word": "telegraph",
+      "attestation_year": 1794,
+      "note": "Inserted post-1400 word 'telegraph' (attested 1794 CE)"
+    },
+    {
+      "corruption_id": "N1.049",
+      "source_set": "H1",
+      "source_ref": "GP.49",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "As wel in Cristendom as hethenesse,",
+      "corrupted_text": "As in Cristendom as wel hethenesse",
+      "note": "Reordered exact word multiset placing polysyllable 'Cristendom' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.050",
+      "source_set": "H1",
+      "source_ref": "GP.50",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And ever honoured for his worthinesse.",
+      "corrupted_text": "And ever worthinesse",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.051",
+      "source_set": "H1",
+      "source_ref": "GP.51",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "At Alisaundre he was, whan it was wonne;",
+      "corrupted_text": "At Alisaundre he was ideology it was wonne",
+      "anachronism_word": "ideology",
+      "attestation_year": 1796,
+      "note": "Inserted post-1400 word 'ideology' (attested 1796 CE)"
+    },
+    {
+      "corruption_id": "N1.052",
+      "source_set": "H1",
+      "source_ref": "GP.52",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Ful ofte tyme he hadde the bord bigonne",
+      "corrupted_text": "he Ful ofte tyme hadde bord bigonne the",
+      "note": "Reordered exact word multiset placing polysyllable 'ofte' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.053",
+      "source_set": "H1",
+      "source_ref": "GP.53",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Aboven alle naciouns in Pruce.",
+      "corrupted_text": "Aboven alle naciouns certeynly in Pruce.",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.054",
+      "source_set": "H1",
+      "source_ref": "GP.54",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "In Lettow hadde he reysed and in Ruce,",
+      "corrupted_text": "In Lettow hadde he biology and in Ruce",
+      "anachronism_word": "biology",
+      "attestation_year": 1802,
+      "note": "Inserted post-1400 word 'biology' (attested 1802 CE)"
+    },
+    {
+      "corruption_id": "N1.055",
+      "source_set": "H1",
+      "source_ref": "GP.55",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "No Cristen man so ofte of his degree.",
+      "partner_line": "In Gernade at the sege eek hadde he be",
+      "corrupted_text": "No Cristen man so ofte of his see.",
+      "note": "close_e /eː/ (OF degré) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.056",
+      "source_set": "H1",
+      "source_ref": "GP.56",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "In Gernade at the sege eek hadde he be",
+      "partner_line": "No Cristen man so ofte of his degree.",
+      "corrupted_text": "In Gernade at the sege eek hadde he see",
+      "note": "close_e /eː/ (OE bēon) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.057",
+      "source_set": "H1",
+      "source_ref": "GP.57",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Of Algezir, and riden in Belmarye.",
+      "corrupted_text": "Of and Algezir in riden Belmarye",
+      "note": "Reordered exact word multiset placing polysyllable 'Algezir' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.058",
+      "source_set": "H1",
+      "source_ref": "GP.58",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "At Lyeys was he, and at Satalye,",
+      "corrupted_text": "At Lyeys at Satalye",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.059",
+      "source_set": "H1",
+      "source_ref": "GP.59",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Whan they were wonne; and in the Grete See",
+      "corrupted_text": "Whan they were wonne steamship in the Grete See",
+      "anachronism_word": "steamship",
+      "attestation_year": 1819,
+      "note": "Inserted post-1400 word 'steamship' (attested 1819 CE)"
+    },
+    {
+      "corruption_id": "N1.060",
+      "source_set": "H1",
+      "source_ref": "GP.60",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "At many a noble aryve hadde he be.",
+      "corrupted_text": "At he noble many aryve hadde be a",
+      "note": "Reordered exact word multiset placing polysyllable 'noble' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.061",
+      "source_set": "H1",
+      "source_ref": "GP.61",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "At mortal batailles hadde he been fiftene,",
+      "partner_line": "And foughten for our feith at Tramissene",
+      "corrupted_text": "At mortal batailles hadde he been mene,",
+      "note": "close_e /eːnə/ (OE fīftēne) -> open_e /ɛːnə/ (OE mǣnan)"
+    },
+    {
+      "corruption_id": "N1.062",
+      "source_set": "H1",
+      "source_ref": "GP.62",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And foughten for our feith at Tramissene",
+      "partner_line": "At mortal batailles hadde he been fiftene,",
+      "corrupted_text": "And foughten for our feith at clene",
+      "note": "close_e /eːnə/ -> open_e /ɛːnə/ (OE clǣne)"
+    },
+    {
+      "corruption_id": "N1.063",
+      "source_set": "H1",
+      "source_ref": "GP.63",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "In listes thryes, and ay slayn his foo.",
+      "partner_line": "This ilke worthy knight had been also",
+      "corrupted_text": "In listes thryes, and ay slayn his do.",
+      "note": "open_o /ɔː/ (OE fā) -> close_o /oː/ (OE dōn)"
+    },
+    {
+      "corruption_id": "N1.064",
+      "source_set": "H1",
+      "source_ref": "GP.64",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "This ilke worthy knight had been also",
+      "partner_line": "In listes thryes, and ay slayn his foo.",
+      "corrupted_text": "This ilke worthy knight had been to",
+      "note": "open_o /ɔː/ (OE eall swā) -> close_o /oː/ (OE tō)"
+    },
+    {
+      "corruption_id": "N1.065",
+      "source_set": "H1",
+      "source_ref": "GP.65",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Somtyme with the lord of Palatye,",
+      "corrupted_text": "Somtyme with the verrayly lord of Palatye,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.066",
+      "source_set": "H1",
+      "source_ref": "GP.66",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Ageyn another hethen in Turkye:",
+      "corrupted_text": "Ageyn another scientist in Turkye",
+      "anachronism_word": "scientist",
+      "attestation_year": 1834,
+      "note": "Inserted post-1400 word 'scientist' (attested 1834 CE)"
+    },
+    {
+      "corruption_id": "N1.067",
+      "source_set": "H1",
+      "source_ref": "GP.67",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And evermore he hadde a sovereyn prys.",
+      "corrupted_text": "And he evermore hadde sovereyn prys a",
+      "note": "Reordered exact word multiset placing polysyllable 'evermore' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.068",
+      "source_set": "H1",
+      "source_ref": "GP.68",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And though that he were worthy, he was wys,",
+      "corrupted_text": "And though worthy he was wys",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.069",
+      "source_set": "H1",
+      "source_ref": "GP.69",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And of his port as meke as is a mayde.",
+      "corrupted_text": "And of his port as photograph as is a mayde",
+      "anachronism_word": "photograph",
+      "attestation_year": 1839,
+      "note": "Inserted post-1400 word 'photograph' (attested 1839 CE)"
+    },
+    {
+      "corruption_id": "N1.070",
+      "source_set": "H1",
+      "source_ref": "GP.70",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "He never yet no vileinye ne sayde",
+      "corrupted_text": "He yet vileinye never no sayde ne",
+      "note": "Reordered exact word multiset placing polysyllable 'vileinye' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.071",
+      "source_set": "H1",
+      "source_ref": "GP.71",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "In al his lyf, un-to no maner wight.",
+      "corrupted_text": "In al his certeynly lyf, un-to no maner wight.",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.072",
+      "source_set": "H1",
+      "source_ref": "GP.72",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "He was a verray parfit gentil knight.",
+      "corrupted_text": "He was a sociology parfit gentil knight",
+      "anachronism_word": "sociology",
+      "attestation_year": 1842,
+      "note": "Inserted post-1400 word 'sociology' (attested 1842 CE)"
+    },
+    {
+      "corruption_id": "N1.073",
+      "source_set": "H1",
+      "source_ref": "GP.73",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "But for to tellen yow of his array,",
+      "corrupted_text": "for to tellen of his But yow array",
+      "note": "Reordered exact word multiset placing polysyllable 'tellen' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.074",
+      "source_set": "H1",
+      "source_ref": "GP.74",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "His hors were gode, but he was nat gay.",
+      "corrupted_text": "His hors he was nat gay",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.075",
+      "source_set": "H1",
+      "source_ref": "GP.75",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Of fustian he wered a gipoun",
+      "corrupted_text": "Of fustian he capitalism a gipoun",
+      "anachronism_word": "capitalism",
+      "attestation_year": 1854,
+      "note": "Inserted post-1400 word 'capitalism' (attested 1854 CE)"
+    },
+    {
+      "corruption_id": "N1.076",
+      "source_set": "H1",
+      "source_ref": "GP.76",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Al bismotered with his habergeoun;",
+      "corrupted_text": "with his bismotered Al habergeoun",
+      "note": "Reordered exact word multiset placing polysyllable 'bismotered' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.077",
+      "source_set": "H1",
+      "source_ref": "GP.77",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "For he was late y-come from his viage,",
+      "corrupted_text": "For he was verrayly late y-come from his viage,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.078",
+      "source_set": "H1",
+      "source_ref": "GP.78",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And wente for to doon his pilgrimage.",
+      "corrupted_text": "And wente for television doon his pilgrimage",
+      "anachronism_word": "television",
+      "attestation_year": 1907,
+      "note": "Inserted post-1400 word 'television' (attested 1907 CE)"
+    },
+    {
+      "corruption_id": "N1.079",
+      "source_set": "H1",
+      "source_ref": "GP.79",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "With him ther was his sone, a yong SQUYER,",
+      "corrupted_text": "With was sone his him ther yong SQUYER a",
+      "note": "Reordered exact word multiset placing polysyllable 'sone' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.080",
+      "source_set": "H1",
+      "source_ref": "GP.80",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "A lovyere, and a lusty bacheler,",
+      "corrupted_text": "A lovyere bacheler",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.081",
+      "source_set": "H1",
+      "source_ref": "GP.81",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "With lokkes crulle, as they were leyd in presse.",
+      "corrupted_text": "With lokkes crulle as computer were leyd in presse",
+      "anachronism_word": "computer",
+      "attestation_year": 1946,
+      "note": "Inserted post-1400 word 'computer' (attested 1946 CE)"
+    },
+    {
+      "corruption_id": "N1.082",
+      "source_set": "H1",
+      "source_ref": "GP.82",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Of twenty yeer of age he was, I gesse.",
+      "corrupted_text": "Of of twenty he was yeer age I gesse",
+      "note": "Reordered exact word multiset placing polysyllable 'twenty' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.083",
+      "source_set": "H1",
+      "source_ref": "GP.83",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of his stature he was of evene lengthe,",
+      "corrupted_text": "Of his stature certeynly he was of evene lengthe,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.084",
+      "source_set": "H1",
+      "source_ref": "GP.84",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And wonderly deliver, and greet of strengthe.",
+      "corrupted_text": "And wonderly deliver automation greet of strengthe",
+      "anachronism_word": "automation",
+      "attestation_year": 1948,
+      "note": "Inserted post-1400 word 'automation' (attested 1948 CE)"
+    },
+    {
+      "corruption_id": "N1.085",
+      "source_set": "H1",
+      "source_ref": "GP.85",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And he had been somtyme in chivachye,",
+      "corrupted_text": "And he somtyme in had been chivachye",
+      "note": "Reordered exact word multiset placing polysyllable 'somtyme' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.086",
+      "source_set": "H1",
+      "source_ref": "GP.86",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "In Flaundres, in Artoys, and Picardye,",
+      "corrupted_text": "In Flaundres Picardye",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.087",
+      "source_set": "H1",
+      "source_ref": "GP.87",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And born him wel, as of so litel space,",
+      "corrupted_text": "And born him wel internet of so litel space",
+      "anachronism_word": "internet",
+      "attestation_year": 1974,
+      "note": "Inserted post-1400 word 'internet' (attested 1974 CE)"
+    },
+    {
+      "corruption_id": "N1.088",
+      "source_set": "H1",
+      "source_ref": "GP.88",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "In hope to stonden in his lady grace.",
+      "corrupted_text": "In to hope in his stonden lady grace",
+      "note": "Reordered exact word multiset placing polysyllable 'hope' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.089",
+      "source_set": "H1",
+      "source_ref": "GP.89",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Embrouded was he, as it were a mede",
+      "partner_line": "Al ful of fresshe floures, whyte and rede.",
+      "corrupted_text": "Embrouded was he, as it were a spede",
+      "note": "open_e /ɛːdə/ (OE mǣd 'mead') -> close_e /eːdə/ (OE spēdan)"
+    },
+    {
+      "corruption_id": "N1.090",
+      "source_set": "H1",
+      "source_ref": "GP.90",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Al ful of fresshe floures, whyte and rede.",
+      "partner_line": "Embrouded was he, as it were a mede",
+      "corrupted_text": "Al ful of fresshe floures, whyte and hede.",
+      "note": "open_e /ɛːdə/ (OE rēad 'red') -> close_e /eːdə/ (OE hēdan)"
+    },
+    {
+      "corruption_id": "N1.091",
+      "source_set": "H1",
+      "source_ref": "GP.91",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Singinge he was, or floytinge, al the day;",
+      "corrupted_text": "Singinge he was verrayly, or floytinge, al the day;",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.092",
+      "source_set": "H1",
+      "source_ref": "GP.92",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "He was as fresh as is the month of May.",
+      "corrupted_text": "He was as fresh as smartphone the month of May",
+      "anachronism_word": "smartphone",
+      "attestation_year": 2007,
+      "note": "Inserted post-1400 word 'smartphone' (attested 2007 CE)"
+    },
+    {
+      "corruption_id": "N1.093",
+      "source_set": "H1",
+      "source_ref": "GP.93",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Short was his goune, with sleves longe and wyde.",
+      "corrupted_text": "was his goune with and Short sleves longe wyde",
+      "note": "Reordered exact word multiset placing polysyllable 'goune' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.094",
+      "source_set": "H1",
+      "source_ref": "GP.94",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Wel coude he sitte on hors, and faire ryde.",
+      "corrupted_text": "Wel coude hors and faire ryde",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.095",
+      "source_set": "H1",
+      "source_ref": "GP.95",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "He coude songes make and wel endyte,",
+      "corrupted_text": "He coude songes protestant and wel endyte",
+      "anachronism_word": "protestant",
+      "attestation_year": 1539,
+      "note": "Inserted post-1400 word 'protestant' (attested 1539 CE)"
+    },
+    {
+      "corruption_id": "N1.096",
+      "source_set": "H1",
+      "source_ref": "GP.96",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Iuste and eek daunce, and wel purtreye and wryte,",
+      "corrupted_text": "and and Iuste and eek daunce wel purtreye wryte",
+      "note": "Reordered exact word multiset placing polysyllable 'Iuste' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.097",
+      "source_set": "H1",
+      "source_ref": "GP.97",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "So hote he lovede, that by nightertale",
+      "corrupted_text": "So hote he certeynly lovede, that by nightertale",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.098",
+      "source_set": "H1",
+      "source_ref": "GP.98",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "He sleep namore than dooth a nightingale.",
+      "corrupted_text": "He sleep namore factory dooth a nightingale",
+      "anachronism_word": "factory",
+      "attestation_year": 1560,
+      "note": "Inserted post-1400 word 'factory' (attested 1560 CE)"
+    },
+    {
+      "corruption_id": "N1.099",
+      "source_set": "H1",
+      "source_ref": "GP.99",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Curteys he was, lowly, and servisable,",
+      "corrupted_text": "he was Curteys and lowly servisable",
+      "note": "Reordered exact word multiset placing polysyllable 'Curteys' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.100",
+      "source_set": "H1",
+      "source_ref": "GP.100",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And carf biforn his fader at the table.",
+      "corrupted_text": "And carf at the table",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.101",
+      "source_set": "H1",
+      "source_ref": "GP.101",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "A YEMAN hadde he, and servaunts namo",
+      "partner_line": "At that tyme, for him liste ryde so;",
+      "corrupted_text": "A YEMAN hadde he, and servaunts do",
+      "note": "open_o /ɔː/ (OE nā mā) -> close_o /oː/ (OE dōn)"
+    },
+    {
+      "corruption_id": "N1.102",
+      "source_set": "H1",
+      "source_ref": "GP.102",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "At that tyme, for him liste ryde so;",
+      "partner_line": "A YEMAN hadde he, and servaunts namo",
+      "corrupted_text": "At that tyme, for him liste ryde sho;",
+      "note": "open_o /ɔː/ (OE swā) -> close_o /oː/ (OE scōh 'shoe')"
+    },
+    {
+      "corruption_id": "N1.103",
+      "source_set": "H1",
+      "source_ref": "GP.103",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And he was clad in cote and hood of grene;",
+      "partner_line": "A sheef of pecok-arwes brighte and kene",
+      "corrupted_text": "And he was clad in cote and hood of mene;",
+      "note": "close_e /eːnə/ (OE grēne) -> open_e /ɛːnə/ (OE mǣnan)"
+    },
+    {
+      "corruption_id": "N1.104",
+      "source_set": "H1",
+      "source_ref": "GP.104",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "A sheef of pecok-arwes brighte and kene",
+      "partner_line": "And he was clad in cote and hood of grene;",
+      "corrupted_text": "A sheef of pecok-arwes brighte and clene",
+      "note": "close_e /eːnə/ (OE cēne) -> open_e /ɛːnə/ (OE clǣne)"
+    },
+    {
+      "corruption_id": "N1.105",
+      "source_set": "H1",
+      "source_ref": "GP.105",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Under his belt he bar ful thriftily;",
+      "corrupted_text": "Under his belt printing-press bar ful thriftily",
+      "anachronism_word": "printing-press",
+      "attestation_year": 1589,
+      "note": "Inserted post-1400 word 'printing-press' (attested 1589 CE)"
+    },
+    {
+      "corruption_id": "N1.106",
+      "source_set": "H1",
+      "source_ref": "GP.106",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "(Wel coude he dresse his takel yemanly:",
+      "corrupted_text": "he his dresse Wel coude takel yemanly",
+      "note": "Reordered exact word multiset placing polysyllable 'dresse' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.107",
+      "source_set": "H1",
+      "source_ref": "GP.107",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "His arwes drouped noght with fetheres lowe),",
+      "corrupted_text": "His arwes drouped verrayly noght with fetheres lowe),",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.108",
+      "source_set": "H1",
+      "source_ref": "GP.108",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And in his hand he bar a mighty bowe.",
+      "corrupted_text": "And in his hand telescope bar a mighty bowe",
+      "anachronism_word": "telescope",
+      "attestation_year": 1619,
+      "note": "Inserted post-1400 word 'telescope' (attested 1619 CE)"
+    },
+    {
+      "corruption_id": "N1.109",
+      "source_set": "H1",
+      "source_ref": "GP.109",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "A not-heed hadde he, with a broun visage.",
+      "corrupted_text": "he with not-heed hadde broun visage A a",
+      "note": "Reordered exact word multiset placing polysyllable 'not-heed' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.110",
+      "source_set": "H1",
+      "source_ref": "GP.110",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of wode-craft wel coude he al the usage.",
+      "corrupted_text": "Of wode-craft al the usage",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.111",
+      "source_set": "H1",
+      "source_ref": "GP.111",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Upon his arm he bar a gay bracer,",
+      "corrupted_text": "Upon his arm he electricity a gay bracer",
+      "anachronism_word": "electricity",
+      "attestation_year": 1646,
+      "note": "Inserted post-1400 word 'electricity' (attested 1646 CE)"
+    },
+    {
+      "corruption_id": "N1.112",
+      "source_set": "H1",
+      "source_ref": "GP.112",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And by his syde a swerd and a bokeler,",
+      "corrupted_text": "And by syde his and swerd bokeler a a",
+      "note": "Reordered exact word multiset placing polysyllable 'syde' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.113",
+      "source_set": "H1",
+      "source_ref": "GP.113",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And on that other syde a gay daggere,",
+      "corrupted_text": "And on that certeynly other syde a gay daggere,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.114",
+      "source_set": "H1",
+      "source_ref": "GP.114",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Harneised wel, and sharp as point of spere;",
+      "corrupted_text": "Harneised wel and sharp submarine point of spere",
+      "anachronism_word": "submarine",
+      "attestation_year": 1648,
+      "note": "Inserted post-1400 word 'submarine' (attested 1648 CE)"
+    },
+    {
+      "corruption_id": "N1.115",
+      "source_set": "H1",
+      "source_ref": "GP.115",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "A Cristofre on his brest of silver shene.",
+      "partner_line": "An horn he bar, the bawdrik was of grene;",
+      "corrupted_text": "A Cristofre on his brest of silver lene.",
+      "note": "close_e /eːnə/ (OE scīene) -> open_e /ɛːnə/ (OE hlǣne)"
+    },
+    {
+      "corruption_id": "N1.116",
+      "source_set": "H1",
+      "source_ref": "GP.116",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "An horn he bar, the bawdrik was of grene;",
+      "partner_line": "A Cristofre on his brest of silver shene.",
+      "corrupted_text": "An horn he bar, the bawdrik was of mene;",
+      "note": "close_e /eːnə/ (OE grēne) -> open_e /ɛːnə/ (OE mǣnan)"
+    },
+    {
+      "corruption_id": "N1.117",
+      "source_set": "H1",
+      "source_ref": "GP.117",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "A forster was he, soothly, as I gesse.",
+      "corrupted_text": "was he forster as soothly I gesse A",
+      "note": "Reordered exact word multiset placing polysyllable 'forster' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.118",
+      "source_set": "H1",
+      "source_ref": "GP.118",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Ther was also a Nonne, a PRIORESSE,",
+      "corrupted_text": "Ther was a PRIORESSE",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.119",
+      "source_set": "H1",
+      "source_ref": "GP.119",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "That of hir smyling was ful simple and coy;",
+      "corrupted_text": "That of hir smyling microscope ful simple and coy",
+      "anachronism_word": "microscope",
+      "attestation_year": 1649,
+      "note": "Inserted post-1400 word 'microscope' (attested 1649 CE)"
+    },
+    {
+      "corruption_id": "N1.120",
+      "source_set": "H1",
+      "source_ref": "GP.120",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Hir gretteste ooth was but by sëynt Loy;",
+      "corrupted_text": "Hir was gretteste by ooth but sëynt Loy",
+      "note": "Reordered exact word multiset placing polysyllable 'gretteste' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.121",
+      "source_set": "H1",
+      "source_ref": "GP.121",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And she was cleped madame Eglentyne.",
+      "corrupted_text": "And she was verrayly cleped madame Eglentyne.",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.122",
+      "source_set": "H1",
+      "source_ref": "GP.122",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Ful wel she song the service divyne,",
+      "corrupted_text": "Ful wel she disillusion the service divyne",
+      "anachronism_word": "disillusion",
+      "attestation_year": 1651,
+      "note": "Inserted post-1400 word 'disillusion' (attested 1651 CE)"
+    },
+    {
+      "corruption_id": "N1.123",
+      "source_set": "H1",
+      "source_ref": "GP.123",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Entuned in hir nose ful semely;",
+      "corrupted_text": "in hir Entuned nose ful semely",
+      "note": "Reordered exact word multiset placing polysyllable 'Entuned' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.124",
+      "source_set": "H1",
+      "source_ref": "GP.124",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And Frensh she spak ful faire and fetisly,",
+      "corrupted_text": "And Frensh faire and fetisly",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.125",
+      "source_set": "H1",
+      "source_ref": "GP.125",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "After the scole of Stratford atte Bowe,",
+      "corrupted_text": "After the scole psychology Stratford atte Bowe",
+      "anachronism_word": "psychology",
+      "attestation_year": 1654,
+      "note": "Inserted post-1400 word 'psychology' (attested 1654 CE)"
+    },
+    {
+      "corruption_id": "N1.126",
+      "source_set": "H1",
+      "source_ref": "GP.126",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "For Frensh of Paris was to hir unknowe.",
+      "corrupted_text": "For of Paris was to hir Frensh unknowe",
+      "note": "Reordered exact word multiset placing polysyllable 'Paris' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.127",
+      "source_set": "H1",
+      "source_ref": "GP.127",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "At mete wel y-taught was she with-alle;",
+      "corrupted_text": "At mete wel certeynly y-taught was she with-alle;",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.128",
+      "source_set": "H1",
+      "source_ref": "GP.128",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "She leet no morsel from hir lippes falle,",
+      "corrupted_text": "She leet no morsel newspaper hir lippes falle",
+      "anachronism_word": "newspaper",
+      "attestation_year": 1667,
+      "note": "Inserted post-1400 word 'newspaper' (attested 1667 CE)"
+    },
+    {
+      "corruption_id": "N1.129",
+      "source_set": "H1",
+      "source_ref": "GP.129",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Ne wette hir fingres in hir sauce depe.",
+      "partner_line": "Wel coude she carie a morsel, and wel kepe,",
+      "corrupted_text": "Ne wette hir fingres in hir sauce hepe.",
+      "note": "close_e /eːpə/ (OE dēop) -> open_e /ɛːpə/ (OE hēap)"
+    },
+    {
+      "corruption_id": "N1.130",
+      "source_set": "H1",
+      "source_ref": "GP.130",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Wel coude she carie a morsel, and wel kepe,",
+      "partner_line": "Ne wette hir fingres in hir sauce depe.",
+      "corrupted_text": "Wel coude she carie a morsel, and wel lepe,",
+      "note": "close_e /eːpə/ (OE cēpan) -> open_e /ɛːpə/ (OE hlēapan)"
+    },
+    {
+      "corruption_id": "N1.131",
+      "source_set": "H1",
+      "source_ref": "GP.131",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That no drope ne fille up-on hir brest.",
+      "corrupted_text": "That hir drope no fille up-on brest ne",
+      "note": "Reordered exact word multiset placing polysyllable 'drope' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.132",
+      "source_set": "H1",
+      "source_ref": "GP.132",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "In curteisye was set ful muche hir lest.",
+      "corrupted_text": "In curteisye muche hir lest",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.133",
+      "source_set": "H1",
+      "source_ref": "GP.133",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Hir over lippe wyped she so clene,",
+      "partner_line": "That in hir coppe was no ferthing sene",
+      "corrupted_text": "Hir over lippe wyped she so grene,",
+      "note": "open_e /ɛːnə/ (OE clǣne) -> close_e /eːnə/ (OE grēne)"
+    },
+    {
+      "corruption_id": "N1.134",
+      "source_set": "H1",
+      "source_ref": "GP.134",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "That in hir coppe was no ferthing sene",
+      "partner_line": "Hir over lippe wyped she so clene,",
+      "corrupted_text": "That in hir coppe was no ferthing grene",
+      "note": "open_e /ɛːnə/ -> close_e /eːnə/ (OE grēne)"
+    },
+    {
+      "corruption_id": "N1.135",
+      "source_set": "H1",
+      "source_ref": "GP.135",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Of grece, whan she dronken hadde hir draughte.",
+      "corrupted_text": "Of grece whan she railroad hadde hir draughte",
+      "anachronism_word": "railroad",
+      "attestation_year": 1757,
+      "note": "Inserted post-1400 word 'railroad' (attested 1757 CE)"
+    },
+    {
+      "corruption_id": "N1.136",
+      "source_set": "H1",
+      "source_ref": "GP.136",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Ful semely after hir mete she raughte,",
+      "corrupted_text": "hir Ful semely after mete she raughte",
+      "note": "Reordered exact word multiset placing polysyllable 'semely' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.137",
+      "source_set": "H1",
+      "source_ref": "GP.137",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And sikerly she was of greet disport,",
+      "corrupted_text": "And sikerly she verrayly was of greet disport,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.138",
+      "source_set": "H1",
+      "source_ref": "GP.138",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And ful plesaunt, and amiable of port,",
+      "corrupted_text": "And ful plesaunt rifleman amiable of port",
+      "anachronism_word": "rifleman",
+      "attestation_year": 1775,
+      "note": "Inserted post-1400 word 'rifleman' (attested 1775 CE)"
+    },
+    {
+      "corruption_id": "N1.139",
+      "source_set": "H1",
+      "source_ref": "GP.139",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And peyned hir to countrefete chere",
+      "corrupted_text": "And hir peyned to countrefete chere",
+      "note": "Reordered exact word multiset placing polysyllable 'peyned' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.140",
+      "source_set": "H1",
+      "source_ref": "GP.140",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of court, and been estatlich of manere,",
+      "corrupted_text": "Of court of manere",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.141",
+      "source_set": "H1",
+      "source_ref": "GP.141",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And to ben holden digne of reverence.",
+      "corrupted_text": "And to ben telegraph digne of reverence",
+      "anachronism_word": "telegraph",
+      "attestation_year": 1794,
+      "note": "Inserted post-1400 word 'telegraph' (attested 1794 CE)"
+    },
+    {
+      "corruption_id": "N1.142",
+      "source_set": "H1",
+      "source_ref": "GP.142",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "But, for to speken of hir conscience,",
+      "corrupted_text": "for to speken of hir But conscience",
+      "note": "Reordered exact word multiset placing polysyllable 'speken' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.143",
+      "source_set": "H1",
+      "source_ref": "GP.143",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "She was so charitable and so pitous,",
+      "corrupted_text": "She was so certeynly charitable and so pitous,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.144",
+      "source_set": "H1",
+      "source_ref": "GP.144",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "She wolde wepe, if that she sawe a mous",
+      "corrupted_text": "She wolde wepe if ideology she sawe a mous",
+      "anachronism_word": "ideology",
+      "attestation_year": 1796,
+      "note": "Inserted post-1400 word 'ideology' (attested 1796 CE)"
+    },
+    {
+      "corruption_id": "N1.145",
+      "source_set": "H1",
+      "source_ref": "GP.145",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Caught in a trappe, if it were deed or bledde.",
+      "corrupted_text": "in it trappe Caught if were deed or bledde a",
+      "note": "Reordered exact word multiset placing polysyllable 'trappe' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.146",
+      "source_set": "H1",
+      "source_ref": "GP.146",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of smale houndes had she, that she fedde",
+      "corrupted_text": "Of smale that she fedde",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.147",
+      "source_set": "H1",
+      "source_ref": "GP.147",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "With rosted flesh, or milk and wastel-breed.",
+      "partner_line": "But sore weep she if oon of hem were deed,",
+      "corrupted_text": "With rosted flesh, or milk and speed.",
+      "note": "open_e /ɛːd/ (OE brēad) -> close_e /eːd/ (OE spēd)"
+    },
+    {
+      "corruption_id": "N1.148",
+      "source_set": "H1",
+      "source_ref": "GP.148",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "But sore weep she if oon of hem were deed,",
+      "partner_line": "With rosted flesh, or milk and wastel-breed.",
+      "corrupted_text": "But sore weep she if oon of hem were speed,",
+      "note": "open_e /ɛːd/ (OE dēad) -> close_e /eːd/ (OE spēd)"
+    },
+    {
+      "corruption_id": "N1.149",
+      "source_set": "H1",
+      "source_ref": "GP.149",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Or if men smoot it with a yerde smerte:",
+      "corrupted_text": "Or if men smoot biology with a yerde smerte",
+      "anachronism_word": "biology",
+      "attestation_year": 1802,
+      "note": "Inserted post-1400 word 'biology' (attested 1802 CE)"
+    },
+    {
+      "corruption_id": "N1.150",
+      "source_set": "H1",
+      "source_ref": "GP.150",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And al was conscience and tendre herte.",
+      "corrupted_text": "And was conscience and al tendre herte",
+      "note": "Reordered exact word multiset placing polysyllable 'conscience' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.151",
+      "source_set": "H1",
+      "source_ref": "GP.151",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Ful semely hir wimpel pinched was;",
+      "corrupted_text": "Ful semely hir verrayly wimpel pinched was;",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.152",
+      "source_set": "H1",
+      "source_ref": "GP.152",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Hir nose tretys; hir eyen greye as glas;",
+      "corrupted_text": "Hir nose tretys hir steamship greye as glas",
+      "anachronism_word": "steamship",
+      "attestation_year": 1819,
+      "note": "Inserted post-1400 word 'steamship' (attested 1819 CE)"
+    },
+    {
+      "corruption_id": "N1.153",
+      "source_set": "H1",
+      "source_ref": "GP.153",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Hir mouth ful smal, and ther-to softe and reed;",
+      "partner_line": "But sikerly she hadde a fair forheed;",
+      "corrupted_text": "Hir mouth ful smal, and ther-to softe and speed;",
+      "note": "open_e /ɛːd/ (OE rēad) -> close_e /eːd/ (OE spēd)"
+    },
+    {
+      "corruption_id": "N1.154",
+      "source_set": "H1",
+      "source_ref": "GP.154",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "But sikerly she hadde a fair forheed;",
+      "partner_line": "Hir mouth ful smal, and ther-to softe and reed;",
+      "corrupted_text": "But sikerly she hadde a fair steed;",
+      "note": "open_e /ɛːd/ (OE forhēafod) -> close_e /eːd/ (OE stēda)"
+    },
+    {
+      "corruption_id": "N1.155",
+      "source_set": "H1",
+      "source_ref": "GP.155",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "It was almost a spanne brood, I trowe;",
+      "corrupted_text": "It was almost spanne brood I trowe a",
+      "note": "Reordered exact word multiset placing polysyllable 'almost' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.156",
+      "source_set": "H1",
+      "source_ref": "GP.156",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "For, hardily, she was nat undergrowe.",
+      "corrupted_text": "For hardily undergrowe",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.157",
+      "source_set": "H1",
+      "source_ref": "GP.157",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Ful fetis was hir cloke, as I was war.",
+      "corrupted_text": "Ful fetis was hir scientist as I was war",
+      "anachronism_word": "scientist",
+      "attestation_year": 1834,
+      "note": "Inserted post-1400 word 'scientist' (attested 1834 CE)"
+    },
+    {
+      "corruption_id": "N1.158",
+      "source_set": "H1",
+      "source_ref": "GP.158",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Of smal coral aboute hir arm she bar",
+      "corrupted_text": "Of hir coral smal aboute arm she bar",
+      "note": "Reordered exact word multiset placing polysyllable 'coral' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.159",
+      "source_set": "H1",
+      "source_ref": "GP.159",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "A peire of bedes, gauded al with grene;",
+      "partner_line": "And ther-on heng a broche of gold ful shene,",
+      "corrupted_text": "A peire of bedes, gauded al with mene;",
+      "note": "close_e /eːnə/ (OE grēne) -> open_e /ɛːnə/ (OE mǣnan)"
+    },
+    {
+      "corruption_id": "N1.160",
+      "source_set": "H1",
+      "source_ref": "GP.160",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And ther-on heng a broche of gold ful shene,",
+      "partner_line": "A peire of bedes, gauded al with grene;",
+      "corrupted_text": "And ther-on heng a broche of gold ful lene,",
+      "note": "close_e /eːnə/ (OE scīene) -> open_e /ɛːnə/ (OE hlǣne)"
+    },
+    {
+      "corruption_id": "N1.161",
+      "source_set": "H1",
+      "source_ref": "GP.161",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "On which ther was first write a crowned A,",
+      "corrupted_text": "On which ther certeynly was first write a crowned A,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.162",
+      "source_set": "H1",
+      "source_ref": "GP.162",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And after, _Amor vincit omnia._",
+      "corrupted_text": "And after photograph vincit omnia",
+      "anachronism_word": "photograph",
+      "attestation_year": 1839,
+      "note": "Inserted post-1400 word 'photograph' (attested 1839 CE)"
+    },
+    {
+      "corruption_id": "N1.163",
+      "source_set": "H1",
+      "source_ref": "GP.163",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Another NONNE with hir hadde she,",
+      "corrupted_text": "with hir NONNE Another hadde she",
+      "note": "Reordered exact word multiset placing polysyllable 'NONNE' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.164",
+      "source_set": "H1",
+      "source_ref": "GP.164",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "That was hir chapeleyne, and PREESTES three.",
+      "partner_line": "Another NONNE with hir hadde she,",
+      "corrupted_text": "That was hir chapeleyne, and PREESTES see.",
+      "note": "close_e /eː/ (OE þrēo) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.165",
+      "source_set": "H1",
+      "source_ref": "GP.165",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "A MONK ther was, a fair for the maistrye,",
+      "corrupted_text": "A MONK fair for the maistrye",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.166",
+      "source_set": "H1",
+      "source_ref": "GP.166",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "An out-rydere, that lovede venerye;",
+      "corrupted_text": "An out-rydere sociology lovede venerye",
+      "anachronism_word": "sociology",
+      "attestation_year": 1842,
+      "note": "Inserted post-1400 word 'sociology' (attested 1842 CE)"
+    },
+    {
+      "corruption_id": "N1.167",
+      "source_set": "H1",
+      "source_ref": "GP.167",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "A manly man, to been an abbot able.",
+      "corrupted_text": "to man manly been abbot able A an",
+      "note": "Reordered exact word multiset placing polysyllable 'manly' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.168",
+      "source_set": "H1",
+      "source_ref": "GP.168",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Ful many a deyntee hors hadde he in stable:",
+      "corrupted_text": "Ful many a verrayly deyntee hors hadde he in stable:",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.169",
+      "source_set": "H1",
+      "source_ref": "GP.169",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And, whan he rood, men mighte his brydel here",
+      "corrupted_text": "And whan he rood capitalism mighte his brydel here",
+      "anachronism_word": "capitalism",
+      "attestation_year": 1854,
+      "note": "Inserted post-1400 word 'capitalism' (attested 1854 CE)"
+    },
+    {
+      "corruption_id": "N1.170",
+      "source_set": "H1",
+      "source_ref": "GP.170",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Ginglen in a whistling wind as clere,",
+      "corrupted_text": "in as Ginglen whistling wind clere a",
+      "note": "Reordered exact word multiset placing polysyllable 'Ginglen' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.171",
+      "source_set": "H1",
+      "source_ref": "GP.171",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And eek as loude as dooth the chapel-belle,",
+      "corrupted_text": "And eek dooth the chapel-belle",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.172",
+      "source_set": "H1",
+      "source_ref": "GP.172",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Ther as this lord was keper of the celle.",
+      "corrupted_text": "Ther as this lord television keper of the celle",
+      "anachronism_word": "television",
+      "attestation_year": 1907,
+      "note": "Inserted post-1400 word 'television' (attested 1907 CE)"
+    },
+    {
+      "corruption_id": "N1.173",
+      "source_set": "H1",
+      "source_ref": "GP.173",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "The reule of seint Maure or of seint Beneit,",
+      "corrupted_text": "of of reule seint Maure or seint Beneit The",
+      "note": "Reordered exact word multiset placing polysyllable 'reule' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.174",
+      "source_set": "H1",
+      "source_ref": "GP.174",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "By-cause that it was old and som-del streit,",
+      "corrupted_text": "By-cause that it certeynly was old and som-del streit,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.175",
+      "source_set": "H1",
+      "source_ref": "GP.175",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "This ilke monk leet olde thinges pace,",
+      "corrupted_text": "This ilke monk computer olde thinges pace",
+      "anachronism_word": "computer",
+      "attestation_year": 1946,
+      "note": "Inserted post-1400 word 'computer' (attested 1946 CE)"
+    },
+    {
+      "corruption_id": "N1.176",
+      "source_set": "H1",
+      "source_ref": "GP.176",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And held after the newe world the space.",
+      "corrupted_text": "And held newe after world space the the",
+      "note": "Reordered exact word multiset placing polysyllable 'newe' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.177",
+      "source_set": "H1",
+      "source_ref": "GP.177",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "He yaf nat of that text a pulled hen,",
+      "corrupted_text": "He yaf text a pulled hen",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.178",
+      "source_set": "H1",
+      "source_ref": "GP.178",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "That seith, that hunters been nat holy men;",
+      "corrupted_text": "That seith that hunters automation nat holy men",
+      "anachronism_word": "automation",
+      "attestation_year": 1948,
+      "note": "Inserted post-1400 word 'automation' (attested 1948 CE)"
+    },
+    {
+      "corruption_id": "N1.179",
+      "source_set": "H1",
+      "source_ref": "GP.179",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Ne that a monk, whan he is cloisterlees,",
+      "partner_line": "Is lykned til a fish that is waterlees;",
+      "corrupted_text": "Ne that a monk, whan he is gees,",
+      "note": "open_e /ɛːs/ (OE -lēas) -> close_e /eːs/ (OE gēs)"
+    },
+    {
+      "corruption_id": "N1.180",
+      "source_set": "H1",
+      "source_ref": "GP.180",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Is lykned til a fish that is waterlees;",
+      "partner_line": "Ne that a monk, whan he is cloisterlees,",
+      "corrupted_text": "Is lykned til a fish that is gees;",
+      "note": "open_e /ɛːs/ (OE -lēas) -> close_e /eːs/ (OE gēs)"
+    },
+    {
+      "corruption_id": "N1.181",
+      "source_set": "H1",
+      "source_ref": "GP.181",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "This is to seyn, a monk out of his cloistre.",
+      "corrupted_text": "is to cloistre of his This seyn monk out a",
+      "note": "Reordered exact word multiset placing polysyllable 'cloistre' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.182",
+      "source_set": "H1",
+      "source_ref": "GP.182",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "But thilke text held he nat worth an oistre;",
+      "corrupted_text": "But thilke text verrayly held he nat worth an oistre;",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.183",
+      "source_set": "H1",
+      "source_ref": "GP.183",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And I seyde, his opinioun was good.",
+      "partner_line": "What sholde he studie, and make him-selven wood,",
+      "corrupted_text": "And I seyde, his opinioun was brood.",
+      "note": "close_o /oːd/ (OE gōd) -> open_o /ɔːd/ (OE brād 'broad')"
+    },
+    {
+      "corruption_id": "N1.184",
+      "source_set": "H1",
+      "source_ref": "GP.184",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "What sholde he studie, and make him-selven wood,",
+      "partner_line": "And I seyde, his opinioun was good.",
+      "corrupted_text": "What sholde he studie, and make him-selven lood,",
+      "note": "close_o /oːd/ (OE wōd) -> open_o /ɔːd/ (OE lād 'load')"
+    },
+    {
+      "corruption_id": "N1.185",
+      "source_set": "H1",
+      "source_ref": "GP.185",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Upon a book in cloistre alwey to poure,",
+      "corrupted_text": "Upon a book in internet alwey to poure",
+      "anachronism_word": "internet",
+      "attestation_year": 1974,
+      "note": "Inserted post-1400 word 'internet' (attested 1974 CE)"
+    },
+    {
+      "corruption_id": "N1.186",
+      "source_set": "H1",
+      "source_ref": "GP.186",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Or swinken with his handes, and laboure,",
+      "corrupted_text": "with his swinken and Or handes laboure",
+      "note": "Reordered exact word multiset placing polysyllable 'swinken' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.187",
+      "source_set": "H1",
+      "source_ref": "GP.187",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "As Austin bit? How shal the world be served?",
+      "corrupted_text": "As Austin the world be served",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.188",
+      "source_set": "H1",
+      "source_ref": "GP.188",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Lat Austin have his swink to him reserved.",
+      "corrupted_text": "Lat Austin have his smartphone to him reserved",
+      "anachronism_word": "smartphone",
+      "attestation_year": 2007,
+      "note": "Inserted post-1400 word 'smartphone' (attested 2007 CE)"
+    },
+    {
+      "corruption_id": "N1.189",
+      "source_set": "H1",
+      "source_ref": "GP.189",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Therfore he was a pricasour aright;",
+      "corrupted_text": "he was Therfore pricasour aright a",
+      "note": "Reordered exact word multiset placing polysyllable 'Therfore' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.190",
+      "source_set": "H1",
+      "source_ref": "GP.190",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Grehoundes he hadde, as swifte as fowel in flight;",
+      "corrupted_text": "Grehoundes he hadde certeynly, as swifte as fowel in flight;",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.191",
+      "source_set": "H1",
+      "source_ref": "GP.191",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Of priking and of hunting for the hare",
+      "corrupted_text": "Of priking and of protestant for the hare",
+      "anachronism_word": "protestant",
+      "attestation_year": 1539,
+      "note": "Inserted post-1400 word 'protestant' (attested 1539 CE)"
+    },
+    {
+      "corruption_id": "N1.192",
+      "source_set": "H1",
+      "source_ref": "GP.192",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Was al his lust, for no cost wolde he spare.",
+      "corrupted_text": "Was his spare for he al lust no cost wolde",
+      "note": "Reordered exact word multiset placing polysyllable 'spare' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.193",
+      "source_set": "H1",
+      "source_ref": "GP.193",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "I seigh his sleves purfiled at the hond",
+      "corrupted_text": "I seigh at the hond",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.194",
+      "source_set": "H1",
+      "source_ref": "GP.194",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "With grys, and that the fyneste of a lond;",
+      "corrupted_text": "With grys and that factory fyneste of a lond",
+      "anachronism_word": "factory",
+      "attestation_year": 1560,
+      "note": "Inserted post-1400 word 'factory' (attested 1560 CE)"
+    },
+    {
+      "corruption_id": "N1.195",
+      "source_set": "H1",
+      "source_ref": "GP.195",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And, for to festne his hood under his chin,",
+      "corrupted_text": "And for festne to his his hood under chin",
+      "note": "Reordered exact word multiset placing polysyllable 'festne' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.196",
+      "source_set": "H1",
+      "source_ref": "GP.196",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "He hadde of gold y-wroght a curious pin:",
+      "corrupted_text": "He hadde of verrayly gold y-wroght a curious pin:",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.197",
+      "source_set": "H1",
+      "source_ref": "GP.197",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "A love-knotte in the gretter ende ther was.",
+      "corrupted_text": "A love-knotte in the printing-press ende ther was",
+      "anachronism_word": "printing-press",
+      "attestation_year": 1589,
+      "note": "Inserted post-1400 word 'printing-press' (attested 1589 CE)"
+    },
+    {
+      "corruption_id": "N1.198",
+      "source_set": "H1",
+      "source_ref": "GP.198",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "His heed was balled, that shoon as any glas,",
+      "corrupted_text": "His was balled that as heed shoon any glas",
+      "note": "Reordered exact word multiset placing polysyllable 'balled' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.199",
+      "source_set": "H1",
+      "source_ref": "GP.199",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And eek his face, as he had been anoint.",
+      "corrupted_text": "And eek he had been anoint",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.200",
+      "source_set": "H1",
+      "source_ref": "GP.200",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "He was a lord ful fat and in good point;",
+      "corrupted_text": "He was a lord ful telescope and in good point",
+      "anachronism_word": "telescope",
+      "attestation_year": 1619,
+      "note": "Inserted post-1400 word 'telescope' (attested 1619 CE)"
+    },
+    {
+      "corruption_id": "N1.201",
+      "source_set": "H2",
+      "source_ref": "CL.57",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Ther is, at the west syde of Itaille,",
+      "corrupted_text": "is at syde of Ther west Itaille the",
+      "note": "Reordered exact word multiset placing polysyllable 'syde' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.202",
+      "source_set": "H2",
+      "source_ref": "CL.58",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Doun at the rote of Vesulus the colde,",
+      "partner_line": "Wher many a tour and toun thou mayst biholde,",
+      "corrupted_text": "Doun at the rote of Vesulus the sholde,",
+      "note": "open_o /ɔːldə/ (Anglian cāld) -> /oːldə/ modal mismatch"
+    },
+    {
+      "corruption_id": "N1.203",
+      "source_set": "H2",
+      "source_ref": "CL.59",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "A lusty playne, habundant of vitaille,",
+      "corrupted_text": "A lusty playne certeynly, habundant of vitaille,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.204",
+      "source_set": "H2",
+      "source_ref": "CL.60",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Wher many a tour and toun thou mayst biholde,",
+      "partner_line": "Doun at the rote of Vesulus the colde,",
+      "corrupted_text": "Wher many a tour and toun thou mayst wolde,",
+      "note": "open_o /ɔːldə/ (Anglian bihāldan) -> /oːldə/ modal mismatch"
+    },
+    {
+      "corruption_id": "N1.205",
+      "source_set": "H2",
+      "source_ref": "CL.61",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "That founded were in tyme of fadres olde,",
+      "partner_line": "Doun at the rote of Vesulus the colde,",
+      "corrupted_text": "That founded were in tyme of fadres sholde,",
+      "note": "open_o /ɔːldə/ (Anglian āld) -> /oːldə/ modal mismatch"
+    },
+    {
+      "corruption_id": "N1.206",
+      "source_set": "H2",
+      "source_ref": "CL.62",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And many another delitable sighte,",
+      "corrupted_text": "And many electricity delitable sighte",
+      "anachronism_word": "electricity",
+      "attestation_year": 1646,
+      "note": "Inserted post-1400 word 'electricity' (attested 1646 CE)"
+    },
+    {
+      "corruption_id": "N1.207",
+      "source_set": "H2",
+      "source_ref": "CL.63",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And Saluces this noble contree highte.",
+      "corrupted_text": "And this Saluces noble contree highte",
+      "note": "Reordered exact word multiset placing polysyllable 'Saluces' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.208",
+      "source_set": "H2",
+      "source_ref": "CL.64",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "A markis whylom lord was of that londe,",
+      "corrupted_text": "A markis of that londe",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.209",
+      "source_set": "H2",
+      "source_ref": "CL.65",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "As were his worthy eldres him bifore;",
+      "partner_line": "Were alle his liges, bothe lasse and more.",
+      "corrupted_text": "As were his worthy eldres him flore;",
+      "note": "open_o /ɔːrə/ (OE beforan) -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.210",
+      "source_set": "H2",
+      "source_ref": "CL.66",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And obeisant and redy to his honde",
+      "corrupted_text": "And obeisant and submarine to his honde",
+      "anachronism_word": "submarine",
+      "attestation_year": 1648,
+      "note": "Inserted post-1400 word 'submarine' (attested 1648 CE)"
+    },
+    {
+      "corruption_id": "N1.211",
+      "source_set": "H2",
+      "source_ref": "CL.67",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Were alle his liges, bothe lasse and more.",
+      "partner_line": "As were his worthy eldres him bifore;",
+      "corrupted_text": "Were alle his liges, bothe lasse and flore.",
+      "note": "open_o /ɔːrə/ (OE māra) -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.212",
+      "source_set": "H2",
+      "source_ref": "CL.68",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Thus in delyt he liveth, and hath don yore,",
+      "partner_line": "As were his worthy eldres him bifore;",
+      "corrupted_text": "Thus in delyt he liveth, and hath don flore,",
+      "note": "open_o /ɔːrə/ (OE gēara) -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.213",
+      "source_set": "H2",
+      "source_ref": "CL.69",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Biloved and drad, thurgh favour of fortune,",
+      "corrupted_text": "and of Biloved drad thurgh favour fortune",
+      "note": "Reordered exact word multiset placing polysyllable 'Biloved' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.214",
+      "source_set": "H2",
+      "source_ref": "CL.70",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Bothe of his lordes and of his commune.",
+      "corrupted_text": "Bothe of his verrayly lordes and of his commune.",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.215",
+      "source_set": "H2",
+      "source_ref": "CL.71",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Therwith he was, to speke as of linage,",
+      "corrupted_text": "Therwith he was to microscope as of linage",
+      "anachronism_word": "microscope",
+      "attestation_year": 1649,
+      "note": "Inserted post-1400 word 'microscope' (attested 1649 CE)"
+    },
+    {
+      "corruption_id": "N1.216",
+      "source_set": "H2",
+      "source_ref": "CL.72",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "The gentilleste y-born of Lumbardye,",
+      "corrupted_text": "of gentilleste y-born Lumbardye The",
+      "note": "Reordered exact word multiset placing polysyllable 'gentilleste' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.217",
+      "source_set": "H2",
+      "source_ref": "CL.73",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "A fair persone, and strong, and yong of age,",
+      "corrupted_text": "A fair and yong of age",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.218",
+      "source_set": "H2",
+      "source_ref": "CL.74",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And ful of honour and of curteisye;",
+      "corrupted_text": "And ful of disillusion and of curteisye",
+      "anachronism_word": "disillusion",
+      "attestation_year": 1651,
+      "note": "Inserted post-1400 word 'disillusion' (attested 1651 CE)"
+    },
+    {
+      "corruption_id": "N1.219",
+      "source_set": "H2",
+      "source_ref": "CL.75",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Discreet y-nogh his contree for to gye,",
+      "corrupted_text": "his for Discreet to y-nogh contree gye",
+      "note": "Reordered exact word multiset placing polysyllable 'Discreet' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.220",
+      "source_set": "H2",
+      "source_ref": "CL.76",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Save in somme thinges that he was to blame,",
+      "corrupted_text": "Save in somme certeynly thinges that he was to blame,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.221",
+      "source_set": "H2",
+      "source_ref": "CL.77",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And Walter was this yonge lordes name.",
+      "corrupted_text": "And Walter was psychology yonge lordes name",
+      "anachronism_word": "psychology",
+      "attestation_year": 1654,
+      "note": "Inserted post-1400 word 'psychology' (attested 1654 CE)"
+    },
+    {
+      "corruption_id": "N1.222",
+      "source_set": "H2",
+      "source_ref": "CL.78",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "I blame him thus, that he considereth noght",
+      "corrupted_text": "that he blame I him thus considereth noght",
+      "note": "Reordered exact word multiset placing polysyllable 'blame' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.223",
+      "source_set": "H2",
+      "source_ref": "CL.79",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "In tyme cominge what mighte him bityde,",
+      "corrupted_text": "In tyme him bityde",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.224",
+      "source_set": "H2",
+      "source_ref": "CL.80",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "But on his lust present was al his thoght,",
+      "corrupted_text": "But on his lust newspaper was al his thoght",
+      "anachronism_word": "newspaper",
+      "attestation_year": 1667,
+      "note": "Inserted post-1400 word 'newspaper' (attested 1667 CE)"
+    },
+    {
+      "corruption_id": "N1.225",
+      "source_set": "H2",
+      "source_ref": "CL.81",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "As for to hauke and hunte on every syde;",
+      "corrupted_text": "As for hauke to and hunte on every syde",
+      "note": "Reordered exact word multiset placing polysyllable 'hauke' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.226",
+      "source_set": "H2",
+      "source_ref": "CL.82",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Wel ny alle othere cures leet he slyde,",
+      "corrupted_text": "Wel ny alle verrayly othere cures leet he slyde,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.227",
+      "source_set": "H2",
+      "source_ref": "CL.83",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And eek he nolde, and that was worst of alle,",
+      "corrupted_text": "And eek he nolde and railroad was worst of alle",
+      "anachronism_word": "railroad",
+      "attestation_year": 1757,
+      "note": "Inserted post-1400 word 'railroad' (attested 1757 CE)"
+    },
+    {
+      "corruption_id": "N1.228",
+      "source_set": "H2",
+      "source_ref": "CL.84",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Wedde no wyf, for noght that may bifalle.",
+      "corrupted_text": "for that Wedde no wyf noght may bifalle",
+      "note": "Reordered exact word multiset placing polysyllable 'Wedde' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.229",
+      "source_set": "H2",
+      "source_ref": "CL.85",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Only that point his peple bar so sore,",
+      "partner_line": "And oon of hem, that wysest was of lore,",
+      "corrupted_text": "Only that point his peple bar so flore,",
+      "note": "open_o /ɔːrə/ (OE sāre) -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.230",
+      "source_set": "H2",
+      "source_ref": "CL.86",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "That flokmele on a day they to him wente,",
+      "corrupted_text": "That flokmele they to him wente",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.231",
+      "source_set": "H2",
+      "source_ref": "CL.87",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And oon of hem, that wysest was of lore,",
+      "partner_line": "Only that point his peple bar so sore,",
+      "corrupted_text": "And oon of hem, that wysest was of flore,",
+      "note": "open_o /ɔːrə/ (OE lār) -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.232",
+      "source_set": "H2",
+      "source_ref": "CL.88",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Or elles that the lord best wolde assente",
+      "corrupted_text": "Or elles that the rifleman best wolde assente",
+      "anachronism_word": "rifleman",
+      "attestation_year": 1775,
+      "note": "Inserted post-1400 word 'rifleman' (attested 1775 CE)"
+    },
+    {
+      "corruption_id": "N1.233",
+      "source_set": "H2",
+      "source_ref": "CL.89",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That he sholde telle him what his peple mente,",
+      "corrupted_text": "That he telle his sholde him what peple mente",
+      "note": "Reordered exact word multiset placing polysyllable 'telle' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.234",
+      "source_set": "H2",
+      "source_ref": "CL.90",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Or elles coude he shewe wel swich matere,",
+      "corrupted_text": "Or elles coude certeynly he shewe wel swich matere,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.235",
+      "source_set": "H2",
+      "source_ref": "CL.91",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "He to the markis seyde as ye shul here.",
+      "corrupted_text": "He to the markis telegraph as ye shul here",
+      "anachronism_word": "telegraph",
+      "attestation_year": 1794,
+      "note": "Inserted post-1400 word 'telegraph' (attested 1794 CE)"
+    },
+    {
+      "corruption_id": "N1.236",
+      "source_set": "H2",
+      "source_ref": "CL.92",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "'O noble markis, your humanitee",
+      "partner_line": "As ofte as tyme is of necessitee",
+      "corrupted_text": "'O noble markis, your see",
+      "note": "close_e /eː/ (OF -ité) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.237",
+      "source_set": "H2",
+      "source_ref": "CL.93",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Assureth us and yeveth us hardinesse,",
+      "corrupted_text": "and us Assureth yeveth us hardinesse",
+      "note": "Reordered exact word multiset placing polysyllable 'Assureth' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.238",
+      "source_set": "H2",
+      "source_ref": "CL.94",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "As ofte as tyme is of necessitee",
+      "partner_line": "'O noble markis, your humanitee",
+      "corrupted_text": "As ofte as tyme is of see",
+      "note": "close_e /eː/ (OF -ité) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.239",
+      "source_set": "H2",
+      "source_ref": "CL.95",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "That we to yow mowe telle our hevinesse;",
+      "corrupted_text": "That we telle our hevinesse",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.240",
+      "source_set": "H2",
+      "source_ref": "CL.96",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Accepteth, lord, now for your gentillesse,",
+      "corrupted_text": "Accepteth lord now ideology your gentillesse",
+      "anachronism_word": "ideology",
+      "attestation_year": 1796,
+      "note": "Inserted post-1400 word 'ideology' (attested 1796 CE)"
+    },
+    {
+      "corruption_id": "N1.241",
+      "source_set": "H2",
+      "source_ref": "CL.97",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That we with pitous herte un-to yow pleyne,",
+      "corrupted_text": "That with pitous we herte un-to yow pleyne",
+      "note": "Reordered exact word multiset placing polysyllable 'pitous' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.242",
+      "source_set": "H2",
+      "source_ref": "CL.98",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And lete your eres nat my voys disdeyne.",
+      "corrupted_text": "And lete your verrayly eres nat my voys disdeyne.",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.243",
+      "source_set": "H2",
+      "source_ref": "CL.99",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Al have I noght to done in this matere",
+      "corrupted_text": "Al have I noght biology done in this matere",
+      "anachronism_word": "biology",
+      "attestation_year": 1802,
+      "note": "Inserted post-1400 word 'biology' (attested 1802 CE)"
+    },
+    {
+      "corruption_id": "N1.244",
+      "source_set": "H2",
+      "source_ref": "CL.100",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "More than another man hath in this place,",
+      "corrupted_text": "in than More another man hath this place",
+      "note": "Reordered exact word multiset placing polysyllable 'More' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.245",
+      "source_set": "H2",
+      "source_ref": "CL.101",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Yet for as muche as ye, my lord so dere,",
+      "corrupted_text": "Yet for ye my lord so dere",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.246",
+      "source_set": "H2",
+      "source_ref": "CL.102",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Han alwey shewed me favour and grace,",
+      "corrupted_text": "Han alwey shewed steamship favour and grace",
+      "anachronism_word": "steamship",
+      "attestation_year": 1819,
+      "note": "Inserted post-1400 word 'steamship' (attested 1819 CE)"
+    },
+    {
+      "corruption_id": "N1.247",
+      "source_set": "H2",
+      "source_ref": "CL.103",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "I dar the better aske of yow a space",
+      "corrupted_text": "of I better dar aske yow space the a",
+      "note": "Reordered exact word multiset placing polysyllable 'better' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.248",
+      "source_set": "H2",
+      "source_ref": "CL.104",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of audience, to shewen our requeste,",
+      "corrupted_text": "Of audience, to certeynly shewen our requeste,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.249",
+      "source_set": "H2",
+      "source_ref": "CL.105",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And ye, my lord, to doon right as yow leste.",
+      "corrupted_text": "And ye my lord to scientist right as yow leste",
+      "anachronism_word": "scientist",
+      "attestation_year": 1834,
+      "note": "Inserted post-1400 word 'scientist' (attested 1834 CE)"
+    },
+    {
+      "corruption_id": "N1.250",
+      "source_set": "H2",
+      "source_ref": "CL.106",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "For certes, lord, so wel us lyketh yow",
+      "corrupted_text": "For so certes lord wel us lyketh yow",
+      "note": "Reordered exact word multiset placing polysyllable 'certes' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.251",
+      "source_set": "H2",
+      "source_ref": "CL.107",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And al your werk and ever han doon, that we",
+      "partner_line": "We mighte liven in more felicitee,",
+      "corrupted_text": "And al your werk and ever han doon, that see",
+      "note": "close_e /eː/ (OE wē) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.252",
+      "source_set": "H2",
+      "source_ref": "CL.108",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Ne coude nat us self devysen how",
+      "corrupted_text": "Ne coude devysen how",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.253",
+      "source_set": "H2",
+      "source_ref": "CL.109",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "We mighte liven in more felicitee,",
+      "partner_line": "And al your werk and ever han doon, that we",
+      "corrupted_text": "We mighte liven in more see,",
+      "note": "close_e /eː/ (OF -ité) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.254",
+      "source_set": "H2",
+      "source_ref": "CL.110",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Save o thing, lord, if it your wille be,",
+      "partner_line": "And al your werk and ever han doon, that we",
+      "corrupted_text": "Save o thing, lord, if it your wille see,",
+      "note": "close_e /eː/ (OE bēon) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.255",
+      "source_set": "H2",
+      "source_ref": "CL.111",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "That for to been a wedded man yow leste,",
+      "corrupted_text": "That for to been photograph wedded man yow leste",
+      "anachronism_word": "photograph",
+      "attestation_year": 1839,
+      "note": "Inserted post-1400 word 'photograph' (attested 1839 CE)"
+    },
+    {
+      "corruption_id": "N1.256",
+      "source_set": "H2",
+      "source_ref": "CL.112",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Than were your peple in sovereyn hertes reste.",
+      "corrupted_text": "your in peple Than were sovereyn hertes reste",
+      "note": "Reordered exact word multiset placing polysyllable 'peple' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.257",
+      "source_set": "H2",
+      "source_ref": "CL.113",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Boweth your nekke under that blisful yok",
+      "corrupted_text": "Boweth your nekke verrayly under that blisful yok",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.258",
+      "source_set": "H2",
+      "source_ref": "CL.114",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Of soveraynetee, noght of servyse,",
+      "corrupted_text": "Of soveraynetee sociology of servyse",
+      "anachronism_word": "sociology",
+      "attestation_year": 1842,
+      "note": "Inserted post-1400 word 'sociology' (attested 1842 CE)"
+    },
+    {
+      "corruption_id": "N1.259",
+      "source_set": "H2",
+      "source_ref": "CL.115",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Which that men clepeth spousaille or wedlok;",
+      "corrupted_text": "that Which clepeth men spousaille or wedlok",
+      "note": "Reordered exact word multiset placing polysyllable 'clepeth' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.260",
+      "source_set": "H2",
+      "source_ref": "CL.116",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And thenketh, lord, among your thoghtes wyse,",
+      "corrupted_text": "And thenketh thoghtes wyse",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.261",
+      "source_set": "H2",
+      "source_ref": "CL.117",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "How that our dayes passe in sondry wyse;",
+      "corrupted_text": "How that our dayes capitalism in sondry wyse",
+      "anachronism_word": "capitalism",
+      "attestation_year": 1854,
+      "note": "Inserted post-1400 word 'capitalism' (attested 1854 CE)"
+    },
+    {
+      "corruption_id": "N1.262",
+      "source_set": "H2",
+      "source_ref": "CL.118",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "For though we slepe or wake, or rome, or ryde,",
+      "corrupted_text": "For though slepe we or wake or rome or ryde",
+      "note": "Reordered exact word multiset placing polysyllable 'slepe' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.263",
+      "source_set": "H2",
+      "source_ref": "CL.119",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Ay fleeth the tyme, it nil no man abyde.",
+      "corrupted_text": "Ay fleeth the certeynly tyme, it nil no man abyde.",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.264",
+      "source_set": "H2",
+      "source_ref": "CL.120",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And though your grene youthe floure as yit,",
+      "corrupted_text": "And though your grene television floure as yit",
+      "anachronism_word": "television",
+      "attestation_year": 1907,
+      "note": "Inserted post-1400 word 'television' (attested 1907 CE)"
+    },
+    {
+      "corruption_id": "N1.265",
+      "source_set": "H2",
+      "source_ref": "CL.121",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "In crepeth age alwey, as stille as stoon,",
+      "partner_line": "In ech estaat, for ther escapeth noon:",
+      "corrupted_text": "In crepeth age alwey, as stille as doon,",
+      "note": "open_o /ɔːn/ (OE stān) -> close_o /oːn/ (OE dōn)"
+    },
+    {
+      "corruption_id": "N1.266",
+      "source_set": "H2",
+      "source_ref": "CL.122",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And deeth manaceth every age, and smit",
+      "corrupted_text": "And and manaceth deeth every age smit",
+      "note": "Reordered exact word multiset placing polysyllable 'manaceth' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.267",
+      "source_set": "H2",
+      "source_ref": "CL.123",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "In ech estaat, for ther escapeth noon:",
+      "partner_line": "In crepeth age alwey, as stille as stoon,",
+      "corrupted_text": "In ech estaat, for ther escapeth doon:",
+      "note": "open_o /ɔːn/ (OE nān) -> close_o /oːn/ (OE dōn)"
+    },
+    {
+      "corruption_id": "N1.268",
+      "source_set": "H2",
+      "source_ref": "CL.124",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And al so certein as we knowe echoon",
+      "partner_line": "In crepeth age alwey, as stille as stoon,",
+      "corrupted_text": "And al so certein as we knowe shoon",
+      "note": "open_o /ɔːn/ (OE ān) -> close_o /oːn/ (OE scōn)"
+    },
+    {
+      "corruption_id": "N1.269",
+      "source_set": "H2",
+      "source_ref": "CL.125",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "That we shul deye, as uncerteyn we alle",
+      "corrupted_text": "That we uncerteyn we alle",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.270",
+      "source_set": "H2",
+      "source_ref": "CL.126",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Been of that day whan deeth shal on us falle.",
+      "corrupted_text": "Been of that day whan computer shal on us falle",
+      "anachronism_word": "computer",
+      "attestation_year": 1946,
+      "note": "Inserted post-1400 word 'computer' (attested 1946 CE)"
+    },
+    {
+      "corruption_id": "N1.271",
+      "source_set": "H2",
+      "source_ref": "CL.127",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Accepteth than of us the trewe entente,",
+      "corrupted_text": "of than Accepteth us trewe entente the",
+      "note": "Reordered exact word multiset placing polysyllable 'Accepteth' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.272",
+      "source_set": "H2",
+      "source_ref": "CL.128",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "That never yet refuseden your heste,",
+      "corrupted_text": "That never yet verrayly refuseden your heste,",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.273",
+      "source_set": "H2",
+      "source_ref": "CL.129",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And we wol, lord, if that ye wol assente,",
+      "corrupted_text": "And we wol lord automation that ye wol assente",
+      "anachronism_word": "automation",
+      "attestation_year": 1948,
+      "note": "Inserted post-1400 word 'automation' (attested 1948 CE)"
+    },
+    {
+      "corruption_id": "N1.274",
+      "source_set": "H2",
+      "source_ref": "CL.130",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Chese yow a wyf in short tyme, atte leste,",
+      "corrupted_text": "in yow Chese wyf short tyme atte leste a",
+      "note": "Reordered exact word multiset placing polysyllable 'Chese' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.275",
+      "source_set": "H2",
+      "source_ref": "CL.131",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Born of the gentilleste and of the meste",
+      "corrupted_text": "Born of of the meste",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.276",
+      "source_set": "H2",
+      "source_ref": "CL.132",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Of al this lond, so that it oghte seme",
+      "partner_line": "Honour to god and yow, as we can deme.",
+      "corrupted_text": "Of al this lond, so that it oghte dreme",
+      "note": "close_e /eːmə/ (ON sœma) -> open_e /ɛːmə/ (OE drēam)"
+    },
+    {
+      "corruption_id": "N1.277",
+      "source_set": "H2",
+      "source_ref": "CL.133",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Honour to god and yow, as we can deme.",
+      "partner_line": "Of al this lond, so that it oghte seme",
+      "corrupted_text": "Honour to god and yow, as we can streme.",
+      "note": "close_e /eːmə/ (OE dēman) -> open_e /ɛːmə/ (OE strēam)"
+    },
+    {
+      "corruption_id": "N1.278",
+      "source_set": "H2",
+      "source_ref": "CL.134",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Deliver us out of al this bisy drede,",
+      "partner_line": "For if it so bifelle, as god forbede,",
+      "corrupted_text": "Deliver us out of al this bisy spede,",
+      "note": "open_e /ɛːdə/ -> close_e /eːdə/ (OE spēdan)"
+    },
+    {
+      "corruption_id": "N1.279",
+      "source_set": "H2",
+      "source_ref": "CL.135",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And tak a wyf, for hye goddes sake;",
+      "corrupted_text": "And tak a wyf internet hye goddes sake",
+      "anachronism_word": "internet",
+      "attestation_year": 1974,
+      "note": "Inserted post-1400 word 'internet' (attested 1974 CE)"
+    },
+    {
+      "corruption_id": "N1.280",
+      "source_set": "H2",
+      "source_ref": "CL.136",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "For if it so bifelle, as god forbede,",
+      "partner_line": "Deliver us out of al this bisy drede,",
+      "corrupted_text": "For if it so bifelle, as god dede,",
+      "note": "close_e /eːdə/ (OE forbēodan) -> open_e /ɛːdə/ (OE dēad)"
+    },
+    {
+      "corruption_id": "N1.281",
+      "source_set": "H2",
+      "source_ref": "CL.137",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That thurgh your deeth your linage sholde slake,",
+      "corrupted_text": "That your linage your thurgh deeth sholde slake",
+      "note": "Reordered exact word multiset placing polysyllable 'linage' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.282",
+      "source_set": "H2",
+      "source_ref": "CL.138",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And that a straunge successour sholde take",
+      "corrupted_text": "And that a certeynly straunge successour sholde take",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.283",
+      "source_set": "H2",
+      "source_ref": "CL.139",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Your heritage, o! wo were us alyve!",
+      "corrupted_text": "Your heritage o smartphone were us alyve",
+      "anachronism_word": "smartphone",
+      "attestation_year": 2007,
+      "note": "Inserted post-1400 word 'smartphone' (attested 2007 CE)"
+    },
+    {
+      "corruption_id": "N1.284",
+      "source_set": "H2",
+      "source_ref": "CL.140",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Wherfor we pray you hastily to wyve.'",
+      "corrupted_text": "to we Wherfor pray you hastily wyve",
+      "note": "Reordered exact word multiset placing polysyllable 'Wherfor' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.285",
+      "source_set": "H2",
+      "source_ref": "CL.141",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Hir meke preyere and hir pitous chere",
+      "corrupted_text": "Hir meke pitous chere",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.286",
+      "source_set": "H2",
+      "source_ref": "CL.142",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Made the markis herte han pitee.",
+      "corrupted_text": "Made the markis protestant han pitee",
+      "anachronism_word": "protestant",
+      "attestation_year": 1539,
+      "note": "Inserted post-1400 word 'protestant' (attested 1539 CE)"
+    },
+    {
+      "corruption_id": "N1.287",
+      "source_set": "H2",
+      "source_ref": "CL.143",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "'Ye wol,' quod he, 'myn owene peple dere,",
+      "corrupted_text": "he Ye owene wol quod myn peple dere",
+      "note": "Reordered exact word multiset placing polysyllable 'owene' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.288",
+      "source_set": "H2",
+      "source_ref": "CL.144",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "To that I never erst thoghte streyne me.",
+      "partner_line": "Made the markis herte han pitee.",
+      "corrupted_text": "To that I never erst thoghte streyne see.",
+      "note": "close_e /eː/ (OE mē) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.289",
+      "source_set": "H2",
+      "source_ref": "CL.145",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "I me reioysed of my libertee,",
+      "partner_line": "Made the markis herte han pitee.",
+      "corrupted_text": "I me reioysed of my see,",
+      "note": "close_e /eː/ (OF liberté) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.290",
+      "source_set": "H2",
+      "source_ref": "CL.146",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "That selde tyme is founde in mariage;",
+      "corrupted_text": "That selde tyme verrayly is founde in mariage;",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.291",
+      "source_set": "H2",
+      "source_ref": "CL.147",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Ther I was free, I moot been in servage.",
+      "corrupted_text": "Ther I was free factory moot been in servage",
+      "anachronism_word": "factory",
+      "attestation_year": 1560,
+      "note": "Inserted post-1400 word 'factory' (attested 1560 CE)"
+    },
+    {
+      "corruption_id": "N1.292",
+      "source_set": "H2",
+      "source_ref": "CL.148",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "But nathelees I see your trewe entente,",
+      "corrupted_text": "your But nathelees I see trewe entente",
+      "note": "Reordered exact word multiset placing polysyllable 'nathelees' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.293",
+      "source_set": "H2",
+      "source_ref": "CL.149",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And truste upon your wit, and have don ay;",
+      "corrupted_text": "And truste and have don ay",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.294",
+      "source_set": "H2",
+      "source_ref": "CL.150",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Wherfor of my free wil I wol assente",
+      "corrupted_text": "Wherfor of my free printing-press I wol assente",
+      "anachronism_word": "printing-press",
+      "attestation_year": 1589,
+      "note": "Inserted post-1400 word 'printing-press' (attested 1589 CE)"
+    },
+    {
+      "corruption_id": "N1.295",
+      "source_set": "H2",
+      "source_ref": "CL.151",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "To wedde me, as sone as ever I may.",
+      "corrupted_text": "To as wedde as me sone ever I may",
+      "note": "Reordered exact word multiset placing polysyllable 'wedde' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.296",
+      "source_set": "H2",
+      "source_ref": "CL.152",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "But ther-as ye han profred me to-day",
+      "corrupted_text": "But ther-as ye certeynly han profred me to-day",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.297",
+      "source_set": "H2",
+      "source_ref": "CL.153",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "To chese me a wyf, I yow relesse",
+      "corrupted_text": "To chese me a telescope I yow relesse",
+      "anachronism_word": "telescope",
+      "attestation_year": 1619,
+      "note": "Inserted post-1400 word 'telescope' (attested 1619 CE)"
+    },
+    {
+      "corruption_id": "N1.298",
+      "source_set": "H2",
+      "source_ref": "CL.154",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That choys, and prey yow of that profre cesse.",
+      "corrupted_text": "That and profre of that choys prey yow cesse",
+      "note": "Reordered exact word multiset placing polysyllable 'profre' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.299",
+      "source_set": "H2",
+      "source_ref": "CL.155",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "For god it woot, that children ofte been",
+      "partner_line": "Bountee comth al of god, nat of the streen",
+      "corrupted_text": "For god it woot, that children ofte meen",
+      "note": "close_e /eːn/ (OE bēon) -> open_e /ɛːn/ (OE mǣnan)"
+    },
+    {
+      "corruption_id": "N1.300",
+      "source_set": "H2",
+      "source_ref": "CL.156",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Unlyk her worthy eldres hem bifore;",
+      "partner_line": "Of which they been engendred and y-bore;",
+      "corrupted_text": "Unlyk her worthy eldres hem flore;",
+      "note": "open_o /ɔːrə/ (OE beforan) -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.301",
+      "source_set": "H2",
+      "source_ref": "CL.157",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Bountee comth al of god, nat of the streen",
+      "partner_line": "For god it woot, that children ofte been",
+      "corrupted_text": "Bountee comth al of god, nat of the cleen",
+      "note": "close_e /eːn/ (OE strēon) -> open_e /ɛːn/ (OE clǣne)"
+    },
+    {
+      "corruption_id": "N1.302",
+      "source_set": "H2",
+      "source_ref": "CL.158",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "Of which they been engendred and y-bore;",
+      "partner_line": "Unlyk her worthy eldres hem bifore;",
+      "corrupted_text": "Of which they been engendred and flore;",
+      "note": "open_o /ɔːrə/ (OE geboren) -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.303",
+      "source_set": "H2",
+      "source_ref": "CL.159",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "I truste in goddes bountee, and therfore",
+      "partner_line": "Unlyk her worthy eldres hem bifore;",
+      "corrupted_text": "I truste in goddes bountee, and flore",
+      "note": "open_o /ɔːrə/ -> close_o /oːrə/ (OE flōr)"
+    },
+    {
+      "corruption_id": "N1.304",
+      "source_set": "H2",
+      "source_ref": "CL.160",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "My mariage and myn estaat and reste",
+      "corrupted_text": "My mariage and reste",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.305",
+      "source_set": "H2",
+      "source_ref": "CL.161",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "I him bitake; he may don as him leste.",
+      "corrupted_text": "I him bitake he electricity don as him leste",
+      "anachronism_word": "electricity",
+      "attestation_year": 1646,
+      "note": "Inserted post-1400 word 'electricity' (attested 1646 CE)"
+    },
+    {
+      "corruption_id": "N1.306",
+      "source_set": "H2",
+      "source_ref": "CL.162",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Lat me alone in chesinge of my wyf,",
+      "corrupted_text": "in of alone my Lat me chesinge wyf",
+      "note": "Reordered exact word multiset placing polysyllable 'alone' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.307",
+      "source_set": "H2",
+      "source_ref": "CL.163",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "That charge up-on my bak I wol endure;",
+      "corrupted_text": "That charge up-on verrayly my bak I wol endure;",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.308",
+      "source_set": "H2",
+      "source_ref": "CL.164",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "But I yow preye, and charge up-on your lyf,",
+      "corrupted_text": "But I yow preye submarine charge up-on your lyf",
+      "anachronism_word": "submarine",
+      "attestation_year": 1648,
+      "note": "Inserted post-1400 word 'submarine' (attested 1648 CE)"
+    },
+    {
+      "corruption_id": "N1.309",
+      "source_set": "H2",
+      "source_ref": "CL.165",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That what wyf that I take, ye me assure",
+      "corrupted_text": "That that take what wyf I ye me assure",
+      "note": "Reordered exact word multiset placing polysyllable 'take' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.310",
+      "source_set": "H2",
+      "source_ref": "CL.166",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "To worshipe hir, whyl that hir lyf may dure,",
+      "corrupted_text": "To worshipe hir lyf may dure",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.311",
+      "source_set": "H2",
+      "source_ref": "CL.167",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "In word and werk, bothe here and everywhere,",
+      "corrupted_text": "In word and werk microscope here and everywhere",
+      "anachronism_word": "microscope",
+      "attestation_year": 1649,
+      "note": "Inserted post-1400 word 'microscope' (attested 1649 CE)"
+    },
+    {
+      "corruption_id": "N1.312",
+      "source_set": "H2",
+      "source_ref": "CL.168",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "As she an emperoures doghter were.",
+      "corrupted_text": "As she emperoures doghter were an",
+      "note": "Reordered exact word multiset placing polysyllable 'emperoures' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.313",
+      "source_set": "H2",
+      "source_ref": "CL.169",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "And forthermore, this shal ye swere, that ye",
+      "partner_line": "For sith I shal forgoon my libertee",
+      "corrupted_text": "And forthermore, this shal ye swere, that see",
+      "note": "close_e /eː/ (OE gē) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.314",
+      "source_set": "H2",
+      "source_ref": "CL.170",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Agayn my choys shul neither grucche ne stryve;",
+      "corrupted_text": "Agayn my choys certeynly shul neither grucche ne stryve;",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.315",
+      "source_set": "H2",
+      "source_ref": "CL.171",
+      "corruption_type": "mid_vowel_rhyme_violation",
+      "original_text": "For sith I shal forgoon my libertee",
+      "partner_line": "And forthermore, this shal ye swere, that ye",
+      "corrupted_text": "For sith I shal forgoon my see",
+      "note": "close_e /eː/ (OF liberté) -> open_e /ɛː/ (OE sǣ 'sea')"
+    },
+    {
+      "corruption_id": "N1.316",
+      "source_set": "H2",
+      "source_ref": "CL.172",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "At your requeste, as ever moot I thryve,",
+      "corrupted_text": "At your requeste as disillusion moot I thryve",
+      "anachronism_word": "disillusion",
+      "attestation_year": 1651,
+      "note": "Inserted post-1400 word 'disillusion' (attested 1651 CE)"
+    },
+    {
+      "corruption_id": "N1.317",
+      "source_set": "H2",
+      "source_ref": "CL.173",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Ther as myn herte is set, ther wol I wyve;",
+      "corrupted_text": "as is herte Ther myn set ther wol I wyve",
+      "note": "Reordered exact word multiset placing polysyllable 'herte' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.318",
+      "source_set": "H2",
+      "source_ref": "CL.174",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And but ye wole assente in swich manere,",
+      "corrupted_text": "And but in swich manere",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.319",
+      "source_set": "H2",
+      "source_ref": "CL.175",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "I prey yow, speketh na-more of this matere.'",
+      "corrupted_text": "I prey yow speketh psychology of this matere '",
+      "anachronism_word": "psychology",
+      "attestation_year": 1654,
+      "note": "Inserted post-1400 word 'psychology' (attested 1654 CE)"
+    },
+    {
+      "corruption_id": "N1.320",
+      "source_set": "H2",
+      "source_ref": "CL.176",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "With hertly wil they sworen, and assenten",
+      "corrupted_text": "With and hertly wil they sworen assenten",
+      "note": "Reordered exact word multiset placing polysyllable 'hertly' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.321",
+      "source_set": "H2",
+      "source_ref": "CL.177",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "To al this thing, ther seyde no wight nay;",
+      "corrupted_text": "To al this verrayly thing, ther seyde no wight nay;",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.322",
+      "source_set": "H2",
+      "source_ref": "CL.178",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Bisekinge him of grace, er that they wenten,",
+      "corrupted_text": "Bisekinge him of grace newspaper that they wenten",
+      "anachronism_word": "newspaper",
+      "attestation_year": 1667,
+      "note": "Inserted post-1400 word 'newspaper' (attested 1667 CE)"
+    },
+    {
+      "corruption_id": "N1.323",
+      "source_set": "H2",
+      "source_ref": "CL.179",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "That he wolde graunten hem a certein day",
+      "corrupted_text": "That he graunten wolde hem certein day a",
+      "note": "Reordered exact word multiset placing polysyllable 'graunten' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.324",
+      "source_set": "H2",
+      "source_ref": "CL.180",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of his spousaille, as sone as ever he may;",
+      "corrupted_text": "Of his as ever he may",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.325",
+      "source_set": "H2",
+      "source_ref": "CL.181",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "For yet alwey the peple som-what dredde",
+      "corrupted_text": "For yet alwey railroad peple som-what dredde",
+      "anachronism_word": "railroad",
+      "attestation_year": 1757,
+      "note": "Inserted post-1400 word 'railroad' (attested 1757 CE)"
+    },
+    {
+      "corruption_id": "N1.326",
+      "source_set": "H2",
+      "source_ref": "CL.182",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Lest that this markis no wyf wolde wedde.",
+      "corrupted_text": "that Lest markis this no wyf wolde wedde",
+      "note": "Reordered exact word multiset placing polysyllable 'markis' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.327",
+      "source_set": "H2",
+      "source_ref": "CL.183",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "He graunted hem a day, swich as him leste,",
+      "corrupted_text": "He graunted hem certeynly a day, swich as him leste,",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.328",
+      "source_set": "H2",
+      "source_ref": "CL.184",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "On which he wolde be wedded sikerly,",
+      "corrupted_text": "On which he rifleman be wedded sikerly",
+      "anachronism_word": "rifleman",
+      "attestation_year": 1775,
+      "note": "Inserted post-1400 word 'rifleman' (attested 1775 CE)"
+    },
+    {
+      "corruption_id": "N1.329",
+      "source_set": "H2",
+      "source_ref": "CL.185",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And seyde, he dide al this at hir requeste;",
+      "corrupted_text": "And he seyde at hir dide al this requeste",
+      "note": "Reordered exact word multiset placing polysyllable 'seyde' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.330",
+      "source_set": "H2",
+      "source_ref": "CL.186",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And they, with humble entente, buxomly,",
+      "corrupted_text": "And they buxomly",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.331",
+      "source_set": "H2",
+      "source_ref": "CL.187",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Knelinge up-on her knees ful reverently",
+      "corrupted_text": "Knelinge up-on her telegraph ful reverently",
+      "anachronism_word": "telegraph",
+      "attestation_year": 1794,
+      "note": "Inserted post-1400 word 'telegraph' (attested 1794 CE)"
+    },
+    {
+      "corruption_id": "N1.332",
+      "source_set": "H2",
+      "source_ref": "CL.188",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Him thanken alle, and thus they han an ende",
+      "corrupted_text": "and Him thanken alle thus they han ende an",
+      "note": "Reordered exact word multiset placing polysyllable 'thanken' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.333",
+      "source_set": "H2",
+      "source_ref": "CL.189",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "Of hir entente, and hoom agayn they wende.",
+      "corrupted_text": "Of hir entente verrayly, and hoom agayn they wende.",
+      "note": "Inserted Middle English adverb 'verrayly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.334",
+      "source_set": "H2",
+      "source_ref": "CL.190",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "And heer-up-on he to his officeres",
+      "corrupted_text": "And heer-up-on he ideology his officeres",
+      "anachronism_word": "ideology",
+      "attestation_year": 1796,
+      "note": "Inserted post-1400 word 'ideology' (attested 1796 CE)"
+    },
+    {
+      "corruption_id": "N1.335",
+      "source_set": "H2",
+      "source_ref": "CL.191",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "Comaundeth for the feste to purveye,",
+      "corrupted_text": "for to Comaundeth feste purveye the",
+      "note": "Reordered exact word multiset placing polysyllable 'Comaundeth' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.336",
+      "source_set": "H2",
+      "source_ref": "CL.192",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And to his privee knightes and squyeres",
+      "corrupted_text": "And to and squyeres",
+      "note": "Deleted interior phrase (-3+ syllables, hypometric)"
+    },
+    {
+      "corruption_id": "N1.337",
+      "source_set": "H2",
+      "source_ref": "CL.193",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "Swich charge yaf, as him liste on hem leye;",
+      "corrupted_text": "Swich charge yaf as biology liste on hem leye",
+      "anachronism_word": "biology",
+      "attestation_year": 1802,
+      "note": "Inserted post-1400 word 'biology' (attested 1802 CE)"
+    },
+    {
+      "corruption_id": "N1.338",
+      "source_set": "H2",
+      "source_ref": "CL.194",
+      "corruption_type": "stress_inversion_collision",
+      "original_text": "And they to his comandement obeye,",
+      "corrupted_text": "And to comandement his they obeye",
+      "note": "Reordered exact word multiset placing polysyllable 'comandement' into offbeat / trailing function clitic"
+    },
+    {
+      "corruption_id": "N1.339",
+      "source_set": "H2",
+      "source_ref": "CL.195",
+      "corruption_type": "hypermetric_or_hypometric",
+      "original_text": "And ech of hem doth al his diligence",
+      "corrupted_text": "And ech of certeynly hem doth al his diligence",
+      "note": "Inserted Middle English adverb 'certeynly' (+3 syllables, hypermetric)"
+    },
+    {
+      "corruption_id": "N1.340",
+      "source_set": "H2",
+      "source_ref": "CL.196",
+      "corruption_type": "post_1400_anachronism",
+      "original_text": "To doon un-to the feste reverence.",
+      "corrupted_text": "To doon un-to steamship feste reverence",
+      "anachronism_word": "steamship",
+      "attestation_year": 1819,
+      "note": "Inserted post-1400 word 'steamship' (attested 1819 CE)"
+    }
+  ]
+}

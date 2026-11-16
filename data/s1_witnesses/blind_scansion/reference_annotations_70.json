@@ -1,0 +1,1161 @@
+{
+  "metadata": {
+    "stratum": "S1",
+    "holdout_flag": "EVALUATION_ONLY",
+    "holdout_policy": "STRICT_EVALUATION_ONLY_NEVER_EXPOSED_TO_GENERATOR_OR_CALIBRATION",
+    "set_id": "REF70",
+    "role": "70 reference-annotated lines (50 H1 + 20 H2) for final -e and syllable-count agreement",
+    "metrical_form": "pentameter_reference_annotations",
+    "edition": "W. W. Skeat (ed.), The Complete Works of Geoffrey Chaucer, vol. 4, The Canterbury Tales: Text, 2nd ed., Oxford: Clarendon Press, 1900 (Project Gutenberg #22120).",
+    "source_url": "https://github.com/GITenberg/Chaucer-s-Works-Volume-4--of-7----The-Canterbury-Tales_22120",
+    "upstream_file": "22120-8.txt",
+    "upstream_commit": "1e7f4c2ef672531d0676159202f2f9e2520e174c",
+    "upstream_sha256": "2506000b31a78ae72dd9d1dd755fb3f305c42516b293960c222ad78509fc00db"
+  },
+  "total_annotated_lines": 70,
+  "total_final_e_decisions": 104,
+  "lines": [
+    {
+      "set_id": "H1",
+      "ref": "GP.1",
+      "text": "Whan that Aprille with his shoures sote",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "Aprille",
+          "expected": "sounded",
+          "reason": "Skeat spells Aprille with sounded -e before consonant (or headless if apocopated)"
+        },
+        {
+          "surface": "sote",
+          "expected": "sounded",
+          "reason": "line-final adverbial/plural -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.2",
+      "text": "The droghte of Marche hath perced to the rote,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "droghte",
+          "expected": "elided",
+          "reason": "prevocalic before 'of'"
+        },
+        {
+          "surface": "Marche",
+          "expected": "elided",
+          "reason": "elided before weak-h auxiliary 'hath'"
+        },
+        {
+          "surface": "rote",
+          "expected": "sounded",
+          "reason": "line-final etymological -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.3",
+      "text": "And bathed every veyne in swich licour,",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [
+        {
+          "surface": "veyne",
+          "expected": "elided",
+          "reason": "prevocalic before 'in'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.4",
+      "text": "Of which vertu engendred is the flour;",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.5",
+      "text": "Whan Zephirus eek with his swete breeth",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [
+        {
+          "surface": "swete",
+          "expected": "sounded",
+          "reason": "weak singular adjective 'his swete breeth'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.6",
+      "text": "Inspired hath in every holt and heeth",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.7",
+      "text": "The tendre croppes, and the yonge sonne",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "tendre",
+          "expected": "sounded",
+          "reason": "weak plural adjective 'the tendre croppes'"
+        },
+        {
+          "surface": "yonge",
+          "expected": "sounded",
+          "reason": "weak singular adjective 'the yonge sonne'"
+        },
+        {
+          "surface": "sonne",
+          "expected": "sounded",
+          "reason": "line-final OE sunne"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.8",
+      "text": "Hath in the Ram his halfe cours y-ronne,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "halfe",
+          "expected": "sounded",
+          "reason": "weak singular adjective 'his halfe cours'"
+        },
+        {
+          "surface": "y-ronne",
+          "expected": "sounded",
+          "reason": "line-final past participle -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.9",
+      "text": "And smale fowles maken melodye,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "smale",
+          "expected": "sounded",
+          "reason": "plural adjective 'smale fowles'"
+        },
+        {
+          "surface": "melodye",
+          "expected": "sounded",
+          "reason": "line-final Romance -ye"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.10",
+      "text": "That slepen al the night with open yë,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "yë",
+          "expected": "sounded",
+          "reason": "line-final disyllabic y-ë"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.11",
+      "text": "(So priketh hem nature in hir corages):",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "nature",
+          "expected": "elided",
+          "reason": "prevocalic before 'in'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.12",
+      "text": "Than longen folk to goon on pilgrimages",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.13",
+      "text": "(And palmers for to seken straunge strondes)",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "straunge",
+          "expected": "sounded",
+          "reason": "plural adjective 'straunge strondes'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.14",
+      "text": "To ferne halwes, couthe in sondry londes;",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "ferne",
+          "expected": "sounded",
+          "reason": "plural adjective 'ferne halwes'"
+        },
+        {
+          "surface": "couthe",
+          "expected": "elided",
+          "reason": "prevocalic before 'in'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.15",
+      "text": "And specially, from every shires ende",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "ende",
+          "expected": "sounded",
+          "reason": "line-final dative/etymological -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.16",
+      "text": "Of Engelond, to Caunterbury they wende,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "wende",
+          "expected": "sounded",
+          "reason": "line-final plural verb"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.17",
+      "text": "The holy blisful martir for to seke,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "seke",
+          "expected": "sounded",
+          "reason": "line-final infinitive"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.18",
+      "text": "That hem hath holpen, whan that they were seke.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "were",
+          "expected": "silent",
+          "reason": "apocopated auxiliary before 'seke'"
+        },
+        {
+          "surface": "seke",
+          "expected": "sounded",
+          "reason": "line-final plural predicate adjective"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.19",
+      "text": "Bifel that, in that seson on a day,",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.20",
+      "text": "In Southwerk at the Tabard as I lay",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.21",
+      "text": "Redy to wenden on my pilgrimage",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "pilgrimage",
+          "expected": "sounded",
+          "reason": "line-final Romance -age"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.22",
+      "text": "To Caunterbury with ful devout corage,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "corage",
+          "expected": "sounded",
+          "reason": "line-final Romance -age"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.23",
+      "text": "At night was come in-to that hostelrye",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "come",
+          "expected": "elided",
+          "reason": "prevocalic before 'in-to'"
+        },
+        {
+          "surface": "hostelrye",
+          "expected": "sounded",
+          "reason": "line-final Romance -ye"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.24",
+      "text": "Wel nyne and twenty in a companye,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "nyne",
+          "expected": "elided",
+          "reason": "prevocalic before 'and'"
+        },
+        {
+          "surface": "companye",
+          "expected": "sounded",
+          "reason": "line-final Romance -ye"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.25",
+      "text": "Of sondry folk, by aventure y-falle",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "aventure",
+          "expected": "elided",
+          "reason": "prevocalic before vocalic prefix 'y-falle'"
+        },
+        {
+          "surface": "y-falle",
+          "expected": "sounded",
+          "reason": "line-final past participle"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.26",
+      "text": "In felawshipe, and pilgrims were they alle,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "felawshipe",
+          "expected": "elided",
+          "reason": "prevocalic before 'and'"
+        },
+        {
+          "surface": "were",
+          "expected": "silent",
+          "reason": "apocopated auxiliary before 'they'"
+        },
+        {
+          "surface": "alle",
+          "expected": "sounded",
+          "reason": "line-final plural 'alle'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.27",
+      "text": "That toward Caunterbury wolden ryde;",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "ryde",
+          "expected": "sounded",
+          "reason": "line-final infinitive"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.28",
+      "text": "The chambres and the stables weren wyde,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "wyde",
+          "expected": "sounded",
+          "reason": "line-final plural adjective"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.29",
+      "text": "And wel we weren esed atte beste.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "atte",
+          "expected": "sounded",
+          "reason": "assimilated 'at the' -> at-të before 'beste'"
+        },
+        {
+          "surface": "beste",
+          "expected": "sounded",
+          "reason": "line-final weak superlative"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.30",
+      "text": "And shortly, whan the sonne was to reste,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "sonne",
+          "expected": "silent",
+          "reason": "apocopated medial 'sonne' before 'was'"
+        },
+        {
+          "surface": "reste",
+          "expected": "sounded",
+          "reason": "line-final dative noun"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.31",
+      "text": "So hadde I spoken with hem everichon,",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [
+        {
+          "surface": "hadde",
+          "expected": "elided",
+          "reason": "prevocalic before 'I'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.32",
+      "text": "That I was of hir felawshipe anon,",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [
+        {
+          "surface": "felawshipe",
+          "expected": "elided",
+          "reason": "prevocalic before 'anon'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.33",
+      "text": "And made forward erly for to ryse,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "made",
+          "expected": "sounded",
+          "reason": "preterite -de sounded before 'forward'"
+        },
+        {
+          "surface": "ryse",
+          "expected": "sounded",
+          "reason": "line-final infinitive"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.34",
+      "text": "To take our wey, ther as I yow devyse.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "take",
+          "expected": "elided",
+          "reason": "prevocalic before 'our'"
+        },
+        {
+          "surface": "devyse",
+          "expected": "sounded",
+          "reason": "line-final 1sg present"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.35",
+      "text": "But natheles, whyl I have tyme and space,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "have",
+          "expected": "silent",
+          "reason": "apocopated 1sg 'have' before consonant"
+        },
+        {
+          "surface": "tyme",
+          "expected": "elided",
+          "reason": "prevocalic before 'and'"
+        },
+        {
+          "surface": "space",
+          "expected": "sounded",
+          "reason": "line-final Romance -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.36",
+      "text": "Er that I ferther in this tale pace,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "tale",
+          "expected": "sounded",
+          "reason": "etymological OE talu sounded before 'pace'"
+        },
+        {
+          "surface": "pace",
+          "expected": "sounded",
+          "reason": "line-final subjunctive"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.37",
+      "text": "Me thinketh it acordaunt to resoun,",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.38",
+      "text": "To telle yow al the condicioun",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [
+        {
+          "surface": "telle",
+          "expected": "silent",
+          "reason": "apocopated infinitive before 'yow' (or disyllabic condicioun)"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.39",
+      "text": "Of ech of hem, so as it semed me,",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.40",
+      "text": "And whiche they weren, and of what degree;",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [
+        {
+          "surface": "whiche",
+          "expected": "silent",
+          "reason": "petrified/apocopated 'whiche' before 'they'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.41",
+      "text": "And eek in what array that they were inne:",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "were",
+          "expected": "elided",
+          "reason": "prevocalic before 'inne'"
+        },
+        {
+          "surface": "inne",
+          "expected": "sounded",
+          "reason": "line-final adverbial -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.42",
+      "text": "And at a knight than wol I first biginne.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "biginne",
+          "expected": "sounded",
+          "reason": "line-final infinitive"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.43",
+      "text": "A KNIGHT ther was, and that a worthy man,",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.44",
+      "text": "That fro the tyme that he first bigan",
+      "expected_syllable_count": 10,
+      "final_e_decisions": [
+        {
+          "surface": "tyme",
+          "expected": "sounded",
+          "reason": "dative/etymological 'tyme' sounded before 'that'"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.45",
+      "text": "To ryden out, he loved chivalrye,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "chivalrye",
+          "expected": "sounded",
+          "reason": "line-final Romance -ye"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.46",
+      "text": "Trouthe and honour, fredom and curteisye.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "Trouthe",
+          "expected": "elided",
+          "reason": "prevocalic before 'and'"
+        },
+        {
+          "surface": "curteisye",
+          "expected": "sounded",
+          "reason": "line-final Romance -ye"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.47",
+      "text": "Ful worthy was he in his lordes werre,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "werre",
+          "expected": "sounded",
+          "reason": "line-final noun -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.48",
+      "text": "And therto hadde he riden (no man ferre)",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "hadde",
+          "expected": "elided",
+          "reason": "elided before weak-h pronoun 'he'"
+        },
+        {
+          "surface": "ferre",
+          "expected": "sounded",
+          "reason": "line-final comparative -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.49",
+      "text": "As wel in Cristendom as hethenesse,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "hethenesse",
+          "expected": "sounded",
+          "reason": "line-final -esse"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H1",
+      "ref": "GP.50",
+      "text": "And ever honoured for his worthinesse.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "worthinesse",
+          "expected": "sounded",
+          "reason": "line-final -esse"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.58",
+      "text": "Doun at the rote of Vesulus the colde,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "rote",
+          "expected": "elided",
+          "reason": "prevocalic before 'of'"
+        },
+        {
+          "surface": "colde",
+          "expected": "sounded",
+          "reason": "line-final weak adjective"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.59",
+      "text": "A lusty playne, habundant of vitaille,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "playne",
+          "expected": "elided",
+          "reason": "elided before Romance h-muet 'habundant'"
+        },
+        {
+          "surface": "vitaille",
+          "expected": "sounded",
+          "reason": "line-final Romance -aille"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.60",
+      "text": "Wher many a tour and toun thou mayst biholde,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "biholde",
+          "expected": "sounded",
+          "reason": "line-final infinitive"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.61",
+      "text": "That founded were in tyme of fadres olde,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "were",
+          "expected": "elided",
+          "reason": "prevocalic before 'in'"
+        },
+        {
+          "surface": "tyme",
+          "expected": "elided",
+          "reason": "prevocalic before 'of'"
+        },
+        {
+          "surface": "olde",
+          "expected": "sounded",
+          "reason": "line-final plural adjective"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.62",
+      "text": "And many another delitable sighte,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "delitable",
+          "expected": "sounded",
+          "reason": "syllabic -ble/-e before 'sighte'"
+        },
+        {
+          "surface": "sighte",
+          "expected": "sounded",
+          "reason": "line-final noun -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.63",
+      "text": "And Saluces this noble contree highte.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "noble",
+          "expected": "sounded",
+          "reason": "syllabic -ble/-e before 'contree'"
+        },
+        {
+          "surface": "highte",
+          "expected": "sounded",
+          "reason": "line-final preterite"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.64",
+      "text": "A markis whylom lord was of that londe,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "londe",
+          "expected": "sounded",
+          "reason": "line-final dative -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.65",
+      "text": "As were his worthy eldres him bifore;",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "were",
+          "expected": "elided",
+          "reason": "elided before weak-h 'his'"
+        },
+        {
+          "surface": "bifore",
+          "expected": "sounded",
+          "reason": "line-final adverbial -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.66",
+      "text": "And obeisant and redy to his honde",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "honde",
+          "expected": "sounded",
+          "reason": "line-final dative -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.67",
+      "text": "Were alle his liges, bothe lasse and more.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "Were",
+          "expected": "elided",
+          "reason": "prevocalic before 'alle'"
+        },
+        {
+          "surface": "alle",
+          "expected": "elided",
+          "reason": "elided before weak-h 'his'"
+        },
+        {
+          "surface": "bothe",
+          "expected": "sounded",
+          "reason": "sounded before 'lasse'"
+        },
+        {
+          "surface": "lasse",
+          "expected": "elided",
+          "reason": "prevocalic before 'and'"
+        },
+        {
+          "surface": "more",
+          "expected": "sounded",
+          "reason": "line-final comparative -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.68",
+      "text": "Thus in delyt he liveth, and hath don yore,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "yore",
+          "expected": "sounded",
+          "reason": "line-final adverbial -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.69",
+      "text": "Biloved and drad, thurgh favour of fortune,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "fortune",
+          "expected": "sounded",
+          "reason": "line-final Romance -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.70",
+      "text": "Bothe of his lordes and of his commune.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "Bothe",
+          "expected": "elided",
+          "reason": "prevocalic before 'of'"
+        },
+        {
+          "surface": "commune",
+          "expected": "sounded",
+          "reason": "line-final Romance -e"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.71",
+      "text": "Therwith he was, to speke as of linage,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "speke",
+          "expected": "elided",
+          "reason": "prevocalic before 'as'"
+        },
+        {
+          "surface": "linage",
+          "expected": "sounded",
+          "reason": "line-final Romance -age"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.72",
+      "text": "The gentilleste y-born of Lumbardye,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "gentilleste",
+          "expected": "elided",
+          "reason": "prevocalic before vocalic prefix 'y-born'"
+        },
+        {
+          "surface": "Lumbardye",
+          "expected": "sounded",
+          "reason": "line-final Romance -ye"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.73",
+      "text": "A fair persone, and strong, and yong of age,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "persone",
+          "expected": "elided",
+          "reason": "prevocalic before 'and'"
+        },
+        {
+          "surface": "age",
+          "expected": "sounded",
+          "reason": "line-final Romance -age"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.74",
+      "text": "And ful of honour and of curteisye;",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "curteisye",
+          "expected": "sounded",
+          "reason": "line-final Romance -ye"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.75",
+      "text": "Discreet y-nogh his contree for to gye,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "gye",
+          "expected": "sounded",
+          "reason": "line-final infinitive"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.76",
+      "text": "Save in somme thinges that he was to blame,",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "Save",
+          "expected": "elided",
+          "reason": "prevocalic before 'in'"
+        },
+        {
+          "surface": "somme",
+          "expected": "silent",
+          "reason": "apocopated before plural 'thinges'"
+        },
+        {
+          "surface": "blame",
+          "expected": "sounded",
+          "reason": "line-final infinitive/noun"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    },
+    {
+      "set_id": "H2",
+      "ref": "CL.77",
+      "text": "And Walter was this yonge lordes name.",
+      "expected_syllable_count": 11,
+      "final_e_decisions": [
+        {
+          "surface": "yonge",
+          "expected": "sounded",
+          "reason": "weak singular adjective 'this yonge lordes'"
+        },
+        {
+          "surface": "name",
+          "expected": "sounded",
+          "reason": "line-final OE nama"
+        }
+      ],
+      "commentary_source": "L. D. Benson (ed.), The Riverside Chaucer, 3rd ed., pp. xlii-xlv; Harvard Geoffrey Chaucer Website, Lesson 2; W. W. Skeat (1900), vol. 5 notes."
+    }
+  ]
+}

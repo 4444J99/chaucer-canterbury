@@ -8,6 +8,10 @@ import sys
 from pathlib import Path
 
 from chaucer_canterbury.author_operator import AuthorOperatorCalibrator
+from chaucer_canterbury.blind_scansion import (
+    BlindScansionEvaluator,
+    render_blind_scansion_markdown,
+)
 from chaucer_canterbury.generator import ChaucerGenerativePipeline
 from chaucer_canterbury.models import MetricalForm
 from chaucer_canterbury.scansion import ProsodicValidator
@@ -44,6 +48,36 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_cf = sub.add_parser("run-counterfactuals", help="Execute 6 Leave-One-Tale-Out & Silent-Pilgrim counterfactuals.")
     p_cf.add_argument("--json", action="store_true", help="Emit raw JSON.")
+
+    p_vh = sub.add_parser(
+        "validate-holdout",
+        help="Run Validation Plan 02 blind scansion and rhyme holdout evaluation.",
+    )
+    p_vh.add_argument(
+        "--set",
+        dest="holdout_set",
+        default="ALL",
+        choices=["H1", "H2", "H3", "H4", "N1", "REF70", "ALL"],
+        help="Holdout set to evaluate (default: ALL).",
+    )
+    p_vh.add_argument(
+        "--engine-version",
+        default="v0.1-baseline",
+        help="Engine version label recorded in the output report.",
+    )
+    p_vh.add_argument(
+        "--output",
+        type=Path,
+        default=None,
+        help="Optional path to write full JSON report.",
+    )
+    p_vh.add_argument(
+        "--markdown-output",
+        type=Path,
+        default=None,
+        help="Optional path to write Markdown summary report.",
+    )
+    p_vh.add_argument("--json", action="store_true", help="Emit raw JSON.")
 
     return parser
 
@@ -137,6 +171,27 @@ def main(argv: list[str] | None = None) -> int:
             for r in rep.results:
                 print(f"  - {r.scenario_id}: {r.emergent_speaker_name} -> {r.selected_genre} (converged={r.structural_convergence}, L6={r.non_copying_l6_passed})")
         return 0 if rep.all_l6_non_copying_passed else 1
+
+    if args.command == "validate-holdout":
+        evaluator = BlindScansionEvaluator(
+            validator=validator,
+            engine_version=args.engine_version,
+        )
+        report = evaluator.run(selected_set=args.holdout_set)
+        payload_str = json.dumps(report.model_dump(), indent=2, ensure_ascii=False)
+        if args.output is not None:
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(payload_str + "\n", encoding="utf-8")
+        if args.markdown_output is not None:
+            args.markdown_output.parent.mkdir(parents=True, exist_ok=True)
+            args.markdown_output.write_text(
+                render_blind_scansion_markdown(report), encoding="utf-8"
+            )
+        if args.json:
+            print(payload_str)
+        else:
+            print(render_blind_scansion_markdown(report))
+        return 0 if report.all_thresholds_passed else 1
 
     return 0
 

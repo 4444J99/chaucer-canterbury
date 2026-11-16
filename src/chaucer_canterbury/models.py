@@ -371,3 +371,154 @@ class CounterfactualSuiteReport(BaseModel):
     all_l6_non_copying_passed: bool
     mean_prosody_pass_rate: float
     results: list[CounterfactualScenarioResult]
+
+
+# ============================================================================
+# Validation Plan 02: Blind Scansion & Rhyme Holdout Models
+# ============================================================================
+
+
+class HoldoutLineVerdict(BaseModel):
+    """Per-line verdict on held-out Chaucerian verse (H1-H4)."""
+
+    set_id: str
+    stanza_id: str
+    ref: str
+    line_number: int
+    text: str
+    expected_beats: int = 5
+    contested: bool = False
+    contested_reason: str | None = None
+    is_valid: bool
+    metrical_pattern: str = ""
+    syllable_count: int = 0
+    beat_count: int = 0
+    license_used: str | None = None
+    total_cost: float = 0.0
+    rhyme_key: str = ""
+    elision_events: list[str] = Field(default_factory=list)
+    oov_tokens: list[str] = Field(default_factory=list)
+    failure_category: str | None = None
+    failure_detail: str | None = None
+
+
+class HoldoutRhymeVerdict(BaseModel):
+    """Per-rhyme-group verdict on held-out Chaucerian verse."""
+
+    set_id: str
+    stanza_id: str
+    label: str
+    line_numbers: list[int]
+    end_words: list[str]
+    rhyme_keys: list[str]
+    status: str
+    has_contested_line: bool = False
+    is_valid: bool
+
+
+class HoldoutSetSummary(BaseModel):
+    """Summary metrics for one positive held-out verse set (H1, H2, H3, or H4)."""
+
+    set_id: str
+    title: str
+    metrical_form: str
+    total_lines: int
+    contested_lines: int
+    contested_accepted: int
+    non_contested_lines: int
+    accepted_lines: int
+    line_recall: float
+    rhyme_groups_total: int
+    rhyme_groups_non_contested: int
+    rhyme_groups_accepted: int
+    rhyme_recall: float
+    total_tokens: int
+    in_lexicon_tokens: int
+    lexicon_token_coverage: float
+    unique_types: int
+    in_lexicon_types: int
+    lexicon_type_coverage: float
+    failure_counts: dict[str, int] = Field(default_factory=dict)
+
+
+class CorruptionItemVerdict(BaseModel):
+    """Per-item verdict on corrupted precision set N1."""
+
+    corruption_id: str
+    source_set: str
+    source_ref: str
+    corruption_type: str
+    original_text: str
+    corrupted_text: str
+    rejected: bool
+    rejected_by_target_gate: bool
+    detail: str
+
+
+class CorruptionTypeSummary(BaseModel):
+    """Aggregate rejection metrics for one N1 corruption type."""
+
+    corruption_type: str
+    total_items: int
+    rejected_items: int
+    rejection_rate: float
+    target_gate_rejected_items: int
+    target_gate_rejection_rate: float
+    passed_threshold_70pct: bool
+
+
+class FinalEAgreementSummary(BaseModel):
+    """Final -e decision and syllable-count agreement on the 70 annotated reference lines."""
+
+    annotated_lines: int
+    exact_syllable_matches: int
+    syllable_match_rate: float
+    total_decisions: int
+    matched_decisions: int
+    agreement_rate: float
+    passed_threshold_85pct: bool
+    mismatches: list[dict[str, Any]] = Field(default_factory=list)
+
+
+class BlindScansionThresholdCheck(BaseModel):
+    """Pass/fail check for one Validation Plan 02 metric."""
+
+    metric_id: str
+    label: str
+    value: float
+    display_value: str
+    threshold_display: str
+    passed: bool | None = None  # None for report-only metrics
+
+
+class BlindScansionReport(BaseModel):
+    """Complete Validation Plan 02 evaluation report."""
+
+    plan_id: str = "validation-plan-02-blind-scansion"
+    engine_version: str = "v0.1-baseline"
+    manifest_verified: bool = True
+    evaluated_sets: list[str]
+    h1_h3_non_contested_lines: int = 0
+    h1_h3_accepted_lines: int = 0
+    h1_h3_line_recall: float = 0.0
+    h1_h3_rhyme_groups_non_contested: int = 0
+    h1_h3_rhyme_groups_accepted: int = 0
+    h1_h3_rhyme_recall: float = 0.0
+    h1_h3_lexicon_coverage: float = 0.0
+    s2_calibration_recall: float = 0.0
+    generalization_gap_points: float = 0.0
+    n1_total_items: int = 0
+    n1_rejected_items: int = 0
+    n1_overall_rejection_rate: float = 0.0
+    n1_min_type_rejection_rate: float = 0.0
+    n1_by_type: list[CorruptionTypeSummary] = Field(default_factory=list)
+    final_e_summary: FinalEAgreementSummary | None = None
+    h4_untouched_summary: HoldoutSetSummary | None = None
+    set_summaries: list[HoldoutSetSummary] = Field(default_factory=list)
+    failure_taxonomy_totals: dict[str, int] = Field(default_factory=dict)
+    threshold_checks: list[BlindScansionThresholdCheck] = Field(default_factory=list)
+    all_thresholds_passed: bool = False
+    line_verdicts: list[HoldoutLineVerdict] = Field(default_factory=list)
+    rhyme_verdicts: list[HoldoutRhymeVerdict] = Field(default_factory=list)
+    corruption_verdicts: list[CorruptionItemVerdict] = Field(default_factory=list)
+

@@ -49,7 +49,7 @@ const NAV_ITEMS: NavItem[] = [
   {
     href: "/validation",
     code: "VALIDATION_SUITE",
-    label: "Holdout Counterfactuals",
+    label: "Blind Scansion & Counterfactuals",
     icon: FlaskConical,
   },
 ];
@@ -125,7 +125,7 @@ export function AppShell({
       <aside className="hidden w-64 shrink-0 flex-col border-r border-sidebar-border bg-sidebar lg:flex">
         <div className="border-b border-sidebar-border px-4 py-4">
           <div className="font-mono text-xs font-semibold uppercase tracking-wider text-primary">
-            Protocol Engine v1.0
+            Protocol Engine v0.2
           </div>
           <div className="mt-0.5 text-base font-semibold tracking-tight text-sidebar-foreground">
             chaucer-canterbury
@@ -169,7 +169,7 @@ export function AppShell({
             <div className="flex items-center justify-between border-b border-sidebar-border px-4 py-3">
               <div>
                 <div className="font-mono text-xs font-semibold text-primary">
-                  Protocol Engine v1.0
+                  Protocol Engine v0.2
                 </div>
                 <div className="text-sm font-semibold">chaucer-canterbury</div>
               </div>

@@ -43,6 +43,19 @@ const PRESETS = [
     ].join("\n"),
   },
   {
+    id: "tail_rhyme_sixain",
+    label: "Tail-Rhyme Sixain 4/3-Beat (AABCCB)",
+    scheme: "AABCCB",
+    text: [
+      "Now listeth lordes in entente,",
+      "How gentil knyghtes forth ywente,",
+      "In bright and riche array;",
+      "Upon his steede he rood ful faste,",
+      "Til thurgh the forest atte laste,",
+      "He fond the redy way.",
+    ].join("\n"),
+  },
+  {
     id: "adversarial_vowel",
     label: "Adversarial: Open /ɔː/ vs Close /oː/ Rhyme Reject",
     scheme: "AABB",
@@ -156,6 +169,7 @@ export function PhonologyWorkbenchPage() {
                 <option value="SINGLE">Line-by-Line Pentameter Only</option>
                 <option value="AABB">Riding Rhyme Couplets (AABB...)</option>
                 <option value="ABABBCC">Rhyme Royal Stanza (7 lines ABABBCC)</option>
+                <option value="AABCCB">Tail-Rhyme Sixain (6 lines AABCCB)</option>
               </select>
             </div>
 

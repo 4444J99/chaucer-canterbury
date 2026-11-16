@@ -224,6 +224,111 @@ export interface CounterfactualSuiteReport {
   updated_at?: string;
 }
 
+export interface HoldoutSetSummary {
+  set_id: string;
+  title: string;
+  metrical_form: string;
+  total_lines: number;
+  contested_lines: number;
+  contested_accepted: number;
+  non_contested_lines: number;
+  accepted_lines: number;
+  line_recall: number;
+  rhyme_groups_total: number;
+  rhyme_groups_non_contested: number;
+  rhyme_groups_accepted: number;
+  rhyme_recall: number;
+  total_tokens: number;
+  in_lexicon_tokens: number;
+  lexicon_token_coverage: number;
+  unique_types: number;
+  in_lexicon_types: number;
+  lexicon_type_coverage: number;
+  failure_counts: Record<string, number>;
+}
+
+export interface CorruptionTypeSummary {
+  corruption_type: string;
+  total_items: number;
+  rejected_items: number;
+  rejection_rate: number;
+  target_gate_rejected_items: number;
+  target_gate_rejection_rate: number;
+  passed_threshold_70pct: boolean;
+}
+
+export interface FinalEAgreementSummary {
+  annotated_lines: number;
+  exact_syllable_matches: number;
+  syllable_match_rate: number;
+  total_decisions: number;
+  matched_decisions: number;
+  agreement_rate: number;
+  passed_threshold_85pct: boolean;
+  mismatches: {
+    ref: string;
+    surface: string;
+    expected: string;
+    actual: string;
+    line_text: string;
+    scanned_pattern: string;
+  }[];
+}
+
+export interface BlindScansionThresholdCheck {
+  metric_id: string;
+  label: string;
+  value: number;
+  display_value: string;
+  threshold_display: string;
+  passed: boolean | null;
+}
+
+export interface BlindScansionReport {
+  plan_id: string;
+  engine_version: string;
+  manifest_verified: boolean;
+  evaluated_sets: string[];
+  h1_h3_non_contested_lines: number;
+  h1_h3_accepted_lines: number;
+  h1_h3_line_recall: number;
+  h1_h3_rhyme_groups_non_contested: number;
+  h1_h3_rhyme_groups_accepted: number;
+  h1_h3_rhyme_recall: number;
+  h1_h3_lexicon_coverage: number;
+  s2_calibration_recall: number;
+  generalization_gap_points: number;
+  n1_total_items: number;
+  n1_rejected_items: number;
+  n1_overall_rejection_rate: number;
+  n1_min_type_rejection_rate: number;
+  n1_by_type: CorruptionTypeSummary[];
+  final_e_summary: FinalEAgreementSummary | null;
+  h4_untouched_summary: HoldoutSetSummary | null;
+  set_summaries: HoldoutSetSummary[];
+  failure_taxonomy_totals: Record<string, number>;
+  threshold_checks: BlindScansionThresholdCheck[];
+  all_thresholds_passed: boolean;
+}
+
+export interface BlindScansionRunSummary {
+  run_key: string;
+  engine_version: string;
+  target_set: string;
+  updated_at: string;
+  all_thresholds_passed: boolean;
+  h1_h3_line_recall: number;
+  h1_h3_rhyme_recall: number;
+  n1_overall_rejection_rate: number;
+}
+
+export interface BlindScansionBundle {
+  baseline: BlindScansionReport | null;
+  current: BlindScansionReport;
+  runs: BlindScansionRunSummary[];
+  latest_run?: BlindScansionReport;
+}
+
 export interface StudioOverview {
   author_definition: AuthorDefinition;
   world_state: WorldState;
@@ -233,6 +338,7 @@ export interface StudioOverview {
   source_graphs: SourceGraph[];
   turns: GeneratedTurnArtifact[];
   counterfactual_report: CounterfactualSuiteReport;
+  blind_scansion?: BlindScansionBundle;
   lexicon_stats: {
     med_entries: number;
     epistemic_horizon_year: number;

@@ -84,6 +84,7 @@ function StudioRouter() {
           <Route path="/validation">
             <ValidationSuitePage
               report={overviewQuery.data.counterfactual_report}
+              blindScansion={overviewQuery.data.blind_scansion}
             />
           </Route>
           <Route>

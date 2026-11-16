@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from chaucer_canterbury.author_operator import AuthorOperatorCalibrator, V2_TRIGGERS
+from chaucer_canterbury.author_operator import V2_TRIGGERS, AuthorOperatorCalibrator
 from chaucer_canterbury.models import (
     AnalyticalDiagnostics,
     AuthorDefinition,

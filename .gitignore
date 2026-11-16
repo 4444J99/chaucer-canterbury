@@ -1,6 +1,29 @@
+# Python build & test caches
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
-.pytest_cache/
-dist/
 build/
+dist/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local SQLite runtime state
+.local/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Webapp dependencies & build output
+node_modules/
+webapp/node_modules/
+webapp/dist/
+
+# OS / editor metadata
+.DS_Store
+*.swp

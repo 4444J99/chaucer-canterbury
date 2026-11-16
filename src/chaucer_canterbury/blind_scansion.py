@@ -21,7 +21,6 @@ from chaucer_canterbury.models import (
     HoldoutRhymeVerdict,
     HoldoutSetSummary,
     LineScansionResult,
-    Syllable,
     WordClass,
     WordProfile,
 )

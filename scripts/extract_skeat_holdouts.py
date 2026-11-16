@@ -390,9 +390,6 @@ def _corrupt_stress_inversion(text: str) -> tuple[str, str]:
         pool_mono = other_funcs + rem_contents
         if len(pool_mono) >= 2:
             # Ensure first two tokens are monosyllabic if possible so polysyllable starts at syllable index 2 ('x' offbeat!)
-            monos = [w for w in pool_mono if len(vowels.findall(w)) == 1]
-            rest = [w for w in pool_mono if len(vowels.findall(w)) != 1]
-            # Remove matching counts carefully to preserve exact multiset
             used_idx: set[int] = set()
             lead: list[str] = []
             for j, w in enumerate(pool_mono):

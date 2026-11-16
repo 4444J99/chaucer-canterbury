@@ -6,7 +6,6 @@ from __future__ import annotations
 
 import unittest
 
-from chaucer_canterbury.author_operator import AuthorOperatorCalibrator
 from chaucer_canterbury.generator import ChaucerGenerativePipeline
 from chaucer_canterbury.models import MetricalForm
 from chaucer_canterbury.validators import run_holdout_counterfactual_suite

@@ -7,10 +7,10 @@ import re
 from chaucer_canterbury.lexicon import (
     CLOSE_E_STEMS,
     CLOSE_O_STEMS,
-    MEDLexicon,
     OPEN_E_STEMS,
     OPEN_O_STEMS,
     OPTIONAL_APOCOPE_WORDS,
+    MEDLexicon,
     normalize_orthography,
 )
 from chaucer_canterbury.models import (

@@ -4,14 +4,22 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chaucer-canterbury"
-version = "1.0.0"
-description = "Protocol-bound Middle English phonology, Author-Operator calibration, 30-pilgrim Kentish frame state, generative synthesis, and counterfactual validation."
+version = "0.2.0"
+description = "Protocol-bound Middle English phonology, Author-Operator calibration, 30-pilgrim Kentish frame state, generative synthesis, and blind-scansion/counterfactual validation."
 readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "Proprietary - owner decision pending" }
 dependencies = [
     "pydantic>=2.0",
     "fastapi>=0.100",
     "uvicorn>=0.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+    "httpx>=0.27",
 ]
 
 [project.scripts]
@@ -21,3 +29,16 @@ chaucer-canterbury-server = "chaucer_canterbury.server:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 115
+target-version = "py311"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]

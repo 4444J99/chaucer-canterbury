@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  python-and-webapp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python package and dev tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Lint Python with Ruff
+        run: ruff check src tests scripts
+
+      - name: Run Python unit, isolation, and server tests
+        run: |
+          pytest -v
+          PYTHONPATH=src python -m unittest discover -s tests -v
+
+      - name: Verify Validation Plan 02 SHA-256 manifest and CLI holdout evaluation
+        run: |
+          chaucer-canterbury validate-holdout --set H3 --json >/dev/null
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: webapp/package-lock.json
+
+      - name: Install, typecheck, and build webapp
+        working-directory: webapp
+        run: |
+          npm ci
+          npm run check
+          npm run build

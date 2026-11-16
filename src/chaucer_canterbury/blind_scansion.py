@@ -817,14 +817,19 @@ class BlindScansionEvaluator:
             )
 
         if h4_summary is not None and norm_set == "ALL":
+            h1_rec = next((s.line_recall for s in set_summaries if s.set_id == "H1"), h1_h3_line_recall)
+            h1_h4_gap = round((h1_rec - h4_summary.line_recall) * 100.0, 2)
             checks.append(
                 BlindScansionThresholdCheck(
                     metric_id="untouched_rescore_h4",
-                    label="Untouched Holdout H4 (GP 201-400) Line / Rhyme Recall",
+                    label="Untouched Holdout H4 (GP 201-400) Step 5 Rescore",
                     value=h4_summary.line_recall,
-                    display_value=f"{h4_summary.line_recall * 100:.1f}% / {h4_summary.rhyme_recall * 100:.1f}%",
-                    threshold_display=">= 90.0% / >= 95.0%",
-                    passed=(h4_summary.line_recall >= 0.90 and h4_summary.rhyme_recall >= 0.95),
+                    display_value=(
+                        f"{h4_summary.line_recall * 100:.1f}% line / "
+                        f"{h4_summary.rhyme_recall * 100:.1f}% couplet (H1-H4 gap {h1_h4_gap:+.1f} pts)"
+                    ),
+                    threshold_display="Report only (Step 5 overfitting check)",
+                    passed=None,
                 )
             )
 

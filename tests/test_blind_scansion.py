@@ -147,6 +147,39 @@ class TestBlindScansionHoldoutSuite(unittest.TestCase):
         self.assertIsNotNone(report.h4_untouched_summary)
         assert report.h4_untouched_summary is not None
         self.assertEqual(report.h4_untouched_summary.total_lines, 200)
+        self.assertTrue(report.all_thresholds_passed)
+        self.assertGreaterEqual(report.h1_h3_line_recall, 0.90)
+        self.assertGreaterEqual(report.h1_h3_rhyme_recall, 0.95)
+        self.assertGreaterEqual(report.n1_overall_rejection_rate, 0.85)
+        self.assertTrue(all(c.passed_threshold_70pct for c in report.n1_by_type))
+        self.assertGreaterEqual(report.final_e_summary.agreement_rate, 0.85)
+        self.assertLessEqual(report.generalization_gap_points, 10.0)
+        self.assertGreaterEqual(report.h4_untouched_summary.line_recall, 0.90)
+
+    def test_v02_tail_rhyme_and_feminine_ending_constraints(self) -> None:
+        from chaucer_canterbury.scansion import ProsodicValidator
+
+        validator = ProsodicValidator()
+        # Genuine Sir Thopas 6-line tail-rhyme stanza (4-4-3-4-4-3 beats, AABCCB)
+        stanza = validator.audit_stanza(
+            lines=[
+                (1902, "Listeth, lordes, in good entent,"),
+                (1903, "And I wol telle verrayment"),
+                (1904, "Of mirthe and of solas;"),
+                (1905, "Al of a knyght was fair and gent"),
+                (1906, "In bataille and in tourneyment,"),
+                (1907, "His name was sir Thopas."),
+            ],
+            rhyme_scheme="AABCCB",
+            stanza_id="H3_S01",
+            beat_targets=[4, 4, 3, 4, 4, 3],
+        )
+        self.assertTrue(stanza.is_valid)
+        self.assertEqual([ln.beat_count for ln in stanza.lines], [4, 4, 3, 4, 4, 3])
+
+        # Ungrammatical stressed lexical monosyllable in 11th feminine offbeat must be rejected
+        bad_fem = validator.scan_line("Whan that Aprille with his shoures soote book")
+        self.assertFalse(bad_fem.is_valid)
 
 
 if __name__ == "__main__":

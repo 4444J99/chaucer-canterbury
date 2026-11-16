@@ -48,6 +48,18 @@ class FinalEResolver:
                         seen_keys.add(dedup_key)
                         word_candidates.append(r)
 
+            if not word_candidates and prof.variants:
+                v0 = prof.variants[0]
+                word_candidates.append(
+                    ContextualRealization(
+                        surface=prof.surface,
+                        ipa_realized=v0.ipa,
+                        syllables=[s.model_copy() for s in v0.syllables],
+                        sandhi_event="none",
+                        cost=v0.cost,
+                    )
+                )
+
             lattice.append(word_candidates)
 
         return lattice
@@ -155,10 +167,37 @@ class FinalEResolver:
                     )
             return out
 
-        # Monosyllabic function words ending in 'ə' ('the', 'ne') elide before vowels ('th'array', 'n'is')
+        # Monosyllabic function words ('the', 'ne', 'to') admit prevocalic synaloepha ('the usage', 'to abyde')
         if (
             len(var.syllables) == 1
             and prof.normalized in {"the", "ne", "to"}
+            and (triggers_prevocalic or triggers_weak_h)
+        ):
+            out.append(
+                ContextualRealization(
+                    surface=prof.surface,
+                    ipa_realized=var.ipa,
+                    syllables=[s.model_copy() for s in var.syllables],
+                    sandhi_event="none",
+                    cost=var.cost,
+                )
+            )
+            out.append(
+                ContextualRealization(
+                    surface=prof.surface,
+                    ipa_realized=var.syllables[0].ipa[:1],
+                    syllables=[],
+                    sandhi_event="elided_prevocalic",
+                    cost=var.cost + 0.08,
+                )
+            )
+            return out
+
+        # Prevocalic glide synaeresis on unstressed final -y / -i ('many a' -> [man.ja])
+        if (
+            len(var.syllables) >= 2
+            and var.syllables[-1].stress == 0
+            and var.syllables[-1].ipa.endswith("i")
             and triggers_prevocalic
         ):
             out.append(
@@ -168,6 +207,21 @@ class FinalEResolver:
                     syllables=[s.model_copy() for s in var.syllables],
                     sandhi_event="none",
                     cost=var.cost,
+                )
+            )
+            glide_sylls = [s.model_copy() for s in var.syllables[:-1]]
+            glide_sylls[-1].ipa = glide_sylls[-1].ipa + var.syllables[-1].ipa[:-1] + "j"
+            glide_ipa = ".".join(
+                f"ˈ{s.ipa}" if s.stress == 1 else (f"ˌ{s.ipa}" if s.stress == 2 else s.ipa)
+                for s in glide_sylls
+            )
+            out.append(
+                ContextualRealization(
+                    surface=prof.surface,
+                    ipa_realized=glide_ipa,
+                    syllables=glide_sylls,
+                    sandhi_event="synaeresis_prevocalic",
+                    cost=var.cost + 0.06,
                 )
             )
             return out

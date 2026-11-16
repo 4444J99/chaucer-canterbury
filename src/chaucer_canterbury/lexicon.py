@@ -16,25 +16,26 @@ DEFAULT_LEXICON_PATH = (
 # Closed-class Middle English function words (monosyllables & light disyllables)
 FUNCTION_WORDS: frozenset[str] = frozenset(
     {
-        "a", "al", "als", "also", "am", "an", "and", "any", "art", "as", "at",
-        "be", "been", "ben", "beth", "but", "but-if", "by", "can", "dar",
-        "did", "dide", "do", "don", "doth", "dooth", "ech", "either", "eyther",
-        "elles", "er", "ere", "every", "for", "fro", "ffro", "from", "gan",
-        "had", "hadde", "han", "hath", "haue", "have", "he", "hem", "her",
+        "a", "al", "alle", "als", "also", "almost", "am", "an", "and", "anon",
+        "another", "any", "art", "as", "at", "atte", "ay",
+        "be", "been", "ben", "beth", "bothe", "but", "but-if", "by", "can", "coude", "dar",
+        "did", "dide", "do", "don", "doth", "dooth", "ech", "eche", "eek", "either", "eyther",
+        "elles", "er", "ere", "ever", "evere", "everichon", "every", "for", "fro", "ffro", "from", "ful", "gan",
+        "had", "hadde", "han", "hath", "haue", "have", "he", "heer-up-on", "hem", "her",
         "hir", "hire", "his", "hit", "how", "hym", "him", "him-self", "hym-self",
-        "i", "if", "in", "into", "is", "ys", "it", "kan", "mai", "may", "me",
-        "men", "mi", "min", "mo", "moot", "moste", "my", "myn", "na", "nas",
-        "nat", "natheles", "ne", "ner", "never", "nis", "nys", "no", "non",
+        "i", "if", "in", "in-to", "into", "is", "ys", "it", "kan", "koude", "lat", "mai", "may", "me",
+        "men", "mi", "min", "mo", "moot", "moste", "my", "myn", "na", "namo", "namore", "na-more", "nas",
+        "nat", "natheles", "nathelees", "ne", "ner", "never", "nevere", "nil", "nyl", "nis", "nys", "no", "noght", "non",
         "noon", "nor", "not", "now", "o", "of", "on", "oon", "or", "other",
-        "ough", "oghte", "our", "oure", "out", "right", "sal", "shal", "she",
-        "sholde", "shul", "shulde", "sin", "sithen", "so", "som", "swich",
+        "ough", "oghte", "our", "oure", "out", "quod", "right", "sal", "save", "shal", "she",
+        "sholde", "shul", "shulde", "sin", "sithen", "so", "som", "somme", "swich", "swiche",
         "than", "thanne", "that", "the", "thee", "then", "ther", "there",
-        "ther-as", "ther-fore", "ther-to", "these", "they", "thi", "thin",
+        "ther-as", "therfore", "ther-fore", "ther-on", "ther-to", "ther-up-on", "these", "they", "thi", "thin",
         "this", "thise", "tho", "thogh", "though", "thow", "thou", "thurgh",
         "thus", "thy", "thyn", "til", "to", "un-to", "unto", "up", "up-on",
-        "upon", "us", "was", "we", "wel", "were", "what", "whan", "wher",
-        "where", "which", "whiche", "whil", "who", "whom", "whos", "why",
-        "wil", "with", "wol", "wolde", "wot", "woot", "ye", "yet", "yit",
+        "upon", "us", "was", "we", "wel", "were", "weren", "what", "whan", "wher",
+        "where", "wherfor", "wherfore", "wher-fore", "which", "whiche", "whil", "who", "whom", "whos", "why",
+        "wil", "with", "with-alle", "wol", "wole", "wolde", "wolden", "wot", "woot", "ye", "yet", "yit",
         "you", "your", "youre", "yow",
     }
 )
@@ -44,8 +45,9 @@ WEAK_H_STEMS: frozenset[str] = frozenset(
     {
         "he", "hem", "her", "hir", "hire", "his", "hit", "how", "hym", "him",
         "him-self", "hym-self", "han", "hath", "haue", "have", "had", "hadde",
-        "honour", "honouren", "honurable", "humble", "humblesse", "humilitee",
-        "habit", "hour", "houre", "eir", "heir", "herbe", "host", "hostelrie",
+        "honour", "honouren", "honurable", "honest", "honestee", "homage",
+        "humble", "humblesse", "humilitee", "habit", "habundant", "heritage",
+        "hour", "houre", "eir", "heir", "herbe", "host", "hoste", "hostelrie", "hostelrye",
     }
 )
 
@@ -57,11 +59,160 @@ PETRIFIED_SILENT_E: frozenset[str] = frozenset(
 # Words with frequent optional apocope of final -e even before consonants
 OPTIONAL_APOCOPE_WORDS: frozenset[str] = frozenset(
     {
-        "have", "haue", "were", "sone", "more", "moore", "sore", "soore",
-        "shulde", "sholde", "wolde", "hadde", "koude", "dorste", "moste",
-        "oghte", "dide", "come", "tyme", "tale", "make", "take", "yeve",
+        "have", "haue", "were", "sone", "more", "moore", "namore", "na-more", "sore", "soore",
+        "shulde", "sholde", "wolde", "hadde", "koude", "coude", "dorste", "moste",
+        "oghte", "dide", "come", "tyme", "somtyme", "tale", "make", "take", "yeve",
         "loue", "love", "helle", "forbede", "acorde", "founde",
+        "whiche", "swiche", "eche", "bothe", "somme", "atte", "alle", "owene",
+        "therfore", "wherfore", "wole", "alone", "allone", "madame", "sire", "dame",
+        "here", "there", "where", "everywhere", "telle", "swere", "slepe", "wake", "rome", "truste",
+        "muche", "lite", "swifte", "ofte", "softe", "reule", "maure", "spousaille", "bataille", "write",
     }
+)
+
+# Historical Middle English open vs. close long mid-vowel stem classes
+# Close /eː/ < OE ē, ēo, Anglian ē, OF -é / -ie
+CLOSE_E_STEMS: frozenset[str] = frozenset(
+    {
+        "be", "been", "ben", "he", "me", "she", "we", "ye", "thee",
+        "free", "three", "tree", "knee", "flee", "se", "seen", "sene", "stre", "gree", "degree",
+        "grene", "kene", "shene", "quene", "wene", "thirtene", "fourtene", "fiftene", "sixtene",
+        "seventene", "eightetene", "nynetene", "tramissene",
+        "seke", "biseke", "eke", "meke", "cheke",
+        "depe", "kepe", "wepe", "slepe", "crepe",
+        "seme", "deme", "queme", "breme",
+        "spede", "hede", "stede", "glede", "forbede", "blede", "fede", "nede",
+        "speed", "steed", "teeth", "gees", "feet", "sweet", "swete", "strete",
+        "streen", "preest", "preestes", "cheef", "theef", "leef", "breef", "privee",
+    }
+)
+
+# Open /ɛː/ < OE ǣ, ēa, and ME open-syllable lengthening of short e
+OPEN_E_STEMS: frozenset[str] = frozenset(
+    {
+        "see", "speke", "breke", "wreke",
+        "mene", "clene", "lene", "meen", "cleen",
+        "hepe", "lepe", "chepe", "stepe",
+        "dreme", "streme", "beme", "reme",
+        "breeth", "heeth", "deeth", "sheeth",
+        "rede", "dede", "drede", "brede", "lede", "sprede", "threde", "mede",
+        "deed", "reed", "breed", "wastel-breed", "heed", "forheed", "leed", "shreed",
+        "lees", "cloisterlees", "waterlees", "endlees", "recchelees", "giltlees", "pees", "ees",
+        "prees", "encrees", "deel", "meel", "weel", "ese", "plese", "disese", "apese",
+        "este", "heste", "leste", "meste", "feste", "requeste", "beeste",
+    }
+)
+
+# Close /oː/ < OE ō, ON ó
+CLOSE_O_STEMS: frozenset[str] = frozenset(
+    {
+        "sote", "swote", "rote", "roote", "bote", "boote", "fote", "foote", "mote",
+        "good", "goode", "wood", "woode", "food", "foode", "mood", "flood", "blood", "stood", "hood",
+        "book", "took", "shook", "look", "forsok", "forsook", "cook", "hook", "awook", "quook",
+        "do", "to", "unto", "un-to", "sho", "shoo",
+        "doon", "don", "shoon", "spoon", "soon", "sone", "mone_moon",
+        "flore", "floor", "swore", "tothe", "tooth", "sooth", "sothe",
+    }
+)
+
+# Open /ɔː/ < OE ā and ME open-syllable lengthening of short o
+OPEN_O_STEMS: frozenset[str] = frozenset(
+    {
+        "cote", "throte", "note", "grote", "frote",
+        "brood", "lood", "rood", "abood",
+        "stoon", "goon", "noon", "oon", "echoon", "echon", "everichon", "anon", "anoon", "boon", "loon", "mone", "alone", "allone",
+        "go", "so", "also", "mo", "namo", "wo", "fro", "tho", "two", "foo", "fo", "lo", "no",
+        "more", "moore", "namore", "na-more", "sore", "soore", "lore", "loore", "yore", "yoore",
+        "bifore", "before", "therfore", "wherfore", "bore", "y-bore", "core", "gore", "hore", "ore",
+        "colde", "olde", "holde", "biholde", "bolde", "folde", "golde", "solde", "tolde",
+        "bothe", "clothe", "lothe", "wrothe", "oothe",
+        "hoot", "woot", "goot", "coot", "smoot", "wroot",
+    }
+)
+
+# Post-1400 Neo-Latin/Greek and Early-Modern/Industrial anachronism horizon (Law L1)
+POST_1400_LEXICAL_HORIZON: dict[str, int] = {
+    "protestant": 1539,
+    "puritan": 1572,
+    "telescope": 1619,
+    "microscope": 1656,
+    "barometer": 1665,
+    "thermometer": 1633,
+    "coffee": 1598,
+    "tobacco": 1577,
+    "potato": 1565,
+    "chocolate": 1604,
+    "newspaper": 1667,
+    "factory": 1582,
+    "parliamentarian": 1642,
+    "capitalism": 1854,
+    "socialism": 1837,
+    "communism": 1840,
+    "electricity": 1646,
+    "disillusion": 1651,
+    "psychology": 1654,
+    "sociology": 1842,
+    "biology": 1802,
+    "ideology": 1796,
+    "railroad": 1757,
+    "railway": 1756,
+    "locomotive": 1612,
+    "steamboat": 1787,
+    "steamship": 1819,
+    "submarine": 1648,
+    "printing-press": 1589,
+    "scientist": 1834,
+    "rifleman": 1775,
+    "telegraph": 1794,
+    "telephone": 1844,
+    "photograph": 1839,
+    "camera": 1708,
+    "automobile": 1895,
+    "airplane": 1907,
+    "television": 1907,
+    "radio": 1907,
+    "radar": 1941,
+    "laser": 1960,
+    "computer": 1946,
+    "automation": 1948,
+    "software": 1958,
+    "hardware": 1515,
+    "database": 1962,
+    "algorithm_modern": 1957,
+    "internet": 1974,
+    "website": 1993,
+    "smartphone": 2007,
+    "podcast": 2004,
+    "blockchain": 2008,
+    "rifle": 1751,
+    "pistol": 1570,
+    "musket": 1587,
+    "bayonet": 1611,
+    "grenade": 1591,
+    "artillery_modern": 1560,
+    "propaganda": 1718,
+    "bureaucracy": 1818,
+    "nationalism": 1798,
+    "colonialism": 1853,
+    "industrial": 1587,
+    "laboratory": 1605,
+    "vaccine": 1799,
+    "antibiotic": 1899,
+    "chromosome": 1889,
+    "electron": 1891,
+    "quantum": 1567,
+}
+
+POST_1400_AFFIX_PATTERNS: tuple[tuple[str, int], ...] = (
+    (r"^(tele|photo|micro|electro|cyber|thermo|neuro|socio|psycho|steam|rifle|submarin)[a-z-]{2,}$", 1650),
+    (r"^[a-z]{3,}(graph|scope|ware|base)$", 1750),
+    (r"^(tele|micro|smart|ear|head|mega|gramo)phone$", 1850),
+    (r"^[a-z]{3,}ology$", 1650),
+    (r"^[a-z]{4,}ism$", 1550),
+)
+
+PRE_1400_AFFIX_EXCEPTIONS: frozenset[str] = frozenset(
+    {"theology", "astrology", "mythology", "baptism", "sophism", "schism", "thesiphone", "persephone", "antigone"}
 )
 
 
@@ -122,22 +273,14 @@ class MEDLexicon:
                     f"L1 violation: '{surface}' (lemma '{entry.get('lemma')}', {entry.get('med_id')}) "
                     f"attested {year} > {self.max_year} CE"
                 )
-        post_1400_sentinels = {
-            "telescope": 1619,
-            "electricity": 1646,
-            "disillusion": 1651,
-            "psychology": 1654,
-            "capitalism": 1854,
-            "television": 1907,
-            "computer": 1946,
-            "automation": 1948,
-            "internet": 1974,
-            "smartphone": 2007,
-        }
         norm = normalize_orthography(surface)
-        if norm in post_1400_sentinels:
-            yr = post_1400_sentinels[norm]
+        if norm in POST_1400_LEXICAL_HORIZON:
+            yr = POST_1400_LEXICAL_HORIZON[norm]
             return f"L1 violation: '{surface}' attested {yr} > {self.max_year} CE"
+        if norm not in PRE_1400_AFFIX_EXCEPTIONS:
+            for pattern, approx_year in POST_1400_AFFIX_PATTERNS:
+                if re.match(pattern, norm):
+                    return f"L1 violation: '{surface}' post-1400 neoclassical/modern formation (~{approx_year} > {self.max_year} CE)"
         return None
 
     @staticmethod

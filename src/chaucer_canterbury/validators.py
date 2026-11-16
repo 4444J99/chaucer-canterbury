@@ -161,8 +161,25 @@ class PipelineAuditSuite:
                         stanza_ok.append(1.0 if aud.is_valid else 0.75)
                 rhyme_rate = round(sum(stanza_ok) / max(1, len(stanza_ok)), 3)
             l4_ok = prosody_rate >= 0.95 and rhyme_rate >= 0.90
+        elif metrical_form == MetricalForm.TAIL_RHYME:
+            stanza_ok = []
+            valid_verse = 0
+            for i in range(0, len(tale_lines), 6):
+                chunk = tale_lines[i : i + 6]
+                if len(chunk) == 6:
+                    aud = self.validator.audit_stanza(
+                        [(c.line_number, c.middle_english) for c in chunk],
+                        "AABCCB",
+                        f"TAIL_S{i//6+1}",
+                        beat_targets=[4, 4, 3, 4, 4, 3],
+                    )
+                    valid_verse += sum(1 for r in aud.lines if r.is_valid)
+                    stanza_ok.append(1.0 if aud.is_valid else aud.valid_line_rate)
+            prosody_rate = round(valid_verse / max(1, len(tale_lines)), 3)
+            rhyme_rate = round(sum(stanza_ok) / max(1, len(stanza_ok)), 3)
+            l4_ok = prosody_rate >= 0.85 and rhyme_rate >= 0.85
         else:
-            # Link prologue couplets still strictly scanned!
+            # Cadenced prose: link prologue couplets still strictly scanned!
             valid_link = sum(
                 1
                 for ln in link_lines
